@@ -1,10 +1,254 @@
 [
   {
-    "ident": "P01",
-    "title": "Plan de test",
-    "anim_prompt": "A beautiful cinematic sunset over the ocean",
+    "ident": "P00",
+    "title": "Intro : un détail du décor",
+    "anim_prompt": "`P00.png` ✅, la lumière du matin sur un coin du plan de travail vide.",
     "images": [
-      { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg" }
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P00_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P01",
+    "title": "Son café coule (0:00 → 0:03,5)",
+    "anim_prompt": "ambiance du matin, la machine qui s'arrête.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P01_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P02A",
+    "title": "tasse sous la machine, main qui s'approche",
+    "anim_prompt": "`P02A.png` ✅ (tasse sous la machine, main qui s'approche) et `P02.png` ✅ (tasse posée à gauche, main dessus).\n🎬 `P02-clip_v01.mp4` ✅ en partie. Flow est parti du cadre serré de P01 : on y voit très bien la main prendre la tasse sous la machine et la poser à côté. Le montage garde ce passage, puis coupe sur le plan large P02 avant le fondu raté de la fin.\nla main reste autour de la tasse. L'hésitation, c'est cette immobilité.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P02A_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P02",
+    "title": "Elle prend la tasse et la pose, « Je l'ai appelé »",
+    "anim_prompt": "Thomas, « Ça y est. Je l'ai appelé. » ; Élise, « Qui ? » ; Thomas, « Mon père. »",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P02_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P03",
+    "title": "Elle prend le téléphone",
+    "anim_prompt": "pensée, « Le dossier. »",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P03_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P04",
+    "title": "L'écran",
+    "anim_prompt": "la fin de « J'ai envoyé la pièce jointe ? » ; Thomas, « Ça faisait quinze ans… » ; Élise, « Mmh… ».",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P04_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P07",
+    "title": "Elle regarde l'heure, 08:20",
+    "anim_prompt": "pensée, « Huit heures vingt. Si je pars maintenant, ça passe. »",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P07_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P08",
+    "title": "La deuxième tasse",
+    "anim_prompt": "Élise, « Tu veux un café ? » ; Thomas, « Oui. »",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P08_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P09",
+    "title": "Le bouton",
+    "anim_prompt": "le clic du bouton, puis la pompe et le café qui coule.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P09_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P10",
+    "title": "La tasse sur la table",
+    "anim_prompt": "Thomas, « Il avait toujours mon numéro. »",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P10_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P11",
+    "title": "Le regard qui cherche",
+    "anim_prompt": "Thomas, « Ça m'a fait quelque chose d'entendre sa voix. »",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P11_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P12",
+    "title": "Le courrier",
+    "anim_prompt": "Élise, « Tu as vu mes clés ? »\nle papier, puis la chaise de Thomas qui recule (S10) et ses pas qui s'approchent.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P12_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P13A",
+    "title": "le plan de travail sans clés",
+    "anim_prompt": "`P13A.png` ✅ (le plan de travail sans clés) et `P13C.png` ✅ (la main de Thomas vient de poser les clés).\n🎬 `P13-clip_v01.mp4` ✅, les 4 premières secondes. Sa main arrive par la droite, pose les clés devant les enveloppes et ouvre les doigts. Après, une main fantôme apparaît : on ne la garde pas.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P13A_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P13C",
+    "title": "La main de Thomas pose les clés",
+    "anim_prompt": "Thomas, « Là. » ; Élise, « Ah, merci. »\nle cliquetis des clés, au moment où elles touchent le bois.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P13C_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P13B",
+    "title": "Les clés sont posées",
+    "anim_prompt": "`P13A.png` ✅ (le plan de travail sans clés) et `P13C.png` ✅ (la main de Thomas vient de poser les clés).\n🎬 `P13-clip_v01.mp4` ✅, les 4 premières secondes. Sa main arrive par la droite, pose les clés devant les enveloppes et ouvre les doigts. Après, une main fantôme apparaît : on ne la garde pas.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P13B_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P14",
+    "title": "Elle prend les clés, la main s'arrête",
+    "anim_prompt": "Thomas, « Je lui ai parlé de toi. » ; Élise, « Ah oui ?… », coupé par la notification.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P14_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P15",
+    "title": "08:21",
+    "anim_prompt": "pensée, « Je vais encore arriver après tout le monde. »",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P15_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P16",
+    "title": "La veste",
+    "anim_prompt": "le froissement de la veste (S11).",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P16_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P17",
+    "title": "Le sac",
+    "anim_prompt": "le cuir et les clés (S12), puis deux ou trois pas sur le parquet.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P17_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P18",
+    "title": "La poignée",
+    "anim_prompt": "Thomas, « Il aimerait te rencontrer. » ; Élise, sans se retourner : « Tu me raconteras ce soir ? » ; Thomas, « Oui. » ; Élise, « À ce soir. »\nle déclic de la poignée et la porte qui s'ouvre (70,45 s). La musique est coupée net sur la poignée.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P18_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P19",
+    "title": "Sur le palier",
+    "anim_prompt": "pensée, « Bon. »\nla porte qui se referme derrière elle (71,4 s), l'écho du palier.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P19_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P20",
+    "title": "« J'ai rien oublié »",
+    "anim_prompt": "pensée, simplement soulagée : « J'ai rien oublié. »\nles objets dans le sac, les clés, puis ses premiers pas dans l'escalier (S13).",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P20_0.png"
+      }
+    ],
+    "video_url": null
+  },
+  {
+    "ident": "P21",
+    "title": "Thomas seul",
+    "anim_prompt": "aucune pensée, **aucune musique**. Ses pas étouffés dans l'escalier, puis l'horloge, la pièce et les oiseaux.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P21_0.png"
+      }
     ],
     "video_url": null
   }
