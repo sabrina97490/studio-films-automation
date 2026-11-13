@@ -4,7 +4,7 @@ const API_KEYS = (process.env.AGNES_API_KEY || '').split(',').map(k => k.trim())
 const STORYBOARD_FILE = './storyboard.json';
 
 if (API_KEYS.length === 0) {
-    console.error("❌ ERREUR FATALE : Aucune clé API trouvée dans les secrets GitHub.");
+    console.error("❌ ERREUR : Aucune clé API trouvée dans les secrets GitHub.");
     process.exit(1);
 }
 
@@ -100,7 +100,7 @@ async function generateVideoWithRetry(shot) {
         const fileContent = fs.readFileSync(STORYBOARD_FILE, 'utf8');
         storyboard = JSON.parse(fileContent);
     } catch (e) {
-        console.error("❌ ERREUR FATALE : Impossible de lire storyboard.json. Vérifiez que c'est un JSON valide (pas de texte, juste des accolades et crochets).", e.message);
+        console.error("❌ ERREUR FATALE : Impossible de lire storyboard.json. Vérifiez que c'est un JSON valide (pas de code, juste des accolades et crochets).", e.message);
         process.exit(1);
     }
 
