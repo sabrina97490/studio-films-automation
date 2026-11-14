@@ -1,5 +1,8 @@
 name: Génération vidéos Agnes nocturne
 
+permissions:
+  contents: write
+
 on:
   schedule:
     # Se déclenche tous les jours à 2h00 du matin (UTC)
