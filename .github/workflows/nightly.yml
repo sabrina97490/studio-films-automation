@@ -2,22 +2,22 @@ name: Génération vidéos Agnes nocturne
 
 permissions:
   contents: write
+  actions: write
 
 on:
   schedule:
-    # Se déclenche tous les jours à 2h00 du matin (UTC)
     - cron: '0 2 * * *'
-  workflow_dispatch: # Permet aussi de le lancer manuellement pour tester
+  workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 360 # Sécurité : arrête le job après 6 heures max
+    timeout-minutes: 360
 
     steps:
       - name: Récupérer le code
         uses: actions/checkout@v4
-        
+
       - name: Installer Node.js
         uses: actions/setup-node@v4
         with:
@@ -25,14 +25,36 @@ jobs:
 
       - name: Lancer le script de génération
         env:
-          # C'est ici qu'on injecte le secret de manière sécurisée
           AGNES_API_KEY: ${{ secrets.AGNES_API_KEY }}
         run: node generate.js
 
       - name: Sauvegarder les modifications du storyboard
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add storyboard.json
-          git commit -m "🤖 Mise à jour automatique des vidéos générées"
-          git push
+          git commit -m "🤖 Mise à jour automatique des vidéos générées" || exit 0
+          git push || exit 0
+
+      - name: Auto-relance en cas d'échec
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const runId = context.runId;
+            const repo = context.repo;
+            
+            // On attend 2 minutes avant de relancer (pour laisser le temps aux serveurs de se calmer)
+            await new Promise(resolve => setTimeout(resolve, 120000));
+            
+            console.log(`Le workflow a échoué. Tentative de relance...`);
+            try {
+              await github.rest.actions.reRunWorkflow({
+                owner: repo.owner,
+                repo: repo.repo,
+                run_id: runId
+              });
+            } catch (e) {
+              console.log('Impossible de relancer automatiquement (peut-être la limite de 3 tentatives) :', e.message);
+            }
