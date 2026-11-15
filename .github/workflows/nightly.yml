@@ -28,13 +28,13 @@ jobs:
           AGNES_API_KEY: ${{ secrets.AGNES_API_KEY }}
         run: node generate.js
 
-      - name: Sauvegarder les modifications du storyboard
+      - name: Sauvegarde finale de sécurité
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add storyboard.json
-          git commit -m "🤖 Mise à jour automatique des vidéos générées" || exit 0
+          git commit -m "🤖 Sauvegarde finale (sécurité)" || exit 0
           git push || exit 0
 
       - name: Auto-relance en cas d'échec
@@ -45,7 +45,7 @@ jobs:
             const runId = context.runId;
             const repo = context.repo;
             
-            // On attend 2 minutes avant de relancer (pour laisser le temps aux serveurs de se calmer)
+            // Attendre 2 minutes
             await new Promise(resolve => setTimeout(resolve, 120000));
             
             console.log(`Le workflow a échoué. Tentative de relance...`);
@@ -56,5 +56,5 @@ jobs:
                 run_id: runId
               });
             } catch (e) {
-              console.log('Impossible de relancer automatiquement (peut-être la limite de 3 tentatives) :', e.message);
+              console.log('Impossible de relancer automatiquement :', e.message);
             }
