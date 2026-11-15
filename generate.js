@@ -1,4 +1,5 @@
 const fs = require('fs');
+const { execSync } = require('child_process');
 
 const API_KEYS = (process.env.AGNES_API_KEY || '').split(',').map(k => k.trim()).filter(Boolean);
 const STORYBOARD_FILE = './storyboard.json';
@@ -32,7 +33,7 @@ async function generateVideoWithRetry(shot) {
                 },
                 body: JSON.stringify({
                     model: 'agnes-video-2.5-flash',
-                    prompt: shot.anim_prompt || 'Cinematic motion, smooth camera',
+                    prompt: shot.anim_prompt || 'Cinematic motion',
                     first_frame: shot.images[0].url,
                     seconds: '5',
                     mode: 'keyframe',
@@ -50,24 +51,24 @@ async function generateVideoWithRetry(shot) {
             }
 
             if (data.code === 'video_queue_full' || response.status === 429) {
-                console.log(`File pleine (essai ${attempt + 1}/15). Attente 45s...`);
+                console.log(`⏳ File pleine (essai ${attempt + 1}/15). Attente 45s...`);
                 await sleep(45000); 
             } else {
-                console.log(`Erreur API : ${data.message || textResponse}. On change de clé...`);
+                console.log(`⚠️ Erreur API : ${data.message || textResponse}. Attente 10s...`);
                 await sleep(10000); 
             }
         } catch (e) {
-            console.error('Erreur réseau, nouvel essai dans 15s…', e.message);
+            console.error(`⚠️ Erreur réseau (essai ${attempt + 1}/15) : ${e.message}`);
             await sleep(15000);
         }
     }
 
     if (!videoId) throw new Error('Impossible de créer la tâche après 15 essais.');
 
-    console.log(`Tâche créée (ID: ${videoId}). Suivi en cours...`);
+    console.log(`⏳ Suivi de la vidéo en cours...`);
     const startTime = Date.now();
     
-    while (Date.now() - startTime < 900000) { // 15 minutes max
+    while (Date.now() - startTime < 900000) { 
         await sleep(5000); 
         const currentKey = getNextKey(); 
         try {
@@ -77,20 +78,20 @@ async function generateVideoWithRetry(shot) {
             );
             const statusData = await statusResponse.json();
             
-            console.log(`Statut pour ${shot.ident}: ${statusData.status}`);
+            console.log(`   Statut : ${statusData.status}`);
 
             if (statusData.status === 'completed') {
-                console.log(`✅ Vidéo prête pour ${shot.ident} : ${statusData.url}`);
+                console.log(`🎉 Vidéo prête pour ${shot.ident} !`);
                 return statusData.url;
             }
             if (statusData.status === 'failed') {
-                throw new Error(`La génération a échoué pour le plan ${shot.ident}`);
+                throw new Error(`Échec de la génération.`);
             }
         } catch(e) {
-            console.log("Erreur de suivi (on continue d'attendre)...", e.message);
+            console.log(`   (Erreur de suivi, on réessaie... ${e.message})`);
         }
     }
-    throw new Error('Timeout lors de l\'attente de la vidéo.');
+    throw new Error('Timeout (15 minutes).');
 }
 
 (async () => {
@@ -100,36 +101,52 @@ async function generateVideoWithRetry(shot) {
         const fileContent = fs.readFileSync(STORYBOARD_FILE, 'utf8');
         storyboard = JSON.parse(fileContent);
     } catch (e) {
-        console.error("❌ ERREUR FATALE : Impossible de lire storyboard.json. Vérifiez que c'est un JSON valide (pas de code, juste des accolades et crochets).", e.message);
+        console.error("❌ ERREUR FATALE : Impossible de lire storyboard.json.", e.message);
         process.exit(1);
     }
 
     if (!Array.isArray(storyboard)) {
-        console.error("❌ ERREUR FATALE : Le fichier storyboard.json doit être un tableau (commencer par [ et finir par ]).");
+        console.error("❌ ERREUR : storyboard.json doit être un tableau.");
         process.exit(1);
     }
 
-    const shotsToGenerate = storyboard.filter(shot => 
-        shot.images && shot.images.length > 0 && !shot.video_url
-    );
+    // On ne prend QUE les plans qui ont une image et qui n'ont PAS encore de vidéo
+    const toGen = storyboard.filter(shot => shot.images && shot.images.length > 0 && !shot.video_url);
 
-    if (shotsToGenerate.length === 0) {
-        console.log('Tous les plans ont déjà une vidéo. Rien à faire.');
+    if (toGen.length === 0) {
+        console.log('✅ Tous les plans ont déjà une vidéo. Rien à faire.');
         return;
     }
 
-    console.log(`\n${shotsToGenerate.length} plan(s) à générer avec ${API_KEYS.length} clé(s) API.`);
+    console.log(`🎬 ${toGen.length} plan(s) à générer.`);
     
-    for (const shot of shotsToGenerate) {
+    for (const shot of toGen) {
         try {
-            const videoUrl = await generateVideoWithRetry(shot);
-            shot.video_url = videoUrl;
+            const url = await generateVideoWithRetry(shot);
+            shot.video_url = url;
+            
+            // 1. Sauvegarde locale
             fs.writeFileSync(STORYBOARD_FILE, JSON.stringify(storyboard, null, 2));
-            console.log(`Sauvegarde effectuée pour ${shot.ident}.`);
+            console.log(`💾 Progression sauvegardée localement pour ${shot.ident}.`);
+            
+            // 2. Sauvegarde immédiate sur GitHub (PUSH)
+            console.log(`🚀 Envoi immédiat sur GitHub...`);
+            try {
+                execSync('git config user.name "github-actions[bot]"');
+                execSync('git config user.email "github-actions[bot]@users.noreply.github.com"');
+                execSync('git add storyboard.json');
+                // Le "|| exit 0" évite de planter si jamais il n'y a rien à commit
+                execSync(`git commit -m "🤖 Vidéo ${shot.ident} générée" || exit 0`, { shell: '/bin/bash' });
+                execSync('git push');
+                console.log(`✅ Vidéo ${shot.ident} sécurisée sur GitHub !`);
+            } catch (gitErr) {
+                console.error(`⚠️ Impossible de faire le git push :`, gitErr.message);
+            }
+            
         } catch (error) {
             console.error(`❌ Échec définitif pour le plan ${shot.ident}: ${error.message}`);
         }
     }
     
-    console.log('\nTravail terminé pour cette session.');
+    console.log('\n🏁 Travail terminé pour cette session.');
 })();
