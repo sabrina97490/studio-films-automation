@@ -2,8 +2,7 @@
   {
     "ident": "P00",
     "title": "Intro : un détail du décor",
-    "anim_prompt": "`P00.png` ✅, Tôt le matin dans une cuisine vide. Le rayon de soleil doré sur les carreaux et le plan de travail se déplace très lentement, comme si un léger nuage passait, puis s'éclaire de nouveau. Quelques particules de poussière flottent doucement dans le rayon de lumière. L'ombre du cadre de la fenêtre se balance très légèrement. La machine à espresso reste immobile et éteinte.
-Gardez la texture gouache peinte, les couleurs et le cadrage de l'image tout au long.",
+    "anim_prompt": "The camera stays completely still for the whole video. One continuous shot with no cuts. Early morning in an empty kitchen. The golden sunbeam on the tiles and the countertop shifts very slowly, as if a light cloud were passing, then brightens again. A few specks of dust float gently through the beam of light. The shadow of the window frame sways very slightly. The espresso machine stays still and switched off. Keep the painted gouache texture, the colors and the framing of the image throughout. Avoid: camera movement, zoom, pan, a window appearing, fog, haze, a milky or washed-out area, objects appearing or disappearing, steam, a person, hands, text, photorealistic rendering."
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P00_0.png"
