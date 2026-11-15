@@ -2,7 +2,8 @@
   {
     "ident": "P00",
     "title": "Intro : un détail du décor",
-    "anim_prompt": "`P00.png` ✅, la lumière du matin sur un coin du plan de travail vide.",
+    "anim_prompt": "`P00.png` ✅, Tôt le matin dans une cuisine vide. Le rayon de soleil doré sur les carreaux et le plan de travail se déplace très lentement, comme si un léger nuage passait, puis s'éclaire de nouveau. Quelques particules de poussière flottent doucement dans le rayon de lumière. L'ombre du cadre de la fenêtre se balance très légèrement. La machine à espresso reste immobile et éteinte.
+Gardez la texture gouache peinte, les couleurs et le cadrage de l'image tout au long.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P00_0.png"
