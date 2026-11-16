@@ -1,10 +1,12 @@
 const fs = require('fs');
 
 const API_KEYS = (process.env.AGNES_API_KEY || '').split(',').map(k => k.trim()).filter(Boolean);
+const GH_TOKEN = process.env.GH_TOKEN;
+const GH_REPO = 'sabrina97490/studio-films-automation'; // Ton dépôt
 const STORYBOARD_FILE = './storyboard.json';
 
-if (API_KEYS.length === 0) {
-    console.error("❌ ERREUR : Aucune clé API trouvée dans les secrets GitHub.");
+if (API_KEYS.length === 0 || !GH_TOKEN) {
+    console.error("❌ ERREUR : Clés API ou Token GitHub manquants dans les secrets.");
     process.exit(1);
 }
 
@@ -17,108 +19,82 @@ function getNextKey() {
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-async function generateVideoWithRetry(shot) {
-    console.log(`\n--- Début de la génération pour le plan ${shot.ident} ---`);
+// Fonction pour pousser sur GitHub immédiatement
+async function pushToGitHub(storyboard) {
+    try {
+        const jsonContent = JSON.stringify(storyboard, null, 2);
+        
+        // 1. Obtenir le SHA actuel du fichier
+        const getRes = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/storyboard.json`, {
+            headers: { 'Authorization': `Bearer ${GH_TOKEN}`, 'Accept': 'application/vnd.github.v3+json' }
+        });
+        if (!getRes.ok) throw new Error("Impossible de lire le fichier sur GitHub");
+        const data = await getRes.json();
+        const sha = data.sha;
 
+        // 2. Envoyer la mise à jour
+        const base64Content = btoa(unescape(encodeURIComponent(jsonContent)));
+        const putRes = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/storyboard.json`, {
+            method: 'PUT',
+            headers: { 'Authorization': `Bearer ${GH_TOKEN}`, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github.v3+json' },
+            body: JSON.stringify({ message: '🤖 Vidéo générée', content: base64Content, sha: sha })
+        });
+        if (!putRes.ok) throw new Error("Erreur lors de l'envoi sur GitHub");
+        console.log(`✅ Fichier storyboard.json synchronisé sur GitHub !`);
+    } catch (e) {
+        console.error(`⚠️ Erreur de synchronisation GitHub : ${e.message}`);
+    }
+}
+
+async function generateVideoWithRetry(shot) {
+    console.log(`\n--- Génération pour ${shot.ident} ---`);
     let videoId = null;
     for (let attempt = 0; attempt < 15; attempt++) {
         const currentKey = getNextKey();
         try {
             const response = await fetch('https://apihub.agnes-ai.com/v1/videos', {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${currentKey}`
-                },
+                headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${currentKey}` },
                 body: JSON.stringify({
                     model: 'agnes-video-2.5-flash',
                     prompt: shot.anim_prompt || 'Cinematic motion',
                     first_frame: shot.images[0].url,
-                    seconds: '5',
-                    mode: 'keyframe',
-                    size: '720P'
+                    seconds: '5', mode: 'keyframe', size: '720P'
                 })
             });
-
             const textResponse = await response.text();
-            let data;
-            try { data = JSON.parse(textResponse); } catch(e) { data = {}; }
-
-            if (response.ok && data.video_id) {
-                videoId = data.video_id;
-                break; 
-            }
-
+            let data; try { data = JSON.parse(textResponse); } catch(e) { data = {}; }
+            if (response.ok && data.video_id) { videoId = data.video_id; break; }
             if (data.code === 'video_queue_full' || response.status === 429) {
-                console.log(`⏳ File pleine (essai ${attempt + 1}/15). Attente 45s...`);
                 await sleep(45000); 
             } else {
-                console.log(`⚠️ Erreur API : ${data.message || textResponse}. Attente 10s...`);
                 await sleep(10000); 
             }
-        } catch (e) {
-            console.error(`⚠️ Erreur réseau (essai ${attempt + 1}/15) : ${e.message}`);
-            await sleep(15000);
-        }
+        } catch (e) { await sleep(15000); }
     }
+    if (!videoId) throw new Error('File pleine.');
 
-    if (!videoId) throw new Error('Impossible de créer la tâche après 15 essais.');
-
-    console.log(`⏳ Suivi de la vidéo en cours...`);
     const startTime = Date.now();
-    
     while (Date.now() - startTime < 900000) { 
         await sleep(5000); 
         const currentKey = getNextKey(); 
         try {
-            const statusResponse = await fetch(
-                `https://apihub.agnes-ai.com/agnesapi?video_id=${videoId}&model_name=agnes-video-2.5-flash`,
-                { headers: { 'Authorization': `Bearer ${currentKey}` } }
-            );
+            const statusResponse = await fetch(`https://apihub.agnes-ai.com/agnesapi?video_id=${videoId}&model_name=agnes-video-2.5-flash`, { headers: { 'Authorization': `Bearer ${currentKey}` } });
             const statusData = await statusResponse.json();
-            
-            console.log(`   Statut : ${statusData.status}`);
-
             if (statusData.status === 'completed') {
-                // Récupération de l'URL selon le format de retour (url ou video_url)
-                const finalUrl = statusData.video_url || statusData.url || (statusData.data && statusData.data[0] && statusData.data[0].url);
-                if(!finalUrl) throw new Error("L'API n'a pas renvoyé d'URL vidéo.");
-                console.log(`🎉 Vidéo prête pour ${shot.ident} !`);
-                return finalUrl;
+                return statusData.video_url || statusData.url;
             }
-            if (statusData.status === 'failed') {
-                throw new Error(`Échec de la génération.`);
-            }
-        } catch(e) {
-            console.log(`   (Erreur de suivi, on réessaie... ${e.message})`);
-        }
+            if (statusData.status === 'failed') throw new Error(`Échec.`);
+        } catch(e) {}
     }
-    throw new Error('Timeout (15 minutes).');
+    throw new Error('Timeout.');
 }
 
 (async () => {
-    console.log("📖 Lecture du fichier storyboard.json...");
-    let storyboard;
-    try {
-        const fileContent = fs.readFileSync(STORYBOARD_FILE, 'utf8');
-        storyboard = JSON.parse(fileContent);
-    } catch (e) {
-        console.error("❌ ERREUR FATALE : Impossible de lire storyboard.json.", e.message);
-        process.exit(1);
-    }
-
-    if (!Array.isArray(storyboard)) {
-        console.error("❌ ERREUR : storyboard.json doit être un tableau.");
-        process.exit(1);
-    }
-
-    // On ne prend QUE les plans qui ont une image et qui n'ont PAS encore de vidéo
+    let storyboard = JSON.parse(fs.readFileSync(STORYBOARD_FILE, 'utf8'));
     const toGen = storyboard.filter(shot => shot.images && shot.images.length > 0 && !shot.video_url);
 
-    if (toGen.length === 0) {
-        console.log('✅ Tous les plans ont déjà une vidéo. Rien à faire.');
-        return;
-    }
+    if (toGen.length === 0) return console.log('✅ Tout est déjà généré.');
 
     console.log(`🎬 ${toGen.length} plan(s) à générer.`);
     
@@ -126,15 +102,14 @@ async function generateVideoWithRetry(shot) {
         try {
             const url = await generateVideoWithRetry(shot);
             shot.video_url = url;
-            
-            // Sauvegarde locale sur le serveur GitHub
             fs.writeFileSync(STORYBOARD_FILE, JSON.stringify(storyboard, null, 2));
-            console.log(`💾 Sauvegarde locale réussie pour ${shot.ident}.`);
+            console.log(`💾 ${shot.ident} sauvegardé localement.`);
+            
+            // ON POUSSE SUR GITHUB TOUT DE SUITE
+            await pushToGitHub(storyboard);
             
         } catch (error) {
-            console.error(`❌ Échec définitif pour le plan ${shot.ident}: ${error.message}`);
+            console.error(`❌ Échec pour ${shot.ident}: ${error.message}`);
         }
     }
-    
-    console.log('\n🏁 Travail terminé pour cette session.');
 })();
