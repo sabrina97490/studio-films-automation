@@ -1,5 +1,4 @@
 const fs = require('fs');
-const { execSync } = require('child_process');
 
 const API_KEYS = (process.env.AGNES_API_KEY || '').split(',').map(k => k.trim()).filter(Boolean);
 const STORYBOARD_FILE = './storyboard.json';
@@ -81,8 +80,11 @@ async function generateVideoWithRetry(shot) {
             console.log(`   Statut : ${statusData.status}`);
 
             if (statusData.status === 'completed') {
+                // Récupération de l'URL selon le format de retour (url ou video_url)
+                const finalUrl = statusData.video_url || statusData.url || (statusData.data && statusData.data[0] && statusData.data[0].url);
+                if(!finalUrl) throw new Error("L'API n'a pas renvoyé d'URL vidéo.");
                 console.log(`🎉 Vidéo prête pour ${shot.ident} !`);
-                return statusData.url;
+                return finalUrl;
             }
             if (statusData.status === 'failed') {
                 throw new Error(`Échec de la génération.`);
@@ -95,7 +97,7 @@ async function generateVideoWithRetry(shot) {
 }
 
 (async () => {
-    console.log("Lecture du fichier storyboard.json...");
+    console.log("📖 Lecture du fichier storyboard.json...");
     let storyboard;
     try {
         const fileContent = fs.readFileSync(STORYBOARD_FILE, 'utf8');
@@ -125,23 +127,9 @@ async function generateVideoWithRetry(shot) {
             const url = await generateVideoWithRetry(shot);
             shot.video_url = url;
             
-            // 1. Sauvegarde locale
+            // Sauvegarde locale sur le serveur GitHub
             fs.writeFileSync(STORYBOARD_FILE, JSON.stringify(storyboard, null, 2));
-            console.log(`💾 Progression sauvegardée localement pour ${shot.ident}.`);
-            
-            // 2. Sauvegarde immédiate sur GitHub (PUSH)
-            console.log(`🚀 Envoi immédiat sur GitHub...`);
-            try {
-                execSync('git config user.name "github-actions[bot]"');
-                execSync('git config user.email "github-actions[bot]@users.noreply.github.com"');
-                execSync('git add storyboard.json');
-                // Le "|| exit 0" évite de planter si jamais il n'y a rien à commit
-                execSync(`git commit -m "🤖 Vidéo ${shot.ident} générée" || exit 0`, { shell: '/bin/bash' });
-                execSync('git push');
-                console.log(`✅ Vidéo ${shot.ident} sécurisée sur GitHub !`);
-            } catch (gitErr) {
-                console.error(`⚠️ Impossible de faire le git push :`, gitErr.message);
-            }
+            console.log(`💾 Sauvegarde locale réussie pour ${shot.ident}.`);
             
         } catch (error) {
             console.error(`❌ Échec définitif pour le plan ${shot.ident}: ${error.message}`);
