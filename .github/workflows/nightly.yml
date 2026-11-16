@@ -27,7 +27,7 @@ jobs:
         env:
           AGNES_API_KEY: ${{ secrets.AGNES_API_KEY }}
         run: node generate.js
-
+         
       - name: Sauvegarder les modifications du storyboard (Sécurité)
         if: always() # S'exécute TOUJOURS, même si generate.js a planté
         run: |
@@ -35,8 +35,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add storyboard.json
           git commit -m "🤖 Mise à jour automatique des vidéos générées" || echo "Aucune modification à commit"
+          git pull origin main --rebase || echo "Rien à pull"
           git push
-
       - name: Auto-relance en cas d'échec
         if: failure()
         uses: actions/github-script@v7
