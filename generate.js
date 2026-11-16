@@ -19,20 +19,15 @@ function getNextKey() {
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-// Fonction pour pousser sur GitHub immédiatement
 async function pushToGitHub(storyboard) {
     try {
         const jsonContent = JSON.stringify(storyboard, null, 2);
-        
-        // 1. Obtenir le SHA actuel du fichier
         const getRes = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/storyboard.json`, {
             headers: { 'Authorization': `Bearer ${GH_TOKEN}`, 'Accept': 'application/vnd.github.v3+json' }
         });
         if (!getRes.ok) throw new Error("Impossible de lire le fichier sur GitHub");
         const data = await getRes.json();
         const sha = data.sha;
-
-        // 2. Envoyer la mise à jour
         const base64Content = btoa(unescape(encodeURIComponent(jsonContent)));
         const putRes = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/storyboard.json`, {
             method: 'PUT',
@@ -49,7 +44,8 @@ async function pushToGitHub(storyboard) {
 async function generateVideoWithRetry(shot) {
     console.log(`\n--- Génération pour ${shot.ident} ---`);
     let videoId = null;
-    for (let attempt = 0; attempt < 15; attempt++) {
+    // On réduit à 3 essais pour ne pas perdre 10 minutes par plan si c'est saturé
+    for (let attempt = 0; attempt < 3; attempt++) {
         const currentKey = getNextKey();
         try {
             const response = await fetch('https://apihub.agnes-ai.com/v1/videos', {
@@ -66,14 +62,20 @@ async function generateVideoWithRetry(shot) {
             let data; try { data = JSON.parse(textResponse); } catch(e) { data = {}; }
             if (response.ok && data.video_id) { videoId = data.video_id; break; }
             if (data.code === 'video_queue_full' || response.status === 429) {
-                await sleep(45000); 
+                console.log(`⏳ File pleine, on réessaie dans 30s...`);
+                await sleep(30000); 
             } else {
-                await sleep(10000); 
+                await sleep(5000); 
             }
-        } catch (e) { await sleep(15000); }
+        } catch (e) { await sleep(5000); }
     }
-    if (!videoId) throw new Error('File pleine.');
+    
+    if (!videoId) {
+        console.log(`⚠️ File saturée pour ${shot.ident}, on passe au suivant.`);
+        return null; // On renvoie null pour dire "échec, mais on continue"
+    }
 
+    console.log(`⏳ Suivi de la vidéo pour ${shot.ident}...`);
     const startTime = Date.now();
     while (Date.now() - startTime < 900000) { 
         await sleep(5000); 
@@ -84,10 +86,10 @@ async function generateVideoWithRetry(shot) {
             if (statusData.status === 'completed') {
                 return statusData.video_url || statusData.url;
             }
-            if (statusData.status === 'failed') throw new Error(`Échec.`);
+            if (statusData.status === 'failed') return null;
         } catch(e) {}
     }
-    throw new Error('Timeout.');
+    return null;
 }
 
 (async () => {
@@ -96,20 +98,20 @@ async function generateVideoWithRetry(shot) {
 
     if (toGen.length === 0) return console.log('✅ Tout est déjà généré.');
 
-    console.log(`🎬 ${toGen.length} plan(s) à générer.`);
+    console.log(`🎬 ${toGen.length} plan(s) à traiter.`);
     
     for (const shot of toGen) {
         try {
             const url = await generateVideoWithRetry(shot);
-            shot.video_url = url;
-            fs.writeFileSync(STORYBOARD_FILE, JSON.stringify(storyboard, null, 2));
-            console.log(`💾 ${shot.ident} sauvegardé localement.`);
-            
-            // ON POUSSE SUR GITHUB TOUT DE SUITE
-            await pushToGitHub(storyboard);
-            
+            if (url) {
+                shot.video_url = url;
+                fs.writeFileSync(STORYBOARD_FILE, JSON.stringify(storyboard, null, 2));
+                console.log(`💾 ${shot.ident} sauvegardé.`);
+                await pushToGitHub(storyboard);
+            }
         } catch (error) {
-            console.error(`❌ Échec pour ${shot.ident}: ${error.message}`);
+            console.error(`❌ Erreur pour ${shot.ident}: ${error.message}`);
         }
     }
+    console.log("🏁 Fin de la session.");
 })();
