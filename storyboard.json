@@ -13,7 +13,7 @@
   {
     "ident": "P01",
     "title": "Son café coule (0:00 → 0:03,5)",
-    "anim_prompt": "ambiance du matin, la machine qui s'arrête.",
+    "anim_prompt": "Close-up of an espresso machine pouring coffee into a cream ceramic mug. The camera stays still. One continuous take with no cuts.\n\nA thin stream of dark coffee flows from the spout into the mug, with a little crema forming. After three seconds, the stream thins into a few last drops and stops. Thin steam rises from the coffee.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: espresso machine pouring, then the last drips and the machine stopping. Music: none. Dialogue: none.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P01_0.png"
@@ -24,7 +24,7 @@
   {
     "ident": "P02A",
     "title": "tasse sous la machine, main qui s'approche",
-    "anim_prompt": "`P02A.png` ✅ (tasse sous la machine, main qui s'approche) et `P02.png` ✅ (tasse posée à gauche, main dessus).\n🎬 `P02-clip_v01.mp4` ✅ en partie. Flow est parti du cadre serré de P01 : on y voit très bien la main prendre la tasse sous la machine et la poser à côté. Le montage garde ce passage, puis coupe sur le plan large P02 avant le fondu raté de la fin.\nla main reste autour de la tasse. L'hésitation, c'est cette immobilité.",
+    "anim_prompt": "P02.png is the exact image to keep: same framing, light, tiles, cupboards, espresso machine, phone, envelopes and fruit bowl. Change ONLY these two things:\n1. The cream mug is no longer on the counter to the left of the machine: it now sits on the drip tray of the espresso machine, right under the spout, full of coffee, with thin steam rising. The coffee has finished pouring. On the counter where the mug was, continue the empty honey-wood surface.\n2. Élise's right hand, in the same dark petrol-blue knitted sleeve, is lower and further right, approaching the machine with fingers slightly open, about to take the mug, not touching it yet.\nAvoid: a second mug, coffee still pouring, any other hand, any new object, text, extra fingers, photorealism.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P02A_0.png"
@@ -35,7 +35,7 @@
   {
     "ident": "P02",
     "title": "Elle prend la tasse et la pose, « Je l'ai appelé »",
-    "anim_prompt": "Thomas, « Ça y est. Je l'ai appelé. » ; Élise, « Qui ? » ; Thomas, « Mon père. »",
+    "anim_prompt": "POV of a woman at a kitchen counter, her right hand approaching an espresso machine where a cream mug of hot coffee sits under the spout. The camera stays still. One continuous take with no cuts.\n\nHer hand reaches the mug, takes it by the handle, lifts it off the drip tray and sets it down gently on the counter to the left of the machine. Her fingers stay resting on the mug. Thin steam rises from the coffee throughout. The phone, the envelopes, the fruit bowl and the machine do not move.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: the light clink of the mug lifted from the metal tray, then the soft knock of the mug set on the wooden counter. Music: none. Dialogue: none.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P02_0.png"
@@ -46,7 +46,7 @@
   {
     "ident": "P03",
     "title": "Elle prend le téléphone",
-    "anim_prompt": "pensée, « Le dossier. »",
+    "anim_prompt": "POV of a woman holding a phone with a dark, blank screen above a wooden kitchen counter. The camera stays still. One continuous take with no cuts.\n\nCalmly, she lowers the phone and lays it flat on the counter, screen up, in one smooth movement. Then her hand lets go and withdraws out of frame to the lower left. The phone stays flat and still on the counter until the end.\n\nKeep the painted gouache texture of the image throughout. The phone screen stays dark and blank.\n\nAudio: the light tap of a phone set on a wooden counter. Music: none. Dialogue: none.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P03_0.png"
@@ -68,7 +68,7 @@
   {
     "ident": "P07",
     "title": "Elle regarde l'heure, 08:20",
-    "anim_prompt": "pensée, « Huit heures vingt. Si je pars maintenant, ça passe. »",
+    "anim_prompt": "POV of a woman looking down at a phone lying flat on a wooden kitchen counter, her right hand resting near it. The camera stays still. One continuous take with no cuts.\n\nHer hand slides toward the phone and her index finger taps the lower part of the screen once, then her hand stays resting beside the phone. The phone itself does not move at all; it stays flat in exactly the same place.\n\nKeep the painted gouache texture of the image throughout. The phone screen stays dark and blank.\n\nAudio: one soft fingertip tap on glass, quiet kitchen room tone. Music: none. Dialogue: none.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P07_0.png"
@@ -79,7 +79,7 @@
   {
     "ident": "P08",
     "title": "La deuxième tasse",
-    "anim_prompt": "Élise, « Tu veux un café ? » ; Thomas, « Oui. »",
+    "anim_prompt": "POV of a woman's hand holding a terracotta mug inside an open kitchen cupboard. The camera stays still. One continuous take with no cuts.\n\nShe sets the mug down on the shelf next to the glasses, lets go, and her hand withdraws out of the cupboard. Then her hand pushes the open cupboard door, which swings closed smoothly from the right. The door ends fully closed.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: a light ceramic clink on the shelf, then the soft thud of a wooden cupboard door closing. Music: none. Dialogue: none.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P08_0.png"
@@ -90,7 +90,7 @@
   {
     "ident": "P09",
     "title": "Le bouton",
-    "anim_prompt": "le clic du bouton, puis la pompe et le café qui coule.",
+    "anim_prompt": "POV of a woman's index finger on the round button of a cream espresso machine, a terracotta mug under the spout. The camera stays completely still. One continuous take with no cuts.\n\nHer finger presses the button once, and her hand withdraws out of frame to the right. Then a thin, straight stream of dark coffee falls from the spout into the terracotta mug, steadily, until the end. The coffee level in the mug rises slowly.\n\nThe espresso machine keeps exactly the same shape, parts and colors from the first to the last frame: same button, same portafilter, same spout, same drip tray. Nothing is added to the machine. Only the hand and the stream of coffee move.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: the click of the button, then the espresso pump humming and coffee pouring. Music: none. Dialogue: none.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P09_0.png"
@@ -101,7 +101,7 @@
   {
     "ident": "P10",
     "title": "La tasse sur la table",
-    "anim_prompt": "Thomas, « Il avait toujours mon numéro. »",
+    "anim_prompt": "POV of a woman setting a terracotta mug of coffee on a round wooden table, in front of a man whose two hands rest on the table near his phone. The camera stays still. One continuous take with no cuts.\n\nHer hand lets go of the mug and withdraws out of frame to the lower left. Steam rises from the coffee and drifts slowly. The man's hands move a little, as when someone talks: his fingers open slightly, his right thumb rubs the edge of the phone, then his hands settle again.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: the soft knock of a mug on a wooden table, quiet room tone. Music: none. Dialogue: none.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P10_0.png"
@@ -123,7 +123,7 @@
   {
     "ident": "P12",
     "title": "Le courrier",
-    "anim_prompt": "Élise, « Tu as vu mes clés ? »\nle papier, puis la chaise de Thomas qui recule (S10) et ses pas qui s'approchent.",
+    "anim_prompt": "POV of a woman's right hand holding a small stack of white envelopes just above a wooden kitchen counter. The camera stays still. One continuous take with no cuts.\n\nShe lifts the stack a little higher and tilts it, looking for something underneath. The counter below is empty. She pauses for a second, then puts the stack back down on the pile, in the same place.\n\nKeep the painted gouache texture of the image throughout. The envelopes stay blank.\n\nAudio: paper rustling, then the soft pat of envelopes set down. Music: none. Dialogue: none.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P12_0.png"
@@ -145,7 +145,7 @@
   {
     "ident": "P13C",
     "title": "La main de Thomas pose les clés",
-    "anim_prompt": "Thomas, « Là. » ; Élise, « Ah, merci. »\nle cliquetis des clés, au moment où elles touchent le bois.",
+    "anim_prompt": "Close shot of a kitchen counter with a pile of white envelopes and a fruit bowl. The camera stays still. One continuous take with no cuts.\n\nA man's right hand in a grey-green shirt cuff enters from the right edge of the frame, holding a key ring with a coral leather tab. He lowers it and sets the keys flat on the counter in front of the envelopes, then his fingers open and stay just above the keys.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: the jingle of keys set on a wooden counter. Music: none. Dialogue: none.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P13C_0.png"
@@ -156,7 +156,7 @@
   {
     "ident": "P13B",
     "title": "Les clés sont posées",
-    "anim_prompt": "`P13A.png` ✅ (le plan de travail sans clés) et `P13C.png` ✅ (la main de Thomas vient de poser les clés).\n🎬 `P13-clip_v01.mp4` ✅, les 4 premières secondes. Sa main arrive par la droite, pose les clés devant les enveloppes et ouvre les doigts. Après, une main fantôme apparaît : on ne la garde pas.",
+    "anim_prompt": "Close shot of a kitchen counter with a pile of white envelopes and a fruit bowl. The camera stays still. One continuous take with no cuts.\n\nA man's right hand in a grey-green shirt cuff enters from the right edge of the frame, holding a key ring with a coral leather tab. He lowers it and sets the keys flat on the counter in front of the envelopes, then his fingers open and stay just above the keys.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: the jingle of keys set on a wooden counter. Music: none. Dialogue: none.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P13B_0.png"
@@ -167,7 +167,7 @@
   {
     "ident": "P14",
     "title": "Elle prend les clés, la main s'arrête",
-    "anim_prompt": "Thomas, « Je lui ai parlé de toi. » ; Élise, « Ah oui ?… », coupé par la notification.",
+    "anim_prompt": "POV of a woman's right hand on a key ring with a coral leather tab, on a wooden counter. The camera stays still. One continuous take with no cuts.\n\nHer fingers close around the keys and lift them a few centimeters off the counter. Then her hand stops and stays completely still, holding the keys, until the end.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: the small jingle of keys picked up, then silence. Music: none. Dialogue: none.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P14_0.png"
@@ -178,7 +178,7 @@
   {
     "ident": "P15",
     "title": "08:21",
-    "anim_prompt": "pensée, « Je vais encore arriver après tout le monde. »",
+    "anim_prompt": "POV of a woman holding a phone with a dark, blank screen in her left hand above a wooden kitchen counter. The camera stays still. One continuous take with no cuts.\n\nCalmly, she lowers the phone and lays it flat on the counter, screen up, in one smooth movement. Then her hand lets go and withdraws out of frame to the lower left. The phone stays flat and still on the counter until the end.\n\nKeep the painted gouache texture of the image throughout. The phone screen stays dark and blank.\n\nAudio: the light tap of a phone set on a wooden counter. Music: none. Dialogue: none.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P15_0.png"
@@ -200,7 +200,7 @@
   {
     "ident": "P17",
     "title": "Le sac",
-    "anim_prompt": "le cuir et les clés (S12), puis deux ou trois pas sur le parquet.",
+    "anim_prompt": "POV of a woman's right hand, holding a key ring with a coral leather tab, gripping the strap of a camel leather bag hanging on a coat hook. The camera stays still. One continuous take with no cuts.\n\nShe lifts the strap off the hook and pulls the bag toward her, out of frame to the lower right. The keys swing in her fingers. The hook stays empty.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: leather creak and the jingle of keys. Music: none. Dialogue: none.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P17_0.png"
@@ -211,7 +211,7 @@
   {
     "ident": "P18",
     "title": "La poignée",
-    "anim_prompt": "Thomas, « Il aimerait te rencontrer. » ; Élise, sans se retourner : « Tu me raconteras ce soir ? » ; Thomas, « Oui. » ; Élise, « À ce soir. »\nle déclic de la poignée et la porte qui s'ouvre (70,45 s). La musique est coupée net sur la poignée.",
+    "anim_prompt": "POV shot through the eyes of a woman standing at her front door, looking down at her own right hand on the lever handle. One continuous take with no cuts and no change of angle from start to end. The camera stays almost still, with only the faint natural sway of someone breathing while standing.\n\nAt first her hand rests on the lever, the keys hanging still from her fingers. After one second, her fingers loosen slightly on the lever and stay paused, as if she is listening to someone behind her. The keys sway gently, then settle. Around the fifth second, her fingers close firmly around the lever again. In the last second and a half, she presses the lever down in one smooth, deliberate movement; the keys swing with the motion.\n\nThe door and the doormat stay still. Only her right hand and arm are visible; no bag, no bag strap and no jacket appear at any time. The painted gouache texture of the image is kept throughout.\n\nAudio: quiet hallway room tone. SFX: the soft metallic click of the lever at the end. Music: none. Dialogue: none.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P18_0.png"
@@ -222,7 +222,7 @@
   {
     "ident": "P19",
     "title": "Sur le palier",
-    "anim_prompt": "pensée, « Bon. »\nla porte qui se referme derrière elle (71,4 s), l'écho du palier.",
+    "anim_prompt": "First-person view of a woman standing on a stairwell landing. Her left hand holds her phone upright. A dark indigo jacket is draped over her left forearm, and the teal knit cuff of her sleeve stays visible between the jacket and her hand. Her right hand, in a teal knit sleeve, holds a key ring with a coral leather tab. One continuous shot with no cuts.\n\nHer left hand, the phone and the jacket stay completely still for the whole video: they do not move, lower or slide. The camera sways very gently, only the breathing of someone standing still. Her right hand turns the key ring slowly with her thumb, picks out one key between her fingers, and the other keys swing a little, then settle.\n\nThe window, the stairs and the banister do not change. The phone screen stays dark and blank.\n\nKeep the painted gouache texture of the image throughout.\n\nAvoid: the left hand moving, the phone being lowered or put away, the left arm disappearing under the jacket, the jacket sliding, a third hand, extra fingers, camera movement, zoom, cuts, text, anything on the phone screen, photorealistic rendering, a face.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P19_0.png"
@@ -233,7 +233,7 @@
   {
     "ident": "P20",
     "title": "« J'ai rien oublié »",
-    "anim_prompt": "pensée, simplement soulagée : « J'ai rien oublié. »\nles objets dans le sac, les clés, puis ses premiers pas dans l'escalier (S13).",
+    "anim_prompt": "Side view of a woman standing on a stairwell landing, framed from under the chin to mid-thigh, checking inside the camel bag she holds in front of her. The camera stays still. One continuous take with no cuts.\n\nHer far hand, with the jacket over her forearm, holds the flap of the bag open. Her near hand, the keys between her fingers, rummages inside: it pushes the phone aside, touches the wallet, then pauses. Her hair moves slightly at the top of the frame as she bends her head. Her face stays out of frame at all times.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: leather and small objects shifting in a bag, the jingle of keys, faint stairwell echo. Music: none. Dialogue: none.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P20_0.png"
@@ -244,7 +244,7 @@
   {
     "ident": "P21",
     "title": "Thomas seul",
-    "anim_prompt": "aucune pensée, **aucune musique**. Ses pas étouffés dans l'escalier, puis l'horloge, la pièce et les oiseaux.",
+    "anim_prompt": "Wide static shot of a sunlit kitchen. A man sits alone at a round wooden table, a mug of coffee and an old photograph in front of him. The camera remains completely stationary. One continuous take with no cuts.\n\nAt first he sits still, looking ahead. After two seconds, he slowly raises his right hand and rests his chin in it, thinking. Then his eyes lower to the photograph on the table and stay on it. Small, slow, natural movements only. Steam rises gently from the mug on the counter in the foreground and from his mug.\n\nKeep the painted gouache texture of the image throughout. He keeps the same face and clothes.\n\nAudio: quiet room tone, a ticking clock, distant birds outside. Music: none. Dialogue: none.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P21_0.png"
