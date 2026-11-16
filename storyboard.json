@@ -189,7 +189,7 @@
   {
     "ident": "P16",
     "title": "La veste",
-    "anim_prompt": "le froissement de la veste (S11).",
+    "anim_prompt": "First-person view of a woman standing at a wooden coat rack. Her left hand, in a teal knit sleeve coming from the lower left, holds her phone against the collar of a dark indigo jacket hanging on the left hook. A camel leather bag hangs on the middle hook. The camera stays completely still. One continuous shot with no cuts.\n\nExactly two hands in the video, both hers. Her left hand stays where it is, holding the phone, and does not move. In the first second, her right hand, in the same teal knit sleeve, enters from the lower right edge of the frame, holding a key ring with a coral leather tab. Her right hand takes the jacket by the collar, lifts it off the hook and lays it over her left forearm. The jacket moves down toward the lower left and stays partly visible until the end. The left hook is empty.\n\nThe camel bag stays on its hook, fully visible and still. The coat rack, the wall and the door on the right do not change. The phone screen stays dark and blank.\n\nKeep the painted gouache texture of the image throughout.\n\nAvoid: a third hand, a hand coming from the left side to take the jacket, the phone changing hands, the jacket or the bag disappearing, an empty wall, camera movement, zoom, cuts, text, anything on the phone screen, photorealistic rendering, a face.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P16_0.png"
