@@ -2,7 +2,7 @@
   {
     "ident": "P00",
     "title": "Intro : un détail du décor",
-    "anim_prompt": "`P00.png` ✅, Tôt le matin dans une cuisine vide. Le rayon de soleil doré sur les carreaux et le plan de travail se déplace très lentement, comme si un léger nuage passait, puis s'éclaire de nouveau. Quelques particules de poussière flottent doucement dans le rayon de lumière. L'ombre du cadre de la fenêtre se balance très légèrement. La machine à espresso reste immobile et éteinte.\nGardez la texture gouache peinte, les couleurs et le cadrage de l'image tout au long.",
+    "anim_prompt": "Close-up of an espresso machine pouring coffee into a cream ceramic mug. The camera stays still. One continuous take with no cuts.\n\nA thin stream of dark coffee flows from the spout into the mug, with a little crema forming. After three seconds, the stream thins into a few last drops and stops. Thin steam rises from the coffee.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: espresso machine pouring, then the last drips and the machine stopping. Music: none. Dialogue: none.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P00_0.png"
@@ -24,7 +24,7 @@
   {
     "ident": "P02A",
     "title": "tasse sous la machine, main qui s'approche",
-    "anim_prompt": "P02.png is the exact image to keep: same framing, light, tiles, cupboards, espresso machine, phone, envelopes and fruit bowl. Change ONLY these two things:\n1. The cream mug is no longer on the counter to the left of the machine: it now sits on the drip tray of the espresso machine, right under the spout, full of coffee, with thin steam rising. The coffee has finished pouring. On the counter where the mug was, continue the empty honey-wood surface.\n2. Élise's right hand, in the same dark petrol-blue knitted sleeve, is lower and further right, approaching the machine with fingers slightly open, about to take the mug, not touching it yet.\nAvoid: a second mug, coffee still pouring, any other hand, any new object, text, extra fingers, photorealism.",
+    "anim_prompt": "POV of a woman at a kitchen counter, her right hand approaching an espresso machine where a cream mug of hot coffee sits under the spout. The camera stays still. One continuous take with no cuts.\n\nHer hand reaches the mug, takes it by the handle, lifts it off the drip tray and sets it down gently on the counter to the left of the machine. Her fingers stay resting on the mug. Thin steam rises from the coffee throughout. The phone, the envelopes, the fruit bowl and the machine do not move.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: the light clink of the mug lifted from the metal tray, then the soft knock of the mug set on the wooden counter. Music: none. Dialogue: none.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P02A_0.png"
@@ -35,7 +35,7 @@
   {
     "ident": "P02",
     "title": "Elle prend la tasse et la pose, « Je l'ai appelé »",
-    "anim_prompt": "POV of a woman at a kitchen counter, her right hand approaching an espresso machine where a cream mug of hot coffee sits under the spout. The camera stays still. One continuous take with no cuts.\n\nHer hand reaches the mug, takes it by the handle, lifts it off the drip tray and sets it down gently on the counter to the left of the machine. Her fingers stay resting on the mug. Thin steam rises from the coffee throughout. The phone, the envelopes, the fruit bowl and the machine do not move.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: the light clink of the mug lifted from the metal tray, then the soft knock of the mug set on the wooden counter. Music: none. Dialogue: none.",
+    "anim_prompt": "P02.png is the exact image to keep: same framing, light, tiles, cupboards, espresso machine, phone, envelopes and fruit bowl. Change ONLY these two things:\n1. The cream mug is no longer on the counter to the left of the machine: it now sits on the drip tray of the espresso machine, right under the spout, full of coffee, with thin steam rising. The coffee has finished pouring. On the counter where the mug was, continue the empty honey-wood surface.\n2. Élise's right hand, in the same dark petrol-blue knitted sleeve, is lower and further right, approaching the machine with fingers slightly open, about to take the mug, not touching it yet.\nAvoid: a second mug, coffee still pouring, any other hand, any new object, text, extra fingers, photorealism.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P02_0.png"
