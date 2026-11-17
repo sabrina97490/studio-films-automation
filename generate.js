@@ -44,8 +44,9 @@ async function pushToGitHub(storyboard) {
 async function generateVideoWithRetry(shot) {
     console.log(`\n--- Génération pour ${shot.ident} ---`);
     let videoId = null;
-    // On réduit à 3 essais pour ne pas perdre 10 minutes par plan si c'est saturé
-    for (let attempt = 0; attempt < 3; attempt++) {
+    
+    // ON REPASSE À 8 ESSAIS (environ 6 minutes d'attente max par plan)
+    for (let attempt = 1; attempt <= 8; attempt++) {
         const currentKey = getNextKey();
         try {
             const response = await fetch('https://apihub.agnes-ai.com/v1/videos', {
@@ -53,26 +54,35 @@ async function generateVideoWithRetry(shot) {
                 headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${currentKey}` },
                 body: JSON.stringify({
                     model: 'agnes-video-2.5-flash',
-                    prompt: shot.anim_prompt || 'Cinematic motion',
+                    prompt: shot.anim_prompt || shot.script || 'Cinematic motion',
                     first_frame: shot.images[0].url,
                     seconds: '5', mode: 'keyframe', size: '720P'
                 })
             });
             const textResponse = await response.text();
             let data; try { data = JSON.parse(textResponse); } catch(e) { data = {}; }
-            if (response.ok && data.video_id) { videoId = data.video_id; break; }
-            if (data.code === 'video_queue_full' || response.status === 429) {
-                console.log(`⏳ File pleine, on réessaie dans 30s...`);
-                await sleep(30000); 
-            } else {
-                await sleep(5000); 
+            
+            if (response.ok && data.video_id) { 
+                videoId = data.video_id; 
+                break; 
             }
-        } catch (e) { await sleep(5000); }
+            
+            if (data.code === 'video_queue_full' || response.status === 429) {
+                console.log(`⏳ File pleine (essai ${attempt}/8), attente 45s...`);
+                await sleep(45000); 
+            } else {
+                console.log(`⚠️ Erreur API, attente 10s...`);
+                await sleep(10000); 
+            }
+        } catch (e) { 
+            console.log(`⚠️ Erreur réseau, attente 15s...`);
+            await sleep(15000); 
+        }
     }
     
     if (!videoId) {
-        console.log(`⚠️ File saturée pour ${shot.ident}, on passe au suivant.`);
-        return null; // On renvoie null pour dire "échec, mais on continue"
+        console.log(`⚠️ Impossible de générer ${shot.ident} après 8 essais. On passe au suivant.`);
+        return null;
     }
 
     console.log(`⏳ Suivi de la vidéo pour ${shot.ident}...`);
@@ -83,6 +93,8 @@ async function generateVideoWithRetry(shot) {
         try {
             const statusResponse = await fetch(`https://apihub.agnes-ai.com/agnesapi?video_id=${videoId}&model_name=agnes-video-2.5-flash`, { headers: { 'Authorization': `Bearer ${currentKey}` } });
             const statusData = await statusResponse.json();
+            console.log(`   Statut : ${statusData.status}`);
+            
             if (statusData.status === 'completed') {
                 return statusData.video_url || statusData.url;
             }
