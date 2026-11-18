@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const API_KEYS = (process.env.AGNES_API_KEY || '').split(',').map(k => k.trim()).filter(Boolean);
 const GH_TOKEN = process.env.GH_TOKEN;
-const GH_REPO = 'sabrina97490/studio-films-automation'; // Ton dépôt
+const GH_REPO = 'sabrina97490/studio-films-automation';
 const STORYBOARD_FILE = './storyboard.json';
 
 if (API_KEYS.length === 0 || !GH_TOKEN) {
@@ -28,7 +28,10 @@ async function pushToGitHub(storyboard) {
         if (!getRes.ok) throw new Error("Impossible de lire le fichier sur GitHub");
         const data = await getRes.json();
         const sha = data.sha;
-        const base64Content = btoa(unescape(encodeURIComponent(jsonContent)));
+        
+        // Utilisation de Buffer pour éviter les bugs d'encodage avec les accents
+        const base64Content = Buffer.from(jsonContent, 'utf8').toString('base64');
+        
         const putRes = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/storyboard.json`, {
             method: 'PUT',
             headers: { 'Authorization': `Bearer ${GH_TOKEN}`, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github.v3+json' },
@@ -45,8 +48,8 @@ async function generateVideoWithRetry(shot) {
     console.log(`\n--- Génération pour ${shot.ident} ---`);
     let videoId = null;
     
-    // ON REPASSE À 8 ESSAIS (environ 6 minutes d'attente max par plan)
-    for (let attempt = 1; attempt <= 8; attempt++) {
+    // Augmentation à 15 essais avec attente progressive pour contrer la file d'attente
+    for (let attempt = 1; attempt <= 15; attempt++) {
         const currentKey = getNextKey();
         try {
             const response = await fetch('https://apihub.agnes-ai.com/v1/videos', {
@@ -68,11 +71,13 @@ async function generateVideoWithRetry(shot) {
             }
             
             if (data.code === 'video_queue_full' || response.status === 429) {
-                console.log(`⏳ File pleine (essai ${attempt}/8), attente 45s...`);
-                await sleep(45000); 
+                // Attente exponentielle : commence à 30s et augmente jusqu'à 3 minutes max
+                const waitTime = Math.min(30000 + (attempt * 10000), 180000);
+                console.log(`⏳ File pleine (essai ${attempt}/15), attente ${waitTime / 1000}s...`);
+                await sleep(waitTime); 
             } else {
-                console.log(`⚠️ Erreur API, attente 10s...`);
-                await sleep(10000); 
+                console.log(`⚠️ Erreur API (${response.status}), attente 15s...`);
+                await sleep(15000); 
             }
         } catch (e) { 
             console.log(`⚠️ Erreur réseau, attente 15s...`);
@@ -81,26 +86,42 @@ async function generateVideoWithRetry(shot) {
     }
     
     if (!videoId) {
-        console.log(`⚠️ Impossible de générer ${shot.ident} après 8 essais. On passe au suivant.`);
+        console.log(`⚠️ Impossible de générer ${shot.ident} après 15 essais. On passe au suivant.`);
         return null;
     }
 
-    console.log(`⏳ Suivi de la vidéo pour ${shot.ident}...`);
+    console.log(`⏳ Suivi de la vidéo pour ${shot.ident} (ID: ${videoId})...`);
     const startTime = Date.now();
-    while (Date.now() - startTime < 900000) { 
-        await sleep(5000); 
+    
+    // Timeout porté à 20 minutes pour être sûr d'avoir le résultat
+    while (Date.now() - startTime < 1200000) { 
+        // On attend 10 secondes au lieu de 5 pour éviter de se faire bloquer par l'API de statut
+        await sleep(10000); 
         const currentKey = getNextKey(); 
         try {
             const statusResponse = await fetch(`https://apihub.agnes-ai.com/agnesapi?video_id=${videoId}&model_name=agnes-video-2.5-flash`, { headers: { 'Authorization': `Bearer ${currentKey}` } });
             const statusData = await statusResponse.json();
-            console.log(`   Statut : ${statusData.status}`);
             
-            if (statusData.status === 'completed') {
-                return statusData.video_url || statusData.url;
+            // Extraction robuste du statut (gère les réponses imbriquées)
+            const currentStatus = statusData.status || (statusData.data && statusData.data.status) || statusData.task_status;
+            
+            if (currentStatus !== undefined) {
+                console.log(`   Statut : ${currentStatus}`);
             }
-            if (statusData.status === 'failed') return null;
-        } catch(e) {}
+            
+            if (currentStatus === 'completed') {
+                // Extraction robuste de l'URL
+                return statusData.video_url || statusData.url || (statusData.data && statusData.data.video_url);
+            }
+            if (currentStatus === 'failed') {
+                console.log(`   ❌ Échec de la génération par l'API.`);
+                return null;
+            }
+        } catch(e) {
+            // On ignore silencieusement les erreurs de réseau pendant le polling
+        }
     }
+    console.log(`   ⚠️ Timeout (20min) pour ${shot.ident}.`);
     return null;
 }
 
@@ -118,7 +139,7 @@ async function generateVideoWithRetry(shot) {
             if (url) {
                 shot.video_url = url;
                 fs.writeFileSync(STORYBOARD_FILE, JSON.stringify(storyboard, null, 2));
-                console.log(`💾 ${shot.ident} sauvegardé.`);
+                console.log(`💾 ${shot.ident} sauvegardé localement.`);
                 await pushToGitHub(storyboard);
             }
         } catch (error) {
