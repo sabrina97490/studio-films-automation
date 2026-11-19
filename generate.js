@@ -94,18 +94,25 @@ async function generateVideoWithRetry(shot) {
             const textResponse = await response.text();
             let data; try { data = JSON.parse(textResponse); } catch(e) { data = {}; }
             
-            if (response.ok && data.video_id) { 
-                videoId = data.video_id; 
+            // video_id d'abord : c'est le seul identifiant toujours utilisable pour le suivi
+            const newId = data.video_id || data.task_id || data.id;
+            if (response.ok && newId) { 
+                videoId = newId; 
                 ownerKey = currentKey;
                 break; 
             }
             
-            if (data.code === 'video_queue_full' || response.status === 429) {
-                // Attente exponentielle : commence à 30s et augmente jusqu'à 3 minutes max
-                const waitTime = Math.min(30000 + (attempt * 10000), 180000);
+            // « Serveur occupé » : 429, TOUT 503 (Agnes renvoie la file pleine en 503, parfois sans code)
+            // ou un code de file. Une demande refusée ne crée pas de tâche et ne consomme pas de quota.
+            const busy = response.status === 429 || response.status === 503 ||
+                         ['video_queue_full', 'fail_to_fetch_task'].includes(data.code);
+            if (busy) {
+                // Intervalle FIXE de 30 à 60 s : la file se libère sans prévenir, il vaut mieux
+                // retenter régulièrement qu'attendre de plus en plus longtemps.
+                const waitTime = 30000 + Math.round(Math.random() * 30000);
                 if (attempt === 1) console.log(`   Réponse d'Agnes (clé n°${API_KEYS.indexOf(currentKey) + 1}, HTTP ${response.status}) : ${textResponse.slice(0, 300)}`);
                 queueFullCount++;
-                console.log(`⏳ File pleine (essai ${attempt}/15), attente ${waitTime / 1000}s...`);
+                console.log(`⏳ File pleine (essai ${attempt}/15), attente ${Math.round(waitTime / 1000)}s...`);
                 await sleep(waitTime); 
             } else {
                 // Le n° de clé (jamais la clé elle-même) permet de repérer une clé invalide dans le journal
@@ -146,12 +153,14 @@ async function generateVideoWithRetry(shot) {
             
             if (currentStatus === 'completed') {
                 // Extraction robuste de l'URL
-                const url = statusData.video_url || statusData.url || (statusData.data && statusData.data.video_url) || (statusData.data && statusData.data.url);
+                const url = statusData.video_url || statusData.url || (statusData.data && statusData.data.video_url) || (statusData.data && statusData.data.url) || (statusData.metadata && statusData.metadata.url);
                 if (!url) console.log(`   ⚠️ Terminé mais URL introuvable : ${JSON.stringify(statusData).slice(0, 300)}`);
                 return url || null;
             }
             if (currentStatus === 'failed') {
-                console.log(`   ❌ Échec de la génération par l'API.`);
+                // Un échec arrive en HTTP 200 ; la raison est dans error.message (ex. rendu bloqué après 15 min)
+                const err = statusData.error;
+                console.log(`   ❌ Échec de la génération : ${(err && (err.message || err.code)) || JSON.stringify(statusData).slice(0, 200)}`);
                 return null;
             }
         } catch(e) {
