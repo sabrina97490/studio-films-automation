@@ -1,6 +1,7 @@
 const fs = require('fs');
 
-const API_KEYS = (process.env.AGNES_API_KEY || '').split(',').map(k => k.trim()).filter(Boolean);
+// Clés séparées par des virgules, des espaces ou des retours à la ligne
+const API_KEYS = (process.env.AGNES_API_KEY || '').split(/[\s,]+/).map(k => k.trim()).filter(Boolean);
 const GH_TOKEN = process.env.GH_TOKEN;
 const GH_REPO = 'sabrina97490/studio-films-automation';
 const STORYBOARD_FILE = './storyboard.json';
@@ -19,29 +20,49 @@ function getNextKey() {
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-async function pushToGitHub(storyboard) {
-    try {
-        const jsonContent = JSON.stringify(storyboard, null, 2);
-        const getRes = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/storyboard.json`, {
-            headers: { 'Authorization': `Bearer ${GH_TOKEN}`, 'Accept': 'application/vnd.github.v3+json' }
-        });
-        if (!getRes.ok) throw new Error("Impossible de lire le fichier sur GitHub");
-        const data = await getRes.json();
-        const sha = data.sha;
-        
-        // Utilisation de Buffer pour éviter les bugs d'encodage avec les accents
-        const base64Content = Buffer.from(jsonContent, 'utf8').toString('base64');
-        
-        const putRes = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/storyboard.json`, {
-            method: 'PUT',
-            headers: { 'Authorization': `Bearer ${GH_TOKEN}`, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github.v3+json' },
-            body: JSON.stringify({ message: '🤖 Vidéo générée', content: base64Content, sha: sha })
-        });
-        if (!putRes.ok) throw new Error("Erreur lors de l'envoi sur GitHub");
-        console.log(`✅ Fichier storyboard.json synchronisé sur GitHub !`);
-    } catch (e) {
-        console.error(`⚠️ Erreur de synchronisation GitHub : ${e.message}`);
+// Lit la version À JOUR de storyboard.json sur GitHub (l'app a pu la modifier pendant la nuit)
+async function fetchRemoteStoryboard() {
+    const getRes = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/storyboard.json`, {
+        headers: { 'Authorization': `Bearer ${GH_TOKEN}`, 'Accept': 'application/vnd.github.v3+json' }
+    });
+    if (!getRes.ok) throw new Error(`Impossible de lire le fichier sur GitHub (${getRes.status})`);
+    const data = await getRes.json();
+    const storyboard = JSON.parse(Buffer.from(data.content, 'base64').toString('utf8'));
+    return { storyboard, sha: data.sha };
+}
+
+// Ajoute UNIQUEMENT la vidéo de ce plan dans la version actuelle sur GitHub,
+// au lieu de réécrire tout le fichier lu au démarrage (qui écraserait les changements faits depuis l'app).
+async function pushToGitHub(ident, videoUrl) {
+    for (let attempt = 1; attempt <= 3; attempt++) {
+        try {
+            const { storyboard, sha } = await fetchRemoteStoryboard();
+            const shot = storyboard.find(s => s.ident === ident);
+            if (!shot) {
+                console.log(`⚠️ ${ident} n'existe plus sur GitHub : vidéo non enregistrée (${videoUrl}).`);
+                return;
+            }
+            shot.video_url = videoUrl;
+
+            // Utilisation de Buffer pour éviter les bugs d'encodage avec les accents
+            const base64Content = Buffer.from(JSON.stringify(storyboard, null, 2), 'utf8').toString('base64');
+
+            const putRes = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/storyboard.json`, {
+                method: 'PUT',
+                headers: { 'Authorization': `Bearer ${GH_TOKEN}`, 'Content-Type': 'application/json', 'Accept': 'application/vnd.github.v3+json' },
+                body: JSON.stringify({ message: `🤖 Vidéo générée (${ident})`, content: base64Content, sha })
+            });
+            if (putRes.ok) { console.log(`✅ ${ident} synchronisé sur GitHub !`); return; }
+            // 409/422 : le fichier a changé entre la lecture et l'écriture (envoi depuis l'app) → on relit
+            if (putRes.status !== 409 && putRes.status !== 422) throw new Error(`Erreur lors de l'envoi sur GitHub (${putRes.status})`);
+            console.log(`   Fichier modifié entre-temps, nouvel essai (${attempt}/3)...`);
+            await sleep(2000);
+        } catch (e) {
+            console.error(`⚠️ Erreur de synchronisation GitHub : ${e.message}`);
+            await sleep(2000);
+        }
     }
+    console.error(`❌ ${ident} : vidéo générée mais non enregistrée sur GitHub. URL à noter : ${videoUrl}`);
 }
 
 async function generateVideoWithRetry(shot) {
@@ -111,7 +132,9 @@ async function generateVideoWithRetry(shot) {
             
             if (currentStatus === 'completed') {
                 // Extraction robuste de l'URL
-                return statusData.video_url || statusData.url || (statusData.data && statusData.data.video_url);
+                const url = statusData.video_url || statusData.url || (statusData.data && statusData.data.video_url) || (statusData.data && statusData.data.url);
+                if (!url) console.log(`   ⚠️ Terminé mais URL introuvable : ${JSON.stringify(statusData).slice(0, 300)}`);
+                return url || null;
             }
             if (currentStatus === 'failed') {
                 console.log(`   ❌ Échec de la génération par l'API.`);
@@ -133,14 +156,28 @@ async function generateVideoWithRetry(shot) {
 
     console.log(`🎬 ${toGen.length} plan(s) à traiter.`);
     
-    for (const shot of toGen) {
+    for (const queued of toGen) {
         try {
+            // Avant chaque plan, on reprend sa version actuelle sur GitHub :
+            // prompt/image modifiés depuis l'app, plan supprimé ou vidéo déjà faite.
+            let shot = queued;
+            try {
+                const { storyboard: latest } = await fetchRemoteStoryboard();
+                const fresh = latest.find(s => s.ident === queued.ident);
+                if (!fresh) { console.log(`\n⏭️ ${queued.ident} supprimé depuis l'app, ignoré.`); continue; }
+                if (fresh.video_url) { console.log(`\n⏭️ ${queued.ident} a déjà une vidéo, ignoré.`); continue; }
+                if (!fresh.images || !fresh.images.length) { console.log(`\n⏭️ ${queued.ident} n'a plus d'image, ignoré.`); continue; }
+                shot = fresh;
+            } catch (e) {
+                console.log(`⚠️ Lecture GitHub impossible (${e.message}), on utilise la version du démarrage.`);
+            }
+
             const url = await generateVideoWithRetry(shot);
             if (url) {
-                shot.video_url = url;
+                queued.video_url = url;
                 fs.writeFileSync(STORYBOARD_FILE, JSON.stringify(storyboard, null, 2));
                 console.log(`💾 ${shot.ident} sauvegardé localement.`);
-                await pushToGitHub(storyboard);
+                await pushToGitHub(shot.ident, url);
             }
         } catch (error) {
             console.error(`❌ Erreur pour ${shot.ident}: ${error.message}`);
