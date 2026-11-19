@@ -65,9 +65,16 @@ async function pushToGitHub(ident, videoUrl) {
     console.error(`❌ ${ident} : vidéo générée mais non enregistrée sur GitHub. URL à noter : ${videoUrl}`);
 }
 
+// La file d'Agnes est commune à tous les plans : si elle reste pleine pour 2 plans de suite,
+// inutile d'essayer les suivants (on gaspillerait ~30 min par plan jusqu'à la limite des 6 h).
+let lastFailureWasQueueFull = false;
+const MAX_QUEUE_FULL_SHOTS = 2;
+
 async function generateVideoWithRetry(shot) {
     console.log(`\n--- Génération pour ${shot.ident} ---`);
     let videoId = null;
+    let queueFullCount = 0;
+    lastFailureWasQueueFull = false;
     let ownerKey = null; // la clé qui a créé la tâche : c'est elle qui doit suivre la vidéo
     
     // Augmentation à 15 essais avec attente progressive pour contrer la file d'attente
@@ -96,6 +103,8 @@ async function generateVideoWithRetry(shot) {
             if (data.code === 'video_queue_full' || response.status === 429) {
                 // Attente exponentielle : commence à 30s et augmente jusqu'à 3 minutes max
                 const waitTime = Math.min(30000 + (attempt * 10000), 180000);
+                if (attempt === 1) console.log(`   Réponse d'Agnes (clé n°${API_KEYS.indexOf(currentKey) + 1}, HTTP ${response.status}) : ${textResponse.slice(0, 300)}`);
+                queueFullCount++;
                 console.log(`⏳ File pleine (essai ${attempt}/15), attente ${waitTime / 1000}s...`);
                 await sleep(waitTime); 
             } else {
@@ -111,6 +120,7 @@ async function generateVideoWithRetry(shot) {
     
     if (!videoId) {
         console.log(`⚠️ Impossible de générer ${shot.ident} après 15 essais. On passe au suivant.`);
+        if (queueFullCount === 15) lastFailureWasQueueFull = true;
         return null;
     }
 
@@ -160,7 +170,12 @@ async function generateVideoWithRetry(shot) {
 
     console.log(`🎬 ${toGen.length} plan(s) à traiter.`);
     
+    let queueFullStreak = 0;
     for (const queued of toGen) {
+        if (queueFullStreak >= MAX_QUEUE_FULL_SHOTS) {
+            console.log(`\n🛑 File Agnes pleine pendant ${queueFullStreak} plans de suite : arrêt de la session. Les plans restants seront tentés au prochain lancement.`);
+            break;
+        }
         try {
             // Avant chaque plan, on reprend sa version actuelle sur GitHub :
             // prompt/image modifiés depuis l'app, plan supprimé ou vidéo déjà faite.
@@ -177,6 +192,7 @@ async function generateVideoWithRetry(shot) {
             }
 
             const url = await generateVideoWithRetry(shot);
+            queueFullStreak = (!url && lastFailureWasQueueFull) ? queueFullStreak + 1 : 0;
             if (url) {
                 queued.video_url = url;
                 fs.writeFileSync(STORYBOARD_FILE, JSON.stringify(storyboard, null, 2));
