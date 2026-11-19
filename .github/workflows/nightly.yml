@@ -6,7 +6,9 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 2 * * *'
+    # Heures creuses de la file gratuite d'Agnes (22h-1h et 6h-9h à Pékin),
+    # soit 14h et 22h UTC = 15h et 23h à Paris (16h et minuit en été).
+    - cron: '0 14,22 * * *'
   workflow_dispatch:
 
 jobs:
