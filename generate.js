@@ -68,6 +68,7 @@ async function pushToGitHub(ident, videoUrl) {
 async function generateVideoWithRetry(shot) {
     console.log(`\n--- Génération pour ${shot.ident} ---`);
     let videoId = null;
+    let ownerKey = null; // la clé qui a créé la tâche : c'est elle qui doit suivre la vidéo
     
     // Augmentation à 15 essais avec attente progressive pour contrer la file d'attente
     for (let attempt = 1; attempt <= 15; attempt++) {
@@ -88,6 +89,7 @@ async function generateVideoWithRetry(shot) {
             
             if (response.ok && data.video_id) { 
                 videoId = data.video_id; 
+                ownerKey = currentKey;
                 break; 
             }
             
@@ -97,7 +99,8 @@ async function generateVideoWithRetry(shot) {
                 console.log(`⏳ File pleine (essai ${attempt}/15), attente ${waitTime / 1000}s...`);
                 await sleep(waitTime); 
             } else {
-                console.log(`⚠️ Erreur API (${response.status}), attente 15s...`);
+                // Le n° de clé (jamais la clé elle-même) permet de repérer une clé invalide dans le journal
+                console.log(`⚠️ Erreur API (${response.status}) avec la clé n°${API_KEYS.indexOf(currentKey) + 1} : ${textResponse.slice(0, 200)} — attente 15s...`);
                 await sleep(15000); 
             }
         } catch (e) { 
@@ -118,7 +121,8 @@ async function generateVideoWithRetry(shot) {
     while (Date.now() - startTime < 1200000) { 
         // On attend 10 secondes au lieu de 5 pour éviter de se faire bloquer par l'API de statut
         await sleep(10000); 
-        const currentKey = getNextKey(); 
+        // Suivi avec la MÊME clé que la création (une autre clé/compte peut ne pas voir la tâche)
+        const currentKey = ownerKey; 
         try {
             const statusResponse = await fetch(`https://apihub.agnes-ai.com/agnesapi?video_id=${videoId}&model_name=agnes-video-2.5-flash`, { headers: { 'Authorization': `Bearer ${currentKey}` } });
             const statusData = await statusResponse.json();
