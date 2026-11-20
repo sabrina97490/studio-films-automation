@@ -8,6 +8,7 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P00_0.png"
       }
     ],
+    "end_frame": null,
     "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_Y1AiFLn6VpYR4LbItPmpetQdlegrgAWt.mp4"
   },
   {
@@ -19,6 +20,7 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P01_0.png"
       }
     ],
+    "end_frame": null,
     "video_url": null
   },
   {
@@ -30,6 +32,7 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P02A_0.png"
       }
     ],
+    "end_frame": null,
     "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_aj1UudO0AASu95DKKUaznlvhaEffdq6S.mp4"
   },
   {
@@ -41,6 +44,7 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P02_0.png"
       }
     ],
+    "end_frame": null,
     "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_3iZpYdv2RyE79kjzVYHmdmfLn7bKmkg0.mp4"
   },
   {
@@ -52,6 +56,7 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P03_0.png"
       }
     ],
+    "end_frame": null,
     "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_1hNES9OA1atYUe8iGijVAMCWqkQjqRnH.mp4"
   },
   {
@@ -63,6 +68,7 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P04_0.png"
       }
     ],
+    "end_frame": null,
     "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_dfERxUc1AWvS2RaojBdJfBB0FcSzjTQP.mp4"
   },
   {
@@ -74,17 +80,22 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P07_0.png"
       }
     ],
+    "end_frame": null,
     "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_3xk4N5l4CkiLeJZEhsDZHFDo2DrPwRYo.mp4"
   },
   {
     "ident": "P08",
     "title": "La deuxième tasse",
-    "anim_prompt": "POV of a woman's hand holding a terracotta mug inside an open kitchen cupboard. The camera stays still. One continuous take with no cuts.\n\nShe sets the mug down on the shelf next to the glasses, lets go, and her hand withdraws out of the cupboard. Then her hand pushes the open cupboard door, which swings closed smoothly from the right. The door ends fully closed.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: a light ceramic clink on the shelf, then the soft thud of a wooden cupboard door closing. Music: none. Dialogue: none.",
+    "anim_prompt": "One continuous first-person shot, with a completely stationary camera and no cuts. Starting with her hand on the right cupboard knob, she pulls the right door open, then opens the left door with the same hand. The terracotta mug is standing on the shelf between the stacked plates and the two glasses. She reaches in, takes the mug by its handle, and lifts it gently. End exactly on the supplied last frame, with the mug in her hand inside the open cupboard. Keep the cupboard geometry, warm window light, and painted gouache texture consistent throughout. Only one hand is visible; the mug never rests outside the cupboard.\n\nAudio: soft wooden hinge movement, then a faint ceramic sound as the mug leaves the shelf. Music: none. Dialogue: none.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P08_0.png"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P08_1.png"
       }
     ],
+    "end_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P08_1.png",
     "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_0ojyA3JDekQQKoQ8b10bxo5AKLPoSDEc.mp4"
   },
   {
@@ -96,6 +107,7 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P09_0.png"
       }
     ],
+    "end_frame": null,
     "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_QuqxH4wOmunMIxU8imnbXu2ZsIBzLUTW.mp4"
   },
   {
@@ -107,6 +119,7 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P10_0.png"
       }
     ],
+    "end_frame": null,
     "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_nXE5Juf9jSBR1IJz39nSBJqzX6zmllah.mp4"
   },
   {
@@ -118,6 +131,7 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P11_0.png"
       }
     ],
+    "end_frame": null,
     "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_N5jDtcR9lahKTTN5ZcmtieNUHgU9Ruie.mp4"
   },
   {
@@ -129,6 +143,7 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P12_0.png"
       }
     ],
+    "end_frame": null,
     "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_ZHrmlhxhgRAXIYcPCIWIaGpfnDSObJxU.mp4"
   },
   {
@@ -140,6 +155,7 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P13A_0.png"
       }
     ],
+    "end_frame": null,
     "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_55WCgcGDJ9qiP3ClSnmZKYdlfdY2Ux7W.mp4"
   },
   {
@@ -151,6 +167,7 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P13C_0.png"
       }
     ],
+    "end_frame": null,
     "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_kJBEL2WxE7dDT5KT5sAY9JT7pPY8YceK.mp4"
   },
   {
@@ -162,6 +179,7 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P13B_0.png"
       }
     ],
+    "end_frame": null,
     "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_t8AOTEUaWKGnQIwwBREkIYW1GPKFxdp3.mp4"
   },
   {
@@ -173,6 +191,7 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P14_0.png"
       }
     ],
+    "end_frame": null,
     "video_url": null
   },
   {
@@ -184,6 +203,7 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P15_0.png"
       }
     ],
+    "end_frame": null,
     "video_url": null
   },
   {
@@ -195,7 +215,8 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P16_0.png"
       }
     ],
-    "video_url": null
+    "end_frame": null,
+    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_aoMsTh4ArUnDg50Rbojf5oqDIsPmGChp.mp4"
   },
   {
     "ident": "P17",
@@ -206,6 +227,7 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P17_0.png"
       }
     ],
+    "end_frame": null,
     "video_url": null
   },
   {
@@ -217,6 +239,7 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P18_0.png"
       }
     ],
+    "end_frame": null,
     "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_vMhlFiASmpYi20i8lG6T9bRjHXxHA0Dj.mp4"
   },
   {
@@ -228,6 +251,7 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P19_0.png"
       }
     ],
+    "end_frame": null,
     "video_url": null
   },
   {
@@ -239,6 +263,7 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P20_0.png"
       }
     ],
+    "end_frame": null,
     "video_url": null
   },
   {
@@ -250,6 +275,7 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P21_0.png"
       }
     ],
+    "end_frame": null,
     "video_url": null
   }
 ]
