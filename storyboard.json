@@ -8,8 +8,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P00_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_Y1AiFLn6VpYR4LbItPmpetQdlegrgAWt.mp4"
+    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_Y1AiFLn6VpYR4LbItPmpetQdlegrgAWt.mp4",
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P00_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "`P00.png` ✅, Tôt le matin dans une cuisine vide. Le rayon de soleil doré sur les carreaux et le plan de travail se déplace très lentement, comme si un léger nuage passait, puis s'éclaire de nouveau. Quelques particules de poussière flottent doucement dans le rayon de lumière. L'ombre du cadre de la fenêtre se balance très légèrement. La machine à espresso reste immobile et éteinte.\nGardez la texture gouache peinte, les couleurs et le cadrage de l'image tout au long.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P01",
@@ -20,8 +23,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P01_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": null
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P01_0.png",
+    "last_frame": null,
+    "seconds": "5",
+    "video_prompt": "Close-up of an espresso machine pouring coffee into a cream ceramic mug. The camera stays still. One continuous take with no cuts.\n\nA thin stream of dark coffee flows from the spout into the mug, with a little crema forming. After three seconds, the stream thins into a few last drops and stops. Thin steam rises from the coffee.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: espresso machine pouring, then the last drips and the machine stopping. Music: none. Dialogue: none.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P02A",
@@ -32,8 +38,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P02A_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_aj1UudO0AASu95DKKUaznlvhaEffdq6S.mp4"
+    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_aj1UudO0AASu95DKKUaznlvhaEffdq6S.mp4",
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P02A_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "Static locked-off shot, first-person view. The camera remains completely stationary and the framing stays unchanged. One continuous take with no cuts and no change of angle from start to end.\n\nIn the first second, her right hand lets go of the mug handle. It lifts just above the counter and moves in one direct, natural line to the right, passing in front of the coffee machine, to the phone. Her forearm and teal sleeve follow the hand and stay connected to the bottom edge of the frame the whole time. Her fingertips settle on the phone and the hand rests there, still, for the rest of the clip. The phone stays flat and does not move.\n\nThe mug stays where it is, with gentle steam rising. Everything else in the kitchen stays unchanged. Keep the painted gouache texture of the image.\n\nAudio: quiet kitchen room tone, a soft touch of fingertips on the phone. Music: none. Dialogue: none.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P02",
@@ -44,8 +53,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P02_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_3iZpYdv2RyE79kjzVYHmdmfLn7bKmkg0.mp4"
+    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_3iZpYdv2RyE79kjzVYHmdmfLn7bKmkg0.mp4",
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P02_0.png",
+    "last_frame": null,
+    "seconds": "5",
+    "video_prompt": "Static locked-off shot, first-person view. The camera remains completely stationary and the framing stays unchanged. One continuous take with no cuts and no change of angle from start to end.\n\nIn the first second, her right hand lets go of the mug handle. It lifts just above the counter and moves in one direct, natural line to the right, passing in front of the coffee machine, to the phone. Her forearm and teal sleeve follow the hand and stay connected to the bottom edge of the frame the whole time. Her fingertips settle on the phone and the hand rests there, still, for the rest of the clip. The phone stays flat and does not move.\n\nThe mug stays where it is, with gentle steam rising. Everything else in the kitchen stays unchanged. Keep the painted gouache texture of the image.\n\nAudio: quiet kitchen room tone, a soft touch of fingertips on the phone. Music: none. Dialogue: none.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P03",
@@ -56,8 +68,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P03_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_1hNES9OA1atYUe8iGijVAMCWqkQjqRnH.mp4"
+    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_1hNES9OA1atYUe8iGijVAMCWqkQjqRnH.mp4",
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P03_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "POV of a woman holding a phone with a dark, blank screen above a wooden kitchen counter. The camera stays still. One continuous take with no cuts.\n\nCalmly, she lowers the phone and lays it flat on the counter, screen up, in one smooth movement. Then her hand lets go and withdraws out of frame to the lower left. The phone stays flat and still on the counter until the end.\n\nKeep the painted gouache texture of the image throughout. The phone screen stays dark and blank.\n\nAudio: the light tap of a phone set on a wooden counter. Music: none. Dialogue: none.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P04",
@@ -68,8 +83,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P04_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_dfERxUc1AWvS2RaojBdJfBB0FcSzjTQP.mp4"
+    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_dfERxUc1AWvS2RaojBdJfBB0FcSzjTQP.mp4",
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P04_0.png",
+    "last_frame": null,
+    "seconds": "8",
+    "video_prompt": "`P04.png` ✅. C'est une seule image pour P04 à P06 : le téléphone ne bouge pas, seul l'écran change.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P07",
@@ -80,23 +98,32 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P07_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_3xk4N5l4CkiLeJZEhsDZHFDo2DrPwRYo.mp4"
+    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_3xk4N5l4CkiLeJZEhsDZHFDo2DrPwRYo.mp4",
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P07_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "POV of a woman looking down at a phone lying flat on a wooden kitchen counter, her right hand resting near it. The camera stays still. One continuous take with no cuts.\n\nHer hand slides toward the phone and her index finger taps the lower part of the screen once, then her hand stays resting beside the phone. The phone itself does not move at all; it stays flat in exactly the same place.\n\nKeep the painted gouache texture of the image throughout. The phone screen stays dark and blank.\n\nAudio: one soft fingertip tap on glass, quiet kitchen room tone. Music: none. Dialogue: none.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P08",
     "title": "La deuxième tasse",
-    "anim_prompt": "One continuous first-person shot, with a completely stationary camera and no cuts. Starting with her hand on the right cupboard knob, she pulls the right door open, then opens the left door with the same hand. The terracotta mug is standing on the shelf between the stacked plates and the two glasses. She reaches in, takes the mug by its handle, and lifts it gently. End exactly on the supplied last frame, with the mug in her hand inside the open cupboard. Keep the cupboard geometry, warm window light, and painted gouache texture consistent throughout. Only one hand is visible; the mug never rests outside the cupboard.\n\nAudio: soft wooden hinge movement, then a faint ceramic sound as the mug leaves the shelf. Music: none. Dialogue: none.",
+    "anim_prompt": "One continuous first-person shot, with a completely stationary camera and no cuts. Starting with her hand on the right cupboard knob, she pulls the right door open, then opens the left door with the same hand. The terracotta mug is standing on the shelf between the stacked plates and the two glasses. She reaches in, takes the mug by its handle, and lifts it gently. End exactly on the supplied last frame, with the mug in her hand inside the open cupboard. Keep the cupboard geometry, warm window light, and painted gouache texture consistent throughout. Only one hand is visible; the mug never rests outside the cupboard.\n\nAudio: soft wooden hinge movement, then a faint ceramic sound as the mug leaves the shelf. Music: none. Dialogue: none.\nAudio: soft wooden hinge movement, then a faint ceramic sound as the mug leaves the shelf. Music: none. Dialogue: none.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P08_0.png"
       },
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P08_1.png"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P08_2.png"
       }
     ],
-    "end_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P08_1.png",
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_0ojyA3JDekQQKoQ8b10bxo5AKLPoSDEc.mp4"
+    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_0ojyA3JDekQQKoQ8b10bxo5AKLPoSDEc.mp4",
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P08_0.png",
+    "last_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P08_2.png",
+    "seconds": "5",
+    "video_prompt": "One continuous first-person shot, with a completely stationary camera and no cuts. Starting with her hand on the right cupboard knob, she pulls the right door open, then opens the left door with the same hand. The terracotta mug is standing on the shelf between the stacked plates and the two glasses. She reaches in, takes the mug by its handle, and lifts it gently. End exactly on the supplied last frame, with the mug in her hand inside the open cupboard. Keep the cupboard geometry, warm window light, and painted gouache texture consistent throughout. Only one hand is visible; the mug never rests outside the cupboard.\n\nAudio: soft wooden hinge movement, then a faint ceramic sound as the mug leaves the shelf. Music: none. Dialogue: none.\nAudio: soft wooden hinge movement, then a faint ceramic sound as the mug leaves the shelf. Music: none. Dialogue: none.\nThe shot starts exactly on the first frame and moves with smooth, continuous motion to end exactly on the composition of the last frame. Keep characters, clothing, props and set identical between the two frames.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P09",
@@ -107,8 +134,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P09_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_QuqxH4wOmunMIxU8imnbXu2ZsIBzLUTW.mp4"
+    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_QuqxH4wOmunMIxU8imnbXu2ZsIBzLUTW.mp4",
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P09_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "POV of a woman's index finger on the round button of a cream espresso machine, a terracotta mug under the spout. The camera stays completely still. One continuous take with no cuts.\n\nHer finger presses the button once, and her hand withdraws out of frame to the right. Then a thin, straight stream of dark coffee falls from the spout into the terracotta mug, steadily, until the end. The coffee level in the mug rises slowly.\n\nThe espresso machine keeps exactly the same shape, parts and colors from the first to the last frame: same button, same portafilter, same spout, same drip tray. Nothing is added to the machine. Only the hand and the stream of coffee move.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: the click of the button, then the espresso pump humming and coffee pouring. Music: none. Dialogue: none.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P10",
@@ -119,8 +149,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P10_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_nXE5Juf9jSBR1IJz39nSBJqzX6zmllah.mp4"
+    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_nXE5Juf9jSBR1IJz39nSBJqzX6zmllah.mp4",
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P10_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "POV of a woman setting a terracotta mug of coffee on a round wooden table, in front of a man whose two hands rest on the table near his phone. The camera stays still. One continuous take with no cuts.\n\nHer hand lets go of the mug and withdraws out of frame to the lower left. Steam rises from the coffee and drifts slowly. The man's hands move a little, as when someone talks: his fingers open slightly, his right thumb rubs the edge of the phone, then his hands settle again.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: the soft knock of a mug on a wooden table, quiet room tone. Music: none. Dialogue: none.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P11",
@@ -131,8 +164,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P11_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_N5jDtcR9lahKTTN5ZcmtieNUHgU9Ruie.mp4"
+    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_N5jDtcR9lahKTTN5ZcmtieNUHgU9Ruie.mp4",
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P11_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "`P11.png` ✅, l'image large du plan de travail.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P12",
@@ -143,8 +179,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P12_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_ZHrmlhxhgRAXIYcPCIWIaGpfnDSObJxU.mp4"
+    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_ZHrmlhxhgRAXIYcPCIWIaGpfnDSObJxU.mp4",
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P12_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "POV of a woman's right hand holding a small stack of white envelopes just above a wooden kitchen counter. The camera stays still. One continuous take with no cuts.\n\nShe lifts the stack a little higher and tilts it, looking for something underneath. The counter below is empty. She pauses for a second, then puts the stack back down on the pile, in the same place.\n\nKeep the painted gouache texture of the image throughout. The envelopes stay blank.\n\nAudio: paper rustling, then the soft pat of envelopes set down. Music: none. Dialogue: none.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P13A",
@@ -155,8 +194,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P13A_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_55WCgcGDJ9qiP3ClSnmZKYdlfdY2Ux7W.mp4"
+    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_55WCgcGDJ9qiP3ClSnmZKYdlfdY2Ux7W.mp4",
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P13A_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "`P13A.png` ✅ (le plan de travail sans clés) et `P13C.png` ✅ (la main de Thomas vient de poser les clés).\n🎬 `P13-clip_v01.mp4` ✅, les 4 premières secondes. Sa main arrive par la droite, pose les clés devant les enveloppes et ouvre les doigts. Après, une main fantôme apparaît : on ne la garde pas.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P13C",
@@ -167,8 +209,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P13C_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_kJBEL2WxE7dDT5KT5sAY9JT7pPY8YceK.mp4"
+    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_kJBEL2WxE7dDT5KT5sAY9JT7pPY8YceK.mp4",
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P13C_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "Close shot of a kitchen counter with a pile of white envelopes and a fruit bowl. The camera stays still. One continuous take with no cuts.\n\nA man's right hand in a grey-green shirt cuff enters from the right edge of the frame, holding a key ring with a coral leather tab. He lowers it and sets the keys flat on the counter in front of the envelopes, then his fingers open and stay just above the keys.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: the jingle of keys set on a wooden counter. Music: none. Dialogue: none.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P13B",
@@ -179,8 +224,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P13B_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_t8AOTEUaWKGnQIwwBREkIYW1GPKFxdp3.mp4"
+    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_t8AOTEUaWKGnQIwwBREkIYW1GPKFxdp3.mp4",
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P13B_0.png",
+    "last_frame": null,
+    "seconds": "5",
+    "video_prompt": "Close shot of a kitchen counter with a pile of white envelopes and a fruit bowl. The camera stays still. One continuous take with no cuts.\n\nA man's right hand in a grey-green shirt cuff enters from the right edge of the frame, holding a key ring with a coral leather tab. He lowers it and sets the keys flat on the counter in front of the envelopes, then his fingers open and stay just above the keys.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: the jingle of keys set on a wooden counter. Music: none. Dialogue: none.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P14",
@@ -191,8 +239,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P14_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": null
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P14_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "POV of a woman's right hand on a key ring with a coral leather tab, on a wooden counter. The camera stays still. One continuous take with no cuts.\n\nHer fingers close around the keys and lift them a few centimeters off the counter. Then her hand stops and stays completely still, holding the keys, until the end.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: the small jingle of keys picked up, then silence. Music: none. Dialogue: none.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P15",
@@ -203,8 +254,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P15_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": null
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P15_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "POV of a woman holding a phone with a dark, blank screen in her left hand above a wooden kitchen counter. The camera stays still. One continuous take with no cuts.\n\nCalmly, she lowers the phone and lays it flat on the counter, screen up, in one smooth movement. Then her hand lets go and withdraws out of frame to the lower left. The phone stays flat and still on the counter until the end.\n\nKeep the painted gouache texture of the image throughout. The phone screen stays dark and blank.\n\nAudio: the light tap of a phone set on a wooden counter. Music: none. Dialogue: none.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P16",
@@ -215,8 +269,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P16_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_aoMsTh4ArUnDg50Rbojf5oqDIsPmGChp.mp4"
+    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_aoMsTh4ArUnDg50Rbojf5oqDIsPmGChp.mp4",
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P16_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "First-person view of a woman standing at a wooden coat rack. Her left hand, in a teal knit sleeve coming from the lower left, holds her phone against the collar of a dark indigo jacket hanging on the left hook. A camel leather bag hangs on the middle hook. The camera stays completely still. One continuous shot with no cuts.\n\nExactly two hands in the video, both hers. Her left hand stays where it is, holding the phone, and does not move. In the first second, her right hand, in the same teal knit sleeve, enters from the lower right edge of the frame, holding a key ring with a coral leather tab. Her right hand takes the jacket by the collar, lifts it off the hook and lays it over her left forearm. The jacket moves down toward the lower left and stays partly visible until the end. The left hook is empty.\n\nThe camel bag stays on its hook, fully visible and still. The coat rack, the wall and the door on the right do not change. The phone screen stays dark and blank.\n\nKeep the painted gouache texture of the image throughout.\n\nAvoid: a third hand, a hand coming from the left side to take the jacket, the phone changing hands, the jacket or the bag disappearing, an empty wall, camera movement, zoom, cuts, text, anything on the phone screen, photorealistic rendering, a face.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P17",
@@ -227,8 +284,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P17_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": null
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P17_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "POV of a woman's right hand, holding a key ring with a coral leather tab, gripping the strap of a camel leather bag hanging on a coat hook. The camera stays still. One continuous take with no cuts.\n\nShe lifts the strap off the hook and pulls the bag toward her, out of frame to the lower right. The keys swing in her fingers. The hook stays empty.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: leather creak and the jingle of keys. Music: none. Dialogue: none.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P18",
@@ -239,8 +299,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P18_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_vMhlFiASmpYi20i8lG6T9bRjHXxHA0Dj.mp4"
+    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_vMhlFiASmpYi20i8lG6T9bRjHXxHA0Dj.mp4",
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P18_0.png",
+    "last_frame": null,
+    "seconds": "9",
+    "video_prompt": "POV shot through the eyes of a woman standing at her front door, looking down at her own right hand on the lever handle. One continuous take with no cuts and no change of angle from start to end. The camera stays almost still, with only the faint natural sway of someone breathing while standing.\n\nAt first her hand rests on the lever, the keys hanging still from her fingers. After one second, her fingers loosen slightly on the lever and stay paused, as if she is listening to someone behind her. The keys sway gently, then settle. Around the fifth second, her fingers close firmly around the lever again. In the last second and a half, she presses the lever down in one smooth, deliberate movement; the keys swing with the motion.\n\nThe door and the doormat stay still. Only her right hand and arm are visible; no bag, no bag strap and no jacket appear at any time. The painted gouache texture of the image is kept throughout.\n\nAudio: quiet hallway room tone. SFX: the soft metallic click of the lever at the end. Music: none. Dialogue: none.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P19",
@@ -251,8 +314,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P19_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": null
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P19_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "First-person view of a woman standing on a stairwell landing. Her left hand holds her phone upright. A dark indigo jacket is draped over her left forearm, and the teal knit cuff of her sleeve stays visible between the jacket and her hand. Her right hand, in a teal knit sleeve, holds a key ring with a coral leather tab. One continuous shot with no cuts.\n\nHer left hand, the phone and the jacket stay completely still for the whole video: they do not move, lower or slide. The camera sways very gently, only the breathing of someone standing still. Her right hand turns the key ring slowly with her thumb, picks out one key between her fingers, and the other keys swing a little, then settle.\n\nThe window, the stairs and the banister do not change. The phone screen stays dark and blank.\n\nKeep the painted gouache texture of the image throughout.\n\nAvoid: the left hand moving, the phone being lowered or put away, the left arm disappearing under the jacket, the jacket sliding, a third hand, extra fingers, camera movement, zoom, cuts, text, anything on the phone screen, photorealistic rendering, a face.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P20",
@@ -263,8 +329,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P20_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": null
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P20_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "Side view of a woman standing on a stairwell landing, framed from under the chin to mid-thigh, checking inside the camel bag she holds in front of her. The camera stays still. One continuous take with no cuts.\n\nHer far hand, with the jacket over her forearm, holds the flap of the bag open. Her near hand, the keys between her fingers, rummages inside: it pushes the phone aside, touches the wallet, then pauses. Her hair moves slightly at the top of the frame as she bends her head. Her face stays out of frame at all times.\n\nKeep the painted gouache texture of the image throughout.\n\nAudio: leather and small objects shifting in a bag, the jingle of keys, faint stairwell echo. Music: none. Dialogue: none.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P21",
@@ -275,7 +344,10 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P21_0.png"
       }
     ],
-    "end_frame": null,
-    "video_url": null
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P21_0.png",
+    "last_frame": null,
+    "seconds": "9",
+    "video_prompt": "Wide static shot of a sunlit kitchen. A man sits alone at a round wooden table, a mug of coffee and an old photograph in front of him. The camera remains completely stationary. One continuous take with no cuts.\n\nAt first he sits still, looking ahead. After two seconds, he slowly raises his right hand and rests his chin in it, thinking. Then his eyes lower to the photograph on the table and stay on it. Small, slow, natural movements only. Steam rises gently from the mug on the counter in the foreground and from his mug.\n\nKeep the painted gouache texture of the image throughout. He keeps the same face and clothes.\n\nAudio: quiet room tone, a ticking clock, distant birds outside. Music: none. Dialogue: none.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
   }
 ]
