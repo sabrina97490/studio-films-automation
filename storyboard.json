@@ -1,7 +1,7 @@
 [
   {
     "ident": "P01",
-    "title": "Lucas traverse la terrasse",
+    "title": "Lucas traverse avec le plateau",
     "anim_prompt": "Painterly animated wide shot of a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe waiter walks slowly toward the camera down the narrow passage between the tables, holding a round tray with one white coffee cup at hip height. The man in the rust-red jacket on the left and the woman in the green cardigan on the right stay seated, relaxed. At the back table, the old man with glasses stirs his coffee once with the spoon, then leaves the spoon in the cup. Leaves move slightly in the tree. Nobody else enters.",
     "images": [
       {
@@ -11,14 +11,14 @@
     "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P01_0.png",
     "last_frame": null,
-    "seconds": "5",
-    "video_prompt": "Painterly animated wide shot of a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe waiter walks slowly toward the camera down the narrow passage between the tables, holding a round tray with one white coffee cup at hip height. The man in the rust-red jacket on the left and the woman in the green cardigan on the right stay seated, relaxed. At the back table, the old man with glasses stirs his coffee once with the spoon, then leaves the spoon in the cup. Leaves move slightly in the tree. Nobody else enters.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image.",
+    "seconds": "6",
+    "video_prompt": "Painterly animated wide shot of a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe waiter walks slowly toward the camera down the narrow passage between the tables, holding a round tray with one white coffee cup at hip height. The man in the rust-red jacket on the left and the woman in the green cardigan on the right stay seated, relaxed. At the back table, the old man with glasses stirs his coffee once with the spoon, then leaves the spoon in the cup. Leaves move slightly in the tree. Nobody else enters.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P02",
-    "title": "La chaise recule, le plateau la touche",
+    "title": "La chaise recule, le plateau touche le dossier",
     "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe seated man in the rust-red jacket on the left shifts his weight to settle in and slides his wicker chair backward about fifteen centimeters into the narrow passage, with a short scrape on the stone floor. At the same moment the waiter behind him walks forward along the passage, holding his round tray low at hip height with one white coffee cup on it. The edge of the tray bumps into the top of the chair back. The cup on the tray wobbles and starts to tip toward the seated man. The clip ends right there, before any coffee falls.\n\nThe woman in the green cardigan on the right and the old man with glasses at the back table stay seated and calm. Everything else in the image stays still.",
     "images": [
       {
@@ -28,8 +28,8 @@
     "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02_0.png",
     "last_frame": null,
-    "seconds": "5",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe seated man in the rust-red jacket on the left shifts his weight to settle in and slides his wicker chair backward about fifteen centimeters into the narrow passage, with a short scrape on the stone floor. At the same moment the waiter behind him walks forward along the passage, holding his round tray low at hip height with one white coffee cup on it. The edge of the tray bumps into the top of the chair back. The cup on the tray wobbles and starts to tip toward the seated man. The clip ends right there, before any coffee falls.\n\nThe woman in the green cardigan on the right and the old man with glasses at the back table stay seated and calm. Everything else in the image stays still.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image.",
+    "seconds": "6",
+    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe seated man in the rust-red jacket on the left shifts his weight to settle in and slides his wicker chair backward about fifteen centimeters into the narrow passage, with a short scrape on the stone floor. At the same moment the waiter behind him walks forward along the passage, holding his round tray low at hip height with one white coffee cup on it. The edge of the tray bumps into the top of the chair back. The cup on the tray wobbles and starts to tip toward the seated man. The clip ends right there, before any coffee falls.\n\nThe woman in the green cardigan on the right and the old man with glasses at the back table stay seated and calm. Everything else in the image stays still.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
@@ -45,15 +45,15 @@
     "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P03_0.png",
     "last_frame": null,
-    "seconds": "5",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe splash of coffee already in the air finishes landing on the front left of the seated man's rust-red jacket, leaving one dark stain on his chest. He flinches back, his raised hand stops in mid-air, he looks down at his jacket in shock. The empty white cup rolls onto its side on the waiter's tray and stays on the tray. The waiter freezes, eyes wide, holding the tray with both hands.\n\nThe woman in the green cardigan on the right and the old man with glasses at the back table only lift their eyes. Nobody else moves.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image.",
+    "seconds": "4",
+    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe splash of coffee already in the air finishes landing on the front left of the seated man's rust-red jacket, leaving one dark stain on his chest. He flinches back, his raised hand stops in mid-air, he looks down at his jacket in shock. The empty white cup rolls onto its side on the waiter's tray and stays on the tray. The waiter freezes, eyes wide, holding the tray with both hands.\n\nThe woman in the green cardigan on the right and the old man with glasses at the back table only lift their eyes. Nobody else moves.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P04",
-    "title": "Scénario découpé",
-    "anim_prompt": "### A — L’incident\n**P01 · 0:00–0:06 · 6 s · Plan général fixe**\nLa terrasse en fin d’après-midi. Lucas traverse le passage avec un plateau et une tasse. Marc est assis à gauche ; Claire à droite ; au fond, l’homme âgé est assis devant son café, la cuillère dans la tasse et la soucoupe dessous. La composition établit clairement les distances. Conversations, couverts et circulation lointaine. Aucun dialogue.\n**P02 · 0:06–0:10 · 4 s · Plan moyen, axe du passage**\nMarc se réinstalle et fait glisser sa chaise légèrement en arrière. Lucas arrive dans son dos, le plateau bas. Le bord du plateau rencontre le haut du dossier. Le mouvement de chaise ne reçoit ni gros plan ni effet sonore souligné : un léger frottement sur le sol suffit.\n**P03 · 0:10–0:14 · 4 s · Gros plan de l’accident**\nLa tasse bascule vers Marc ; le café atteint le devant de sa veste. Une seule éclaboussure lisible. Tintement de tasse, puis arrêt fugitif des conversations autour. Vérifier la trajectoire réelle du liquide au montage.\n**P04 · 0:14–0:21 · 7 s · Deux personnages, plan moyen**\nMarc se lève et regarde la tache. **Marc :** « Ah ! Ma veste ! » **Lucas :** « Pardon. Je vous apporte une serviette. » Lucas se tourne vers sa desserte, à portée de main.\n**P05 · 0:21–0:27 · 6 s · Plan rapproché des bras et des visages**\nMarc retient l’avant-bras de Lucas, sans le secouer. **Marc :** « Et le pressing, vous le payez ? » Claire se lève hors de son champ. **Claire :** « Lâchez-le. »\n### B — Les récits s’opposent\n**P06 · 0:27–0:33 · 6 s · Plan moyen latéral**\nClaire écarte la main de Marc du bras de Lucas. Marc pivote vers elle, leurs épaules se heurtent ; Claire le repousse de la paume. Aucun coup, aucune chute. Le son de la terrasse revient, plus agité. Décomposer en deux ou trois plans brefs si l’animation confond les mains.\n**P07 · 0:33–0:37 · 4 s · Point de vue de Julien depuis l’entrée**\nOn ne voit que la fin du geste : Claire repousse Marc. L’accident et le bras retenu sont hors de son champ. Julien entre à l’image **au plan suivant**, afin que ce plan puisse réellement être son point de vue.\n**P08 · 0:37–0:44 · 7 s · Plan américain, Julien rejoint le groupe**\n**Julien :** « Pourquoi vous le poussez ? » **Claire :** « Il retenait le serveur. » **Julien :** « J’ai vu votre geste, moi. » Il n’invente pas ce qu’il a vu ; il en tire une conclusion.\n**P09 · 0:44–0:51 · 7 s · Trois plans rapprochés ou raccords de regards**\nLes répliques se chevauchent légèrement. **Marc :** « Le café, c’est moi qui l’ai reçu ! » **Claire :** « Vous l’avez attrapé ! » **Julien :** « Elle vous a poussé ! » Aucun personnage n’écoute la réponse à sa propre phrase.\n**P10 · 0:51–0:57 · 6 s · Plan fixe sur Lucas**\nIl tient une serviette propre, la tend vers Marc. **Lucas :** « Je peux juste… » Les autres continuent hors champ. Sa main reste tendue, puis redescend. L’homme âgé apparaît loin derrière, sans changement de focale pour l’annoncer.\n**P11 · 0:57–1:03 · 6 s · Plan d’ensemble**\nLe patron sort du café. **Patron :** « Qu’est-ce qui se passe ? » Tout le monde se tourne vers lui. Lucas garde la serviette à la main.\n**P12 · 1:03–1:09 · 6 s · Deux réactions, même axe**\n**Claire et Julien, presque ensemble :** « J’ai tout vu ! » / « Moi aussi ! » Ils se regardent : pour la première fois, la contradiction devient visible. Le patron attend sans trancher.\n**P13 · 1:09–1:16 · 7 s · Plan rapproché de Claire**\n**Claire :** « Le serveur s’est excusé. Monsieur lui a pris le bras. » Elle parle avec assurance et désigne Marc. Elle rapporte des gestes qu’elle a réellement vus.\n**P14 · 1:16–1:23 · 7 s · Contrechamp sur Julien, Claire en amorce**\n**Julien :** « Moi, je l’ai vue le pousser. » **Claire :** « Vous veniez d’arriver ! » Le patron les regarde tous les deux, puis la veste de Marc.\n**P15 · 1:23–1:28 · 5 s · Plan sur le patron et la veste tachée**\n**Patron :** « Et avant ? Le café ? » Le groupe se tait un instant. Personne ne repart du tout premier geste.\n### C — Le témoin\n**P16 · 1:28–1:33 · 5 s · Plan large rappelant P01**\nDu fond de la terrasse, **l’homme :** « Moi, j’ai vu le début. » Les regards se tournent vers lui. Il est toujours assis à sa place, sa tasse et sa soucoupe devant lui. Le film ne donne pas à son intervention une entrée héroïque.\n**P17 · 1:33–1:43 · 10 s · Voix de l’homme et éclats de souvenir**\n**L’homme :** « La chaise a reculé dans le passage. Le plateau l’a touchée. Le café est tombé sur la veste. » Sa voix reste continue. Sur chaque fait, insérer un fragment très court des plans déjà vus : recul de la chaise (P02, bien lisible), contact du plateau (P02), café sur la veste (P03). Alterner ces fragments avec l’homme toujours assis. Léger flou sur les bords et ambiance atténuée pour suggérer le souvenir, mais garder net le geste important. Aucun ralenti dramatique ni musique de révélation.\n**P18 · 1:43–1:52 · 9 s · Retour au témoin et fragments du même incident**\n**L’homme :** « Il a retenu le serveur. Madame a séparé leurs mains. Leurs épaules se sont heurtées. Elle l’a repoussé. Lui est arrivé après. » Entre quelques phrases, insérer des fragments du bras retenu (P05), des mains séparées et des épaules (P06), de la poussée (P06–P07), puis de l’arrivée de Julien (P08). Une demi-seconde à une seconde par fragment, sans rejouer l’incident sous un angle impossible pour le témoin ; revenir à son visage entre les gestes. Son dernier regard indique Julien. La voix reste simple, sans verdict ni accélération artificielle.\n**P19 · 1:52–1:57 · 5 s · Champ puis contrechamp, retour au présent**\n**Patron :** « Alors, qui a raison ? » **L’homme, toujours assis :** « Je ne sais pas. » À cette réplique, les éclats de souvenir cessent. Tenir une seconde sur son visage calme, dans le son réel de la terrasse : il a vu les gestes, pas ce que chacun pensait ni ce qu’il aurait fallu faire.\n**P20 · 1:57–2:05 · 8 s · Témoin puis plan large, sans dialogue**\nDans le silence, l’homme, toujours assis, retire doucement la cuillère de sa tasse et la pose sur la soucoupe. Petit tintement net. Il boit une gorgée, sans sourire ni geste de leçon. Coupe vers le plan large : Claire et Julien échangent un regard ; Julien regarde Marc, qui remarque sa chaise encore dans le passage et la rapproche discrètement. Lucas tend toujours sa serviette ; Marc la prend. Un seul personnage peut se gratter brièvement la tête, sans pantomime collective. Le groupe reste décontenancé un instant, sans verdict ni réconciliation explicative. Le dernier regard du film appartient au groupe, pas à l’homme.\n### D — Fin\n**P21 · 2:05–2:09 · 4 s · Carton final**\n« Et si vous n’aviez pas tout vu ? » Le frottement lointain d’une chaise ou l’ambiance de terrasse persiste brièvement, puis s’éteint. Ajouter le texte au montage, jamais dans une image générée.\n**P22 · 2:09–2:13 · 4 s · Signature**\nLogo ET SI… ? / Loel Création et invitation courte à découvrir les autres épisodes, à ajouter au montage.",
+    "title": "« Ah ! Ma veste ! »",
+    "anim_prompt": "The camera stays completely still. Only subtle breathing and tiny natural movements of the characters. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P04_0.png"
@@ -62,15 +62,15 @@
     "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P04_0.png",
     "last_frame": null,
-    "seconds": "5",
-    "video_prompt": "### A — L’incident\n**P01 · 0:00–0:06 · 6 s · Plan général fixe**\nLa terrasse en fin d’après-midi. Lucas traverse le passage avec un plateau et une tasse. Marc est assis à gauche ; Claire à droite ; au fond, l’homme âgé est assis devant son café, la cuillère dans la tasse et la soucoupe dessous. La composition établit clairement les distances. Conversations, couverts et circulation lointaine. Aucun dialogue.\n**P02 · 0:06–0:10 · 4 s · Plan moyen, axe du passage**\nMarc se réinstalle et fait glisser sa chaise légèrement en arrière. Lucas arrive dans son dos, le plateau bas. Le bord du plateau rencontre le haut du dossier. Le mouvement de chaise ne reçoit ni gros plan ni effet sonore souligné : un léger frottement sur le sol suffit.\n**P03 · 0:10–0:14 · 4 s · Gros plan de l’accident**\nLa tasse bascule vers Marc ; le café atteint le devant de sa veste. Une seule éclaboussure lisible. Tintement de tasse, puis arrêt fugitif des conversations autour. Vérifier la trajectoire réelle du liquide au montage.\n**P04 · 0:14–0:21 · 7 s · Deux personnages, plan moyen**\nMarc se lève et regarde la tache. **Marc :** « Ah ! Ma veste ! » **Lucas :** « Pardon. Je vous apporte une serviette. » Lucas se tourne vers sa desserte, à portée de main.\n**P05 · 0:21–0:27 · 6 s · Plan rapproché des bras et des visages**\nMarc retient l’avant-bras de Lucas, sans le secouer. **Marc :** « Et le pressing, vous le payez ? » Claire se lève hors de son champ. **Claire :** « Lâchez-le. »\n### B — Les récits s’opposent\n**P06 · 0:27–0:33 · 6 s · Plan moyen latéral**\nClaire écarte la main de Marc du bras de Lucas. Marc pivote vers elle, leurs épaules se heurtent ; Claire le repousse de la paume. Aucun coup, aucune chute. Le son de la terrasse revient, plus agité. Décomposer en deux ou trois plans brefs si l’animation confond les mains.\n**P07 · 0:33–0:37 · 4 s · Point de vue de Julien depuis l’entrée**\nOn ne voit que la fin du geste : Claire repousse Marc. L’accident et le bras retenu sont hors de son champ. Julien entre à l’image **au plan suivant**, afin que ce plan puisse réellement être son point de vue.\n**P08 · 0:37–0:44 · 7 s · Plan américain, Julien rejoint le groupe**\n**Julien :** « Pourquoi vous le poussez ? » **Claire :** « Il retenait le serveur. » **Julien :** « J’ai vu votre geste, moi. » Il n’invente pas ce qu’il a vu ; il en tire une conclusion.\n**P09 · 0:44–0:51 · 7 s · Trois plans rapprochés ou raccords de regards**\nLes répliques se chevauchent légèrement. **Marc :** « Le café, c’est moi qui l’ai reçu ! » **Claire :** « Vous l’avez attrapé ! » **Julien :** « Elle vous a poussé ! » Aucun personnage n’écoute la réponse à sa propre phrase.\n**P10 · 0:51–0:57 · 6 s · Plan fixe sur Lucas**\nIl tient une serviette propre, la tend vers Marc. **Lucas :** « Je peux juste… » Les autres continuent hors champ. Sa main reste tendue, puis redescend. L’homme âgé apparaît loin derrière, sans changement de focale pour l’annoncer.\n**P11 · 0:57–1:03 · 6 s · Plan d’ensemble**\nLe patron sort du café. **Patron :** « Qu’est-ce qui se passe ? » Tout le monde se tourne vers lui. Lucas garde la serviette à la main.\n**P12 · 1:03–1:09 · 6 s · Deux réactions, même axe**\n**Claire et Julien, presque ensemble :** « J’ai tout vu ! » / « Moi aussi ! » Ils se regardent : pour la première fois, la contradiction devient visible. Le patron attend sans trancher.\n**P13 · 1:09–1:16 · 7 s · Plan rapproché de Claire**\n**Claire :** « Le serveur s’est excusé. Monsieur lui a pris le bras. » Elle parle avec assurance et désigne Marc. Elle rapporte des gestes qu’elle a réellement vus.\n**P14 · 1:16–1:23 · 7 s · Contrechamp sur Julien, Claire en amorce**\n**Julien :** « Moi, je l’ai vue le pousser. » **Claire :** « Vous veniez d’arriver ! » Le patron les regarde tous les deux, puis la veste de Marc.\n**P15 · 1:23–1:28 · 5 s · Plan sur le patron et la veste tachée**\n**Patron :** « Et avant ? Le café ? » Le groupe se tait un instant. Personne ne repart du tout premier geste.\n### C — Le témoin\n**P16 · 1:28–1:33 · 5 s · Plan large rappelant P01**\nDu fond de la terrasse, **l’homme :** « Moi, j’ai vu le début. » Les regards se tournent vers lui. Il est toujours assis à sa place, sa tasse et sa soucoupe devant lui. Le film ne donne pas à son intervention une entrée héroïque.\n**P17 · 1:33–1:43 · 10 s · Voix de l’homme et éclats de souvenir**\n**L’homme :** « La chaise a reculé dans le passage. Le plateau l’a touchée. Le café est tombé sur la veste. » Sa voix reste continue. Sur chaque fait, insérer un fragment très court des plans déjà vus : recul de la chaise (P02, bien lisible), contact du plateau (P02), café sur la veste (P03). Alterner ces fragments avec l’homme toujours assis. Léger flou sur les bords et ambiance atténuée pour suggérer le souvenir, mais garder net le geste important. Aucun ralenti dramatique ni musique de révélation.\n**P18 · 1:43–1:52 · 9 s · Retour au témoin et fragments du même incident**\n**L’homme :** « Il a retenu le serveur. Madame a séparé leurs mains. Leurs épaules se sont heurtées. Elle l’a repoussé. Lui est arrivé après. » Entre quelques phrases, insérer des fragments du bras retenu (P05), des mains séparées et des épaules (P06), de la poussée (P06–P07), puis de l’arrivée de Julien (P08). Une demi-seconde à une seconde par fragment, sans rejouer l’incident sous un angle impossible pour le témoin ; revenir à son visage entre les gestes. Son dernier regard indique Julien. La voix reste simple, sans verdict ni accélération artificielle.\n**P19 · 1:52–1:57 · 5 s · Champ puis contrechamp, retour au présent**\n**Patron :** « Alors, qui a raison ? » **L’homme, toujours assis :** « Je ne sais pas. » À cette réplique, les éclats de souvenir cessent. Tenir une seconde sur son visage calme, dans le son réel de la terrasse : il a vu les gestes, pas ce que chacun pensait ni ce qu’il aurait fallu faire.\n**P20 · 1:57–2:05 · 8 s · Témoin puis plan large, sans dialogue**\nDans le silence, l’homme, toujours assis, retire doucement la cuillère de sa tasse et la pose sur la soucoupe. Petit tintement net. Il boit une gorgée, sans sourire ni geste de leçon. Coupe vers le plan large : Claire et Julien échangent un regard ; Julien regarde Marc, qui remarque sa chaise encore dans le passage et la rapproche discrètement. Lucas tend toujours sa serviette ; Marc la prend. Un seul personnage peut se gratter brièvement la tête, sans pantomime collective. Le groupe reste décontenancé un instant, sans verdict ni réconciliation explicative. Le dernier regard du film appartient au groupe, pas à l’homme.\n### D — Fin\n**P21 · 2:05–2:09 · 4 s · Carton final**\n« Et si vous n’aviez pas tout vu ? » Le frottement lointain d’une chaise ou l’ambiance de terrasse persiste brièvement, puis s’éteint. Ajouter le texte au montage, jamais dans une image générée.\n**P22 · 2:09–2:13 · 4 s · Signature**\nLogo ET SI… ? / Loel Création et invitation courte à découvrir les autres épisodes, à ajouter au montage.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image.",
+    "seconds": "7",
+    "video_prompt": "The camera stays completely still. Only subtle breathing and tiny natural movements of the characters. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P05",
-    "title": "Intentions de jeu et de montage",
-    "anim_prompt": "- Le titre promet un témoin « vrai », mais l’homme n’affirme jamais tout comprendre. Son « Je ne sais pas » doit être sincère, sans clin d’œil au public. Il reste assis : sa tranquillité vient de sa manière de rapporter les faits, sans posture de supériorité.\n- Marc n’est pas « démasqué » par le mouvement de sa chaise : il n’a pas causé l’accident volontairement. Lucas n’est pas non plus dispensé d’attention. La scène refuse de déplacer simplement la faute d’une personne à l’autre.\n- Claire et Julien ne mentent pas ; leur assurance dépasse seulement leur champ de vision. Marc réagit à une vraie tache. L’humour vient de la disproportion entre l’incident et la discussion.\n- Éviter le terme « témoin » dans les dialogues et toute explication philosophique. Le public doit pouvoir revoir P02 et reconnaître le mouvement de la chaise par lui-même.\n- Prévoir la voix témoin avant génération définitive : P17 et P18 sont les deux plans sensibles. Si ces répliques dépassent 10 et 9 secondes, prolonger les réactions et la durée totale plutôt qu’accélérer artificiellement la voix. Les souvenirs sont des extraits rapides et reconnaissables de l’incident, montés sur la voix, avec flou léger aux bords seulement ; le témoin et les personnages doivent rester lisibles. P19 et P20 reviennent pleinement au présent.\n- Pour la génération des plans, utiliser la style frame fournie comme **référence de traitement pictural seulement**. Les fiches de Thomas et d’Élise et le décor de bureau appartiennent à d’autres scènes ; les visages, tenues et la terrasse de cet épisode restent à créer.",
+    "title": "Marc retient le bras de Lucas",
+    "anim_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P05_0.png"
@@ -79,15 +79,15 @@
     "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P05_0.png",
     "last_frame": null,
-    "seconds": "5",
-    "video_prompt": "- Le titre promet un témoin « vrai », mais l’homme n’affirme jamais tout comprendre. Son « Je ne sais pas » doit être sincère, sans clin d’œil au public. Il reste assis : sa tranquillité vient de sa manière de rapporter les faits, sans posture de supériorité.\n- Marc n’est pas « démasqué » par le mouvement de sa chaise : il n’a pas causé l’accident volontairement. Lucas n’est pas non plus dispensé d’attention. La scène refuse de déplacer simplement la faute d’une personne à l’autre.\n- Claire et Julien ne mentent pas ; leur assurance dépasse seulement leur champ de vision. Marc réagit à une vraie tache. L’humour vient de la disproportion entre l’incident et la discussion.\n- Éviter le terme « témoin » dans les dialogues et toute explication philosophique. Le public doit pouvoir revoir P02 et reconnaître le mouvement de la chaise par lui-même.\n- Prévoir la voix témoin avant génération définitive : P17 et P18 sont les deux plans sensibles. Si ces répliques dépassent 10 et 9 secondes, prolonger les réactions et la durée totale plutôt qu’accélérer artificiellement la voix. Les souvenirs sont des extraits rapides et reconnaissables de l’incident, montés sur la voix, avec flou léger aux bords seulement ; le témoin et les personnages doivent rester lisibles. P19 et P20 reviennent pleinement au présent.\n- Pour la génération des plans, utiliser la style frame fournie comme **référence de traitement pictural seulement**. Les fiches de Thomas et d’Élise et le décor de bureau appartiennent à d’autres scènes ; les visages, tenues et la terrasse de cet épisode restent à créer.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image.",
+    "seconds": "6",
+    "video_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P06",
-    "title": "Modifications de la V3",
-    "anim_prompt": "1. P17 et P18 font revivre brièvement l’incident sur la voix de l’homme, avec des fragments visuels liés aux gestes qu’il décrit ; la chaise reste nette et visible.\n2. P19 coupe les souvenirs sur « Je ne sais pas » et laisse la réponse exister dans le présent.\n3. P20 montre la cuillère posée sur la soucoupe, la gorgée de café, puis le groupe décontenancé en plan large. L’homme reste assis depuis le début.\n4. Le minutage des 22 plans concorde : **2 min 13**, signature comprise. Le montage audio pourra encore l’ajuster.\n**Statut :** scénario V3 retenu pour créer les références visuelles et préparer les plans de l’épisode 5.",
+    "title": "Claire repousse Marc",
+    "anim_prompt": "Very slow, steady push-in toward the characters. One small, short camera jolt at the moment of the push, then stillness. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P06_0.png"
@@ -96,15 +96,15 @@
     "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P06_0.png",
     "last_frame": null,
-    "seconds": "5",
-    "video_prompt": "1. P17 et P18 font revivre brièvement l’incident sur la voix de l’homme, avec des fragments visuels liés aux gestes qu’il décrit ; la chaise reste nette et visible.\n2. P19 coupe les souvenirs sur « Je ne sais pas » et laisse la réponse exister dans le présent.\n3. P20 montre la cuillère posée sur la soucoupe, la gorgée de café, puis le groupe décontenancé en plan large. L’homme reste assis depuis le début.\n4. Le minutage des 22 plans concorde : **2 min 13**, signature comprise. Le montage audio pourra encore l’ajuster.\n**Statut :** scénario V3 retenu pour créer les références visuelles et préparer les plans de l’épisode 5.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image.",
+    "seconds": "6",
+    "video_prompt": "Very slow, steady push-in toward the characters. One small, short camera jolt at the moment of the push, then stillness. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P07",
-    "title": "Nouveau plan",
-    "anim_prompt": "Cinematic motion",
+    "title": "La poussée vue depuis l'entrée",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P07_0.png"
@@ -113,8 +113,8 @@
     "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P07_0.png",
     "last_frame": null,
-    "seconds": "5",
-    "video_prompt": "Cinematic motion\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image.",
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
@@ -133,14 +133,14 @@
     "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P08_0.png",
     "last_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P08_1.png",
-    "seconds": "5",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe young man in the navy-blue zip jacket walks quickly in from the café entrance behind the man in the rust-red jacket, takes two steps into the terrace and raises his arm to point at the woman in the green cardigan. The seated woman keeps pointing back. The man in the rust-red jacket and the waiter holding the white napkin turn their heads toward the newcomer. The old man at the back table stays seated.\nThe shot starts exactly on the first frame and moves with smooth, continuous motion to end exactly on the composition of the last frame. Keep characters, clothing, props and set identical between the two frames.\nVisual style: Ouvre la session de génération d'image.",
+    "seconds": "4",
+    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe young man in the navy-blue zip jacket walks quickly in from the café entrance behind the man in the rust-red jacket, takes two steps into the terrace and raises his arm to point at the woman in the green cardigan. The seated woman keeps pointing back. The man in the rust-red jacket and the waiter holding the white napkin turn their heads toward the newcomer. The old man at the back table stays seated.\nThe shot starts exactly on the first frame and moves with smooth, continuous motion to end exactly on the composition of the last frame. Keep characters, clothing, props and set identical between the two frames.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P09",
-    "title": "Julien arrive",
+    "title": "Les trois répliques se chevauchent",
     "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe young man in the navy-blue zip jacket walks quickly in from the café entrance behind the man in the rust-red jacket, takes two steps into the terrace and raises his arm to point at the woman in the green cardigan. The seated woman keeps pointing back. The man in the rust-red jacket and the waiter holding the white napkin turn their heads toward the newcomer. The old man at the back table stays seated.",
     "images": [
       {
@@ -150,15 +150,15 @@
     "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P09_0.png",
     "last_frame": null,
-    "seconds": "5",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe young man in the navy-blue zip jacket walks quickly in from the café entrance behind the man in the rust-red jacket, takes two steps into the terrace and raises his arm to point at the woman in the green cardigan. The seated woman keeps pointing back. The man in the rust-red jacket and the waiter holding the white napkin turn their heads toward the newcomer. The old man at the back table stays seated.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image.",
+    "seconds": "7",
+    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe young man in the navy-blue zip jacket walks quickly in from the café entrance behind the man in the rust-red jacket, takes two steps into the terrace and raises his arm to point at the woman in the green cardigan. The seated woman keeps pointing back. The man in the rust-red jacket and the waiter holding the white napkin turn their heads toward the newcomer. The old man at the back table stays seated.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P10",
-    "title": "Nouveau plan",
-    "anim_prompt": "Cinematic motion",
+    "title": "Lucas tend la serviette",
+    "anim_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P10_0.png"
@@ -167,15 +167,15 @@
     "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P10_0.png",
     "last_frame": null,
-    "seconds": "5",
-    "video_prompt": "Cinematic motion\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image.",
+    "seconds": "6",
+    "video_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P11",
-    "title": "Nouveau plan",
-    "anim_prompt": "Cinematic motion",
+    "title": "Le patron sort",
+    "anim_prompt": "Very slow, steady pull-back. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P11_0.png"
@@ -184,15 +184,15 @@
     "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P11_0.png",
     "last_frame": null,
-    "seconds": "5",
-    "video_prompt": "Cinematic motion\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image.",
+    "seconds": "6",
+    "video_prompt": "Very slow, steady pull-back. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P12",
-    "title": "Nouveau plan",
-    "anim_prompt": "Cinematic motion",
+    "title": "« J'ai tout vu ! » / « Moi aussi ! »",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P12_0.png"
@@ -201,15 +201,15 @@
     "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P12_0.png",
     "last_frame": null,
-    "seconds": "5",
-    "video_prompt": "Cinematic motion\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image.",
+    "seconds": "6",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P13",
-    "title": "Nouveau plan",
-    "anim_prompt": "Cinematic motion",
+    "title": "Claire raconte",
+    "anim_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P13_0.png"
@@ -218,15 +218,15 @@
     "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P13_0.png",
     "last_frame": null,
-    "seconds": "5",
-    "video_prompt": "Cinematic motion\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image.",
+    "seconds": "7",
+    "video_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P14",
-    "title": "Nouveau plan",
-    "anim_prompt": "Cinematic motion",
+    "title": "Julien raconte",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P14_0.png"
@@ -235,15 +235,15 @@
     "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P14_0.png",
     "last_frame": null,
-    "seconds": "5",
-    "video_prompt": "Cinematic motion\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image.",
+    "seconds": "7",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P15",
-    "title": "Nouveau plan",
-    "anim_prompt": "Cinematic motion",
+    "title": "« Et avant ? Le café ? »",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P15_0.png"
@@ -253,14 +253,14 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P15_0.png",
     "last_frame": null,
     "seconds": "5",
-    "video_prompt": "Cinematic motion\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image.",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P16",
-    "title": "Nouveau plan",
-    "anim_prompt": "Cinematic motion",
+    "title": "« Moi, j'ai vu le début. »",
+    "anim_prompt": "Very slow, steady pull-back. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P16_0.png"
@@ -270,7 +270,7 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P16_0.png",
     "last_frame": null,
     "seconds": "5",
-    "video_prompt": "Cinematic motion\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image.",
+    "video_prompt": "Very slow, steady pull-back. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
@@ -286,15 +286,15 @@
     "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P17_18_0.png",
     "last_frame": null,
-    "seconds": "5",
-    "video_prompt": "Cinematic motion\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image.",
+    "seconds": "10",
+    "video_prompt": "Cinematic motion\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P19",
-    "title": "Nouveau plan",
-    "anim_prompt": "Cinematic motion",
+    "title": "« Je ne sais pas. »",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P19_0.png"
@@ -304,13 +304,13 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P19_0.png",
     "last_frame": null,
     "seconds": "5",
-    "video_prompt": "Cinematic motion\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image.",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P20a",
-    "title": "La cuillère et la gorgée",
+    "title": "La cuillère, la gorgée",
     "anim_prompt": "Painterly animated close shot of an old man with grey hair and dark glasses, violet knitted cardigan, seated alone at a café table at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nWith his right hand he gently lays the small spoon down on the saucer, with a small clear clink. Then he lifts the white coffee cup with the same hand, brings it to his lips and takes a small, quiet sip, eyes lowered. He slowly puts the cup back on the saucer. His face stays calm and neutral, without a smile. He does not look at the camera.",
     "images": [
       {
@@ -320,14 +320,14 @@
     "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P20a_0.png",
     "last_frame": null,
-    "seconds": "5",
-    "video_prompt": "Painterly animated close shot of an old man with grey hair and dark glasses, violet knitted cardigan, seated alone at a café table at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nWith his right hand he gently lays the small spoon down on the saucer, with a small clear clink. Then he lifts the white coffee cup with the same hand, brings it to his lips and takes a small, quiet sip, eyes lowered. He slowly puts the cup back on the saucer. His face stays calm and neutral, without a smile. He does not look at the camera.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image.",
+    "seconds": "6",
+    "video_prompt": "Painterly animated close shot of an old man with grey hair and dark glasses, violet knitted cardigan, seated alone at a café table at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nWith his right hand he gently lays the small spoon down on the saucer, with a small clear clink. Then he lifts the white coffee cup with the same hand, brings it to his lips and takes a small, quiet sip, eyes lowered. He slowly puts the cup back on the saucer. His face stays calm and neutral, without a smile. He does not look at the camera.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P20b",
-    "title": "Marc rapproche sa chaise",
+    "title": "Le groupe décontenancé",
     "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe man in the rust-red jacket with the coffee stain, on the left, quietly pulls his wicker chair forward out of the passage, back against his table. Then he turns and takes the white napkin that the waiter holds out to him. The man in the navy-blue jacket and the woman in the green cardigan exchange a short, puzzled glance. The café owner in the dark waistcoat stays still, one hand on his hip. At the back, the old man with glasses keeps drinking his coffee, unbothered. Small, natural movements only, nobody speaks.",
     "images": [
       {
@@ -337,8 +337,73 @@
     "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P20b_0.png",
     "last_frame": null,
+    "seconds": "6",
+    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe man in the rust-red jacket with the coffee stain, on the left, quietly pulls his wicker chair forward out of the passage, back against his table. Then he turns and takes the white napkin that the waiter holds out to him. The man in the navy-blue jacket and the woman in the green cardigan exchange a short, puzzled glance. The café owner in the dark waistcoat stays still, one hand on his hip. At the back, the old man with glasses keeps drinking his coffee, unbothered. Small, natural movements only, nobody speaks.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
+    "project_name": "ET-Si -Episode 5"
+  },
+  {
+    "ident": "P00",
+    "title": "Terrasse vide, titre",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [],
+    "video_url": null,
+    "first_frame": null,
+    "last_frame": null,
     "seconds": "5",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe man in the rust-red jacket with the coffee stain, on the left, quietly pulls his wicker chair forward out of the passage, back against his table. Then he turns and takes the white napkin that the waiter holds out to him. The man in the navy-blue jacket and the woman in the green cardigan exchange a short, puzzled glance. The café owner in the dark waistcoat stays still, one hand on his hip. At the back, the old man with glasses keeps drinking his coffee, unbothered. Small, natural movements only, nobody speaks.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image.",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
+    "project_name": "ET-Si -Episode 5"
+  },
+  {
+    "ident": "P17",
+    "title": "Chaise, plateau, café",
+    "anim_prompt": "L'homme : La chaise a reculé dans le passage. Le plateau l'a touchée. Le café est tombé sur la veste.",
+    "images": [],
+    "video_url": null,
+    "first_frame": null,
+    "last_frame": null,
+    "seconds": "10",
+    "video_prompt": "Le témoin et les éclats de souvenir. L'homme : « La chaise a reculé dans le passage. Le plateau l'a touchée. Le café est tombé sur la veste. » Sa voix ne s'interrompt pas. Image P17_P18.png, le témoin en plan rapproché, avec un fragment d'environ 0,5 à 1 s sur chaque fait :\n- « chaise » : le recul de la chaise, bien lisible (clip P02) ;\n- « plateau » : le contact (clip P02) ;\n- « café » : le café sur la veste (clip P03).\nOn revient à son visage entre les fragments. Léger flou sur les bords des fragments, ambiance atténuée, le geste important reste net. Ni ralenti, ni musique de révélation.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
+    "project_name": "ET-Si -Episode 5"
+  },
+  {
+    "ident": "P18",
+    "title": "Bras, mains, épaules, poussée, arrivée de Julien",
+    "anim_prompt": "L'homme : Il a retenu le serveur. Madame a séparé leurs mains. Leurs épaules se sont heurtées. Elle l'a repoussé. Lui est arrivé après.",
+    "images": [],
+    "video_url": null,
+    "first_frame": null,
+    "last_frame": null,
+    "seconds": "9",
+    "video_prompt": "Le témoin et la suite de l'incident. L'homme : « Il a retenu le serveur. Madame a séparé leurs mains. Leurs épaules se sont heurtées. Elle l'a repoussé. Lui est arrivé après. » Les fragments suivent ses phrases :\n- le bras retenu (P05.png) ;\n- les mains séparées et la poussée (P06.png) ;\n- la poussée vue de la porte (P07.png) ;\n- Julien qui entre (clip P08).\nOn revient au visage du témoin entre les gestes, et sur « Lui est arrivé après », son regard va vers Julien. La voix reste simple, sans verdict.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
+    "project_name": "ET-Si -Episode 5"
+  },
+  {
+    "ident": "P21",
+    "title": "« Et si vous n'aviez pas tout vu ? »",
+    "anim_prompt": "Carton final. « Et si vous n'aviez pas tout vu ? » en lettrage Playfair italique, d'un seul bloc, en fondu doux. L'ambiance de la terrasse continue dessous, puis s'éteint. Ce texte est ajouté au montage, jamais dans une image.",
+    "images": [],
+    "video_url": null,
+    "first_frame": null,
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "Carton final. « Et si vous n'aviez pas tout vu ? » en lettrage Playfair italique, d'un seul bloc, en fondu doux. L'ambiance de la terrasse continue dessous, puis s'éteint. Ce texte est ajouté au montage, jamais dans une image.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
+    "project_name": "ET-Si -Episode 5"
+  },
+  {
+    "ident": "P22",
+    "title": "Signature",
+    "anim_prompt": "Signature. Le logo « Et si… ? » qui s'écrit, la signature Loel Création et une courte invitation à voir les autres épisodes, ajoutés au montage.",
+    "images": [],
+    "video_url": null,
+    "first_frame": null,
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "Signature. Le logo « Et si… ? » qui s'écrit, la signature Loel Création et une courte invitation à voir les autres épisodes, ajoutés au montage.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   }
