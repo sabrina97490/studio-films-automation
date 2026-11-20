@@ -36,13 +36,16 @@
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P02A_0.png"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P02A_1.png"
       }
     ],
     "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_aj1UudO0AASu95DKKUaznlvhaEffdq6S.mp4",
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P02A_0.png",
-    "last_frame": null,
+    "last_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/P02A_1.png",
     "seconds": "4",
-    "video_prompt": "Static locked-off shot, first-person view. The camera remains completely stationary and the framing stays unchanged. One continuous take with no cuts and no change of angle from start to end.\n\nIn the first second, her right hand lets go of the mug handle. It lifts just above the counter and moves in one direct, natural line to the right, passing in front of the coffee machine, to the phone. Her forearm and teal sleeve follow the hand and stay connected to the bottom edge of the frame the whole time. Her fingertips settle on the phone and the hand rests there, still, for the rest of the clip. The phone stays flat and does not move.\n\nThe mug stays where it is, with gentle steam rising. Everything else in the kitchen stays unchanged. Keep the painted gouache texture of the image.\n\nAudio: quiet kitchen room tone, a soft touch of fingertips on the phone. Music: none. Dialogue: none.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Ouvre la session de génération d'image."
+    "video_prompt": "Static locked-off shot, first-person view. The camera remains completely stationary and the framing stays unchanged. One continuous take with no cuts and no change of angle from start to end.\n\nIn the first second, her right hand lets go of the mug handle. It lifts just above the counter and moves in one direct, natural line to the right, passing in front of the coffee machine, to the phone. Her forearm and teal sleeve follow the hand and stay connected to the bottom edge of the frame the whole time. Her fingertips settle on the phone and the hand rests there, still, for the rest of the clip. The phone stays flat and does not move.\n\nThe mug stays where it is, with gentle steam rising. Everything else in the kitchen stays unchanged. Keep the painted gouache texture of the image.\n\nAudio: quiet kitchen room tone, a soft touch of fingertips on the phone. Music: none. Dialogue: none.\nThe shot starts exactly on the first frame and moves with smooth, continuous motion to end exactly on the composition of the last frame. Keep characters, clothing, props and set identical between the two frames.\nVisual style: Ouvre la session de génération d'image."
   },
   {
     "ident": "P02",
