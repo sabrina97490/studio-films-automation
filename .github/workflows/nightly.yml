@@ -6,10 +6,21 @@ permissions:
 
 on:
   schedule:
-    # Heures creuses de la file gratuite d'Agnes (22h-1h et 6h-9h à Pékin),
-    # soit 14h et 22h UTC = 15h et 23h à Paris (16h et minuit en été).
-    - cron: '0 14,22 * * *'
+    # ⚠️ GitHub lit les horaires cron en heure UTC (jamais en heure de Paris).
+    #    Agnes est à Singapour = UTC+8 (même heure que Pékin) : 14h UTC = 22h là-bas.
+    # La file gratuite d'Agnes a été pleine même aux heures creuses d'Asie : au lieu de deviner,
+    # on tente CHAQUE HEURE (à hh:17, moins chargé que hh:00 chez GitHub). Le journal de chaque
+    # lancement affiche l'heure de Singapour et de Paris : après 2-3 jours, l'onglet Actions montre
+    # les heures où la file accepte, et on resserrera les horaires sur celles-là.
+    # Un lancement qui trouve la file pleine s'arrête seul après ~25 min. Dépôt public = minutes gratuites.
+    - cron: '17 * * * *'
   workflow_dispatch:
+
+# Jamais deux générations en même temps : elles prendraient le même plan et
+# dépenseraient deux fois le quota. Un lancement attend la fin du précédent.
+concurrency:
+  group: generation-videos
+  cancel-in-progress: false
 
 jobs:
   generate:
