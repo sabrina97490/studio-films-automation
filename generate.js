@@ -77,6 +77,18 @@ async function generateVideoWithRetry(shot) {
     lastFailureWasQueueFull = false;
     let ownerKey = null; // la clé qui a créé la tâche : c'est elle qui doit suivre la vidéo
     
+    // Ce que l'app Studio Films prépare pour chaque plan (champs absents = ancien comportement) :
+    //   video_prompt (prompt + continuité + style), first_frame / last_frame (début → fin), seconds (4 à 12)
+    const body = {
+        model: 'agnes-video-2.5-flash',
+        prompt: shot.video_prompt || shot.anim_prompt || shot.script || 'Cinematic motion',
+        first_frame: shot.first_frame || shot.images[0].url,
+        seconds: /^(?:[4-9]|1[0-2])$/.test(String(shot.seconds)) ? String(shot.seconds) : '5',
+        mode: 'keyframe', size: '720P'
+    };
+    if (shot.last_frame) body.last_frame = shot.last_frame;
+    console.log(`   ${body.seconds} s · ${body.last_frame ? 'image de début → image de fin' : 'image de début seule'}`);
+
     // Augmentation à 15 essais avec attente progressive pour contrer la file d'attente
     for (let attempt = 1; attempt <= 15; attempt++) {
         const currentKey = getNextKey();
@@ -84,12 +96,7 @@ async function generateVideoWithRetry(shot) {
             const response = await fetch('https://apihub.agnes-ai.com/v1/videos', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${currentKey}` },
-                body: JSON.stringify({
-                    model: 'agnes-video-2.5-flash',
-                    prompt: shot.anim_prompt || shot.script || 'Cinematic motion',
-                    first_frame: shot.images[0].url,
-                    seconds: '5', mode: 'keyframe', size: '720P'
-                })
+                body: JSON.stringify(body)
             });
             const textResponse = await response.text();
             let data; try { data = JSON.parse(textResponse); } catch(e) { data = {}; }
@@ -106,6 +113,12 @@ async function generateVideoWithRetry(shot) {
             // ou un code de file. Une demande refusée ne crée pas de tâche et ne consomme pas de quota.
             const busy = response.status === 429 || response.status === 503 ||
                          ['video_queue_full', 'fail_to_fetch_task'].includes(data.code);
+            // 400/422 : la requête elle-même est refusée (image illisible, paramètre invalide…).
+            // Retenter 15 fois ne changerait rien : on passe au plan suivant en affichant la raison.
+            if (!busy && (response.status === 400 || response.status === 422)) {
+                console.log(`❌ Requête refusée par Agnes (${response.status}) : ${textResponse.slice(0, 300)}`);
+                return null;
+            }
             if (busy) {
                 // Intervalle FIXE de 30 à 60 s : la file se libère sans prévenir, il vaut mieux
                 // retenter régulièrement qu'attendre de plus en plus longtemps.
@@ -177,6 +190,9 @@ async function generateVideoWithRetry(shot) {
 
     if (toGen.length === 0) return console.log('✅ Tout est déjà généré.');
 
+    // Heure du lancement, pour repérer les heures où la file d'Agnes accepte les demandes
+    const at = tz => new Date().toLocaleTimeString('fr-FR', { timeZone: tz, hour: '2-digit', minute: '2-digit' });
+    console.log(`🕒 Lancement : ${at('Asia/Singapore')} à Singapour (Agnes) · ${at('Europe/Paris')} à Paris`);
     console.log(`🎬 ${toGen.length} plan(s) à traiter.`);
     
     let queueFullStreak = 0;
@@ -209,7 +225,8 @@ async function generateVideoWithRetry(shot) {
                 await pushToGitHub(shot.ident, url);
             }
         } catch (error) {
-            console.error(`❌ Erreur pour ${shot.ident}: ${error.message}`);
+            // (corrigé : « shot » n'existe pas ici, ce message faisait planter le script)
+            console.error(`❌ Erreur pour ${queued.ident}: ${error.message}`);
         }
     }
     console.log("🏁 Fin de la session.");
