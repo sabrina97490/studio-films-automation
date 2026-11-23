@@ -8,34 +8,62 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P01_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_CHEXszq11pr1iEKOF9r29VjSMpcKogFX.mp4",
+    "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P01_0.png",
     "last_frame": null,
     "seconds": "6",
-    "video_prompt": "Painterly animated wide shot of a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe waiter walks slowly toward the camera down the narrow passage between the tables, holding a round tray with one white coffee cup at hip height. The man in the rust-red jacket on the left and the woman in the green cardigan on the right stay seated, relaxed. At the back table, the old man with glasses stirs his coffee once with the spoon, then leaves the spoon in the cup. Leaves move slightly in the tree. Nobody else enters.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "video_prompt": "Painterly animated wide shot of a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe waiter walks slowly toward the camera down the narrow passage between the tables, holding a round tray with one white coffee cup at hip height. The man in the rust-red jacket on the left and the woman in the green cardigan on the right stay seated, relaxed. At the back table, the old man with glasses stirs his coffee once with the spoon, then leaves the spoon in the cup. Leaves move slightly in the tree. Nobody else enters.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P02",
-    "title": "La chaise recule, le plateau touche le dossier",
-    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe seated man in the rust-red jacket on the left shifts his weight to settle in and slides his wicker chair backward about fifteen centimeters into the narrow passage, with a short scrape on the stone floor. At the same moment the waiter behind him walks forward along the passage, holding his round tray low at hip height with one white coffee cup on it. The edge of the tray bumps into the top of the chair back. The cup on the tray wobbles and starts to tip toward the seated man. The clip ends right there, before any coffee falls.\n\nThe woman in the green cardigan on the right and the old man with glasses at the back table stay seated and calm. Everything else in the image stays still.",
+    "title": "Le plateau touche le dossier",
+    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nFirst second: the seated man in the rust-red jacket on the left puts both hands flat on the edge of his own round table and pushes against it to settle back, so that his own wicker chair slides backward about fifteen centimeters into the narrow passage, with a short scrape on the stone floor. He does it himself, casually, without looking behind him.\n\nThen: the waiter, who carries his round tray firmly with BOTH hands under it the whole time, keeps walking forward along the passage at the same pace. His hands never leave the tray and never touch the chair or the man. Because the chair is now in his way, the low edge of the tray bumps into the top of the chair back. The white cup on the tray wobbles and starts to tip. The clip ends right there, before any coffee falls.\n\nThe woman in the green cardigan on the right and the old man with glasses at the back table stay seated and calm.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02_0.png"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02_1.png"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02_2.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_PlkAPH1VPIPnPGtf8HwHZ55pIYvMc6IG.mp4",
+    "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02_0.png",
-    "last_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02_2.png",
+    "last_frame": null,
     "seconds": "6",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe seated man in the rust-red jacket on the left shifts his weight to settle in and slides his wicker chair backward about fifteen centimeters into the narrow passage, with a short scrape on the stone floor. At the same moment the waiter behind him walks forward along the passage, holding his round tray low at hip height with one white coffee cup on it. The edge of the tray bumps into the top of the chair back. The cup on the tray wobbles and starts to tip toward the seated man. The clip ends right there, before any coffee falls.\n\nThe woman in the green cardigan on the right and the old man with glasses at the back table stay seated and calm. Everything else in the image stays still.\nThe shot starts exactly on the first frame and moves with smooth, continuous motion to end exactly on the composition of the last frame. Keep characters, clothing, props and set identical between the two frames.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nFirst second: the seated man in the rust-red jacket on the left puts both hands flat on the edge of his own round table and pushes against it to settle back, so that his own wicker chair slides backward about fifteen centimeters into the narrow passage, with a short scrape on the stone floor. He does it himself, casually, without looking behind him.\n\nThen: the waiter, who carries his round tray firmly with BOTH hands under it the whole time, keeps walking forward along the passage at the same pace. His hands never leave the tray and never touch the chair or the man. Because the chair is now in his way, the low edge of the tray bumps into the top of the chair back. The white cup on the tray wobbles and starts to tip. The clip ends right there, before any coffee falls.\n\nThe woman in the green cardigan on the right and the old man with glasses at the back table stay seated and calm.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
+    "project_name": "ET-Si -Episode 5"
+  },
+  {
+    "ident": "P02a",
+    "title": "Marc assis, chaise rentrée",
+    "anim_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02a_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02a_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
+    "project_name": "ET-Si -Episode 5"
+  },
+  {
+    "ident": "P02b",
+    "title": "Gros plan : la chaise glisse vers le passage",
+    "anim_prompt": "Painterly animated close-up at floor level on a café terrace in golden light, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nFor the first second, nothing moves except the leaf shadows trembling slightly on the stone floor. Then the rattan chair slides backward to the RIGHT across the stone floor by about fifteen centimeters, in one short smooth push, carrying the man's trouser legs and brown shoes with it, as the seated man settles back. The black iron foot of the table on the left edge does not move, so the gap between the table foot and the chair widens. The chair legs stay on the floor, the shoes stay flat. Then everything is still again. A short dry scrape of rattan legs on stone.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02b_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02b_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "Painterly animated close-up at floor level on a café terrace in golden light, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nFor the first second, nothing moves except the leaf shadows trembling slightly on the stone floor. Then the rattan chair slides backward to the RIGHT across the stone floor by about fifteen centimeters, in one short smooth push, carrying the man's trouser legs and brown shoes with it, as the seated man settles back. The black iron foot of the table on the left edge does not move, so the gap between the table foot and the chair widens. The chair legs stay on the floor, the shoes stay flat. Then everything is still again. A short dry scrape of rattan legs on stone.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
@@ -48,11 +76,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P03_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_WNTqPStZeg9BWQsYKxKOw1vC5Tc3Lrkt.mp4",
+    "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P03_0.png",
     "last_frame": null,
     "seconds": "4",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe splash of coffee already in the air finishes landing on the front left of the seated man's rust-red jacket, leaving one dark stain on his chest. He flinches back, his raised hand stops in mid-air, he looks down at his jacket in shock. The empty white cup rolls onto its side on the waiter's tray and stays on the tray. The waiter freezes, eyes wide, holding the tray with both hands.\n\nThe woman in the green cardigan on the right and the old man with glasses at the back table only lift their eyes. Nobody else moves.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe splash of coffee already in the air finishes landing on the front left of the seated man's rust-red jacket, leaving one dark stain on his chest. He flinches back, his raised hand stops in mid-air, he looks down at his jacket in shock. The empty white cup rolls onto its side on the waiter's tray and stays on the tray. The waiter freezes, eyes wide, holding the tray with both hands.\n\nThe woman in the green cardigan on the right and the old man with glasses at the back table only lift their eyes. Nobody else moves.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
@@ -65,11 +93,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P04_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_YFp8c6G2U00sjik6iojbkNgrbPpOrgSr.mp4",
+    "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P04_0.png",
     "last_frame": null,
     "seconds": "7",
-    "video_prompt": "The camera stays completely still. Only subtle breathing and tiny natural movements of the characters. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "video_prompt": "The camera stays completely still. Only subtle breathing and tiny natural movements of the characters. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
@@ -82,11 +110,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P05_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_9907oQ0LRpvx2SAkb7Yj34XY258GrS2V.mp4",
+    "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P05_0.png",
     "last_frame": null,
-    "seconds": "6",
-    "video_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "seconds": "7",
+    "video_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
@@ -99,65 +127,62 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P06_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_RV3yzmEfZNRDqso7nD0yotHLBGQAyTUS.mp4",
+    "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P06_0.png",
     "last_frame": null,
-    "seconds": "6",
-    "video_prompt": "Very slow, steady push-in toward the characters. One small, short camera jolt at the moment of the push, then stillness. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "seconds": "7",
+    "video_prompt": "Very slow, steady push-in toward the characters. One small, short camera jolt at the moment of the push, then stillness. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P07",
-    "title": "La poussée vue depuis l'entrée",
+    "title": "La poussée vue depuis la porte",
     "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P07_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_oUpVHliFgG3xTnxBPmCw7Ga3UM2p50oV.mp4",
+    "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P07_0.png",
     "last_frame": null,
-    "seconds": "4",
-    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "seconds": "5",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
-    "ident": "P08_P09",
+    "ident": "P08",
     "title": "Julien arrive",
     "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe young man in the navy-blue zip jacket walks quickly in from the café entrance behind the man in the rust-red jacket, takes two steps into the terrace and raises his arm to point at the woman in the green cardigan. The seated woman keeps pointing back. The man in the rust-red jacket and the waiter holding the white napkin turn their heads toward the newcomer. The old man at the back table stays seated.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P08_0.png"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P08_1.png"
       }
     ],
     "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P08_0.png",
-    "last_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P08_1.png",
+    "last_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P09_0.png",
     "seconds": "4",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe young man in the navy-blue zip jacket walks quickly in from the café entrance behind the man in the rust-red jacket, takes two steps into the terrace and raises his arm to point at the woman in the green cardigan. The seated woman keeps pointing back. The man in the rust-red jacket and the waiter holding the white napkin turn their heads toward the newcomer. The old man at the back table stays seated.\nThe shot starts exactly on the first frame and moves with smooth, continuous motion to end exactly on the composition of the last frame. Keep characters, clothing, props and set identical between the two frames.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe young man in the navy-blue zip jacket walks quickly in from the café entrance behind the man in the rust-red jacket, takes two steps into the terrace and raises his arm to point at the woman in the green cardigan. The seated woman keeps pointing back. The man in the rust-red jacket and the waiter holding the white napkin turn their heads toward the newcomer. The old man at the back table stays seated.\nThe shot starts exactly on the first frame and moves with smooth, continuous motion to end exactly on the composition of the last frame. Keep characters, clothing, props and set identical between the two frames.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P09",
-    "title": "Les trois répliques se chevauchent",
-    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe young man in the navy-blue zip jacket walks quickly in from the café entrance behind the man in the rust-red jacket, takes two steps into the terrace and raises his arm to point at the woman in the green cardigan. The seated woman keeps pointing back. The man in the rust-red jacket and the waiter holding the white napkin turn their heads toward the newcomer. The old man at the back table stays seated.",
+    "title": "Les répliques se chevauchent",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P09_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_hejwOhe53aCGAIw3h2KTUbPSHjx2biNB.mp4",
+    "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P09_0.png",
     "last_frame": null,
     "seconds": "7",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe young man in the navy-blue zip jacket walks quickly in from the café entrance behind the man in the rust-red jacket, takes two steps into the terrace and raises his arm to point at the woman in the green cardigan. The seated woman keeps pointing back. The man in the rust-red jacket and the waiter holding the white napkin turn their heads toward the newcomer. The old man at the back table stays seated.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
@@ -170,11 +195,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P10_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_VGhc4Tw5Z8D0AeS7atgtEL4puCFyMS2F.mp4",
+    "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P10_0.png",
     "last_frame": null,
-    "seconds": "6",
-    "video_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "seconds": "7",
+    "video_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
@@ -187,11 +212,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P11_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_PLB3nmZxya2EFcjJtgU1pZqg9UsY9ABL.mp4",
+    "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P11_0.png",
     "last_frame": null,
-    "seconds": "6",
-    "video_prompt": "Very slow, steady pull-back. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "seconds": "7",
+    "video_prompt": "Very slow, steady pull-back. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
@@ -204,11 +229,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P12_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_wBhhR58ukmRJtJcKTAKJzZXxYF9OomBK.mp4",
+    "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P12_0.png",
     "last_frame": null,
-    "seconds": "6",
-    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "seconds": "7",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
@@ -221,18 +246,18 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P13_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_8bZuJJMNLTwUCUYzY05ShKEIPxAHOJme.mp4",
+    "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P13_0.png",
     "last_frame": null,
     "seconds": "7",
-    "video_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "video_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P14",
     "title": "Julien raconte",
-    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "anim_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P14_0.png"
@@ -242,7 +267,7 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P14_0.png",
     "last_frame": null,
     "seconds": "7",
-    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "video_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
@@ -255,11 +280,11 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P15_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_X57MVJCigxfFFjJvDjbCmUf9UYPcOw3w.mp4",
+    "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P15_0.png",
     "last_frame": null,
     "seconds": "5",
-    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
@@ -272,28 +297,41 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P16_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_FrPo7pFbJfaxoulMur3oFUUCioKH5N6o.mp4",
+    "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P16_0.png",
     "last_frame": null,
     "seconds": "5",
-    "video_prompt": "Very slow, steady pull-back. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "video_prompt": "Very slow, steady pull-back. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
-    "ident": "P17_18",
-    "title": "Nouveau plan",
-    "anim_prompt": "Cinematic motion",
+    "ident": "P17",
+    "title": "Chaise, plateau, café",
+    "anim_prompt": "L'homme : La chaise a reculé dans le passage. Le plateau l'a touchée. Le café est tombé sur la veste.",
     "images": [
       {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P17_18_0.png"
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P17_0.png"
       }
     ],
     "video_url": null,
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P17_18_0.png",
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P17_0.png",
     "last_frame": null,
     "seconds": "10",
-    "video_prompt": "Cinematic motion\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "video_prompt": "Le témoin et les souvenirs. L'homme : « La chaise a reculé dans le passage. Le plateau l'a touchée. Le café est tombé sur la veste. » On reste sur son visage, coupé par trois souvenirs d'environ 1 s :\n- « chaise » : le gros plan P02b ;\n- « plateau » : le contact de P02 ;\n- « café » : le café sur la veste de P03.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
+    "project_name": "ET-Si -Episode 5"
+  },
+  {
+    "ident": "P18",
+    "title": "Bras, poussée, arrivée de Julien",
+    "anim_prompt": "L'homme : Il a retenu le serveur. Madame a séparé leurs mains. Leurs épaules se sont heurtées. Elle l'a repoussé. Lui est arrivé après.",
+    "images": [],
+    "video_url": null,
+    "first_frame": null,
+    "last_frame": null,
+    "seconds": "9",
+    "video_prompt": "Le témoin et la suite. L'homme : « Il a retenu le serveur. Madame a séparé leurs mains. Leurs épaules se sont heurtées. Elle l'a repoussé. Lui est arrivé après. » Souvenirs de P05, P06, P07, puis Julien qui entre (début de P09). Sur « Lui est arrivé après », il regarde Julien.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
@@ -306,110 +344,71 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P19_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_EPGjyCODrSFp2M7entcMmRsEv28gebDc.mp4",
+    "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P19_0.png",
     "last_frame": null,
     "seconds": "5",
-    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P20a",
     "title": "La cuillère, la gorgée",
-    "anim_prompt": "Painterly animated close shot of an old man with grey hair and dark glasses, violet knitted cardigan, seated alone at a café table at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nWith his right hand he gently lays the small spoon down on the saucer, with a small clear clink. Then he lifts the white coffee cup with the same hand, brings it to his lips and takes a small, quiet sip, eyes lowered. He slowly puts the cup back on the saucer. His face stays calm and neutral, without a smile. He does not look at the camera.",
+    "anim_prompt": "Painterly animated close shot of an old man in a violet cardigan seated at a café table at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nHe calmly lays the small spoon down flat on the saucer next to his cup, lets go of it, and rests both hands on the table. His face stays calm, eyes lowered toward the cup.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P20a_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_lEVYoqwdJvKEeiVDSLMXlDzt5Bb9pow9.mp4",
+    "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P20a_0.png",
     "last_frame": null,
     "seconds": "6",
-    "video_prompt": "Painterly animated close shot of an old man with grey hair and dark glasses, violet knitted cardigan, seated alone at a café table at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nWith his right hand he gently lays the small spoon down on the saucer, with a small clear clink. Then he lifts the white coffee cup with the same hand, brings it to his lips and takes a small, quiet sip, eyes lowered. He slowly puts the cup back on the saucer. His face stays calm and neutral, without a smile. He does not look at the camera.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "video_prompt": "Painterly animated close shot of an old man in a violet cardigan seated at a café table at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nHe calmly lays the small spoon down flat on the saucer next to his cup, lets go of it, and rests both hands on the table. His face stays calm, eyes lowered toward the cup.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P20b",
     "title": "Le groupe décontenancé",
-    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe man in the rust-red jacket with the coffee stain, on the left, quietly pulls his wicker chair forward out of the passage, back against his table. Then he turns and takes the white napkin that the waiter holds out to him. The man in the navy-blue jacket and the woman in the green cardigan exchange a short, puzzled glance. The café owner in the dark waistcoat stays still, one hand on his hip. At the back, the old man with glasses keeps drinking his coffee, unbothered. Small, natural movements only, nobody speaks.",
+    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe man in the rust-red jacket with the coffee stain, on the left, grabs the back of the empty wicker chair standing in the passage and pulls it toward himself, to the LEFT, sliding it back under his own round table with the coffee spill, so that the passage is clear again. Then he straightens up and takes the white napkin that the waiter holds out to him, and looks down at it. The man in the navy-blue jacket and the woman in the green cardigan exchange a short, puzzled glance. The café owner in the dark waistcoat stays still, one hand on his hip. At the back, the old man with glasses keeps drinking his coffee, unbothered. Nothing is added to any table: the woman's table keeps only its glass of water and its small vase of flowers. Small, natural movements only, nobody speaks.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P20b_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_6O2AFV6nPSHFatguglMvuyCLuY0bmzJs.mp4",
+    "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P20b_0.png",
     "last_frame": null,
     "seconds": "6",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe man in the rust-red jacket with the coffee stain, on the left, quietly pulls his wicker chair forward out of the passage, back against his table. Then he turns and takes the white napkin that the waiter holds out to him. The man in the navy-blue jacket and the woman in the green cardigan exchange a short, puzzled glance. The café owner in the dark waistcoat stays still, one hand on his hip. At the back, the old man with glasses keeps drinking his coffee, unbothered. Small, natural movements only, nobody speaks.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
-  },
-  {
-    "ident": "P00",
-    "title": "Terrasse vide, titre",
-    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
-    "images": [],
-    "video_url": null,
-    "first_frame": null,
-    "last_frame": null,
-    "seconds": "5",
-    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
-  },
-  {
-    "ident": "P17",
-    "title": "Chaise, plateau, café",
-    "anim_prompt": "L'homme : La chaise a reculé dans le passage. Le plateau l'a touchée. Le café est tombé sur la veste.",
-    "images": [],
-    "video_url": null,
-    "first_frame": null,
-    "last_frame": null,
-    "seconds": "10",
-    "video_prompt": "Le témoin et les éclats de souvenir. L'homme : « La chaise a reculé dans le passage. Le plateau l'a touchée. Le café est tombé sur la veste. » Sa voix ne s'interrompt pas. Image P17_P18.png, le témoin en plan rapproché, avec un fragment d'environ 0,5 à 1 s sur chaque fait :\n- « chaise » : le recul de la chaise, bien lisible (clip P02) ;\n- « plateau » : le contact (clip P02) ;\n- « café » : le café sur la veste (clip P03).\nOn revient à son visage entre les fragments. Léger flou sur les bords des fragments, ambiance atténuée, le geste important reste net. Ni ralenti, ni musique de révélation.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
-  },
-  {
-    "ident": "P18",
-    "title": "Bras, mains, épaules, poussée, arrivée de Julien",
-    "anim_prompt": "L'homme : Il a retenu le serveur. Madame a séparé leurs mains. Leurs épaules se sont heurtées. Elle l'a repoussé. Lui est arrivé après.",
-    "images": [],
-    "video_url": null,
-    "first_frame": null,
-    "last_frame": null,
-    "seconds": "9",
-    "video_prompt": "Le témoin et la suite de l'incident. L'homme : « Il a retenu le serveur. Madame a séparé leurs mains. Leurs épaules se sont heurtées. Elle l'a repoussé. Lui est arrivé après. » Les fragments suivent ses phrases :\n- le bras retenu (P05.png) ;\n- les mains séparées et la poussée (P06.png) ;\n- la poussée vue de la porte (P07.png) ;\n- Julien qui entre (clip P08).\nOn revient au visage du témoin entre les gestes, et sur « Lui est arrivé après », son regard va vers Julien. La voix reste simple, sans verdict.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe man in the rust-red jacket with the coffee stain, on the left, grabs the back of the empty wicker chair standing in the passage and pulls it toward himself, to the LEFT, sliding it back under his own round table with the coffee spill, so that the passage is clear again. Then he straightens up and takes the white napkin that the waiter holds out to him, and looks down at it. The man in the navy-blue jacket and the woman in the green cardigan exchange a short, puzzled glance. The café owner in the dark waistcoat stays still, one hand on his hip. At the back, the old man with glasses keeps drinking his coffee, unbothered. Nothing is added to any table: the woman's table keeps only its glass of water and its small vase of flowers. Small, natural movements only, nobody speaks.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P21",
     "title": "« Et si vous n'aviez pas tout vu ? »",
-    "anim_prompt": "Carton final. « Et si vous n'aviez pas tout vu ? » en lettrage Playfair italique, d'un seul bloc, en fondu doux. L'ambiance de la terrasse continue dessous, puis s'éteint. Ce texte est ajouté au montage, jamais dans une image.",
+    "anim_prompt": "Carton final. « Et si vous n'aviez pas tout vu ? » en lettrage Playfair italique, ajouté au montage.",
     "images": [],
     "video_url": null,
     "first_frame": null,
     "last_frame": null,
     "seconds": "4",
-    "video_prompt": "Carton final. « Et si vous n'aviez pas tout vu ? » en lettrage Playfair italique, d'un seul bloc, en fondu doux. L'ambiance de la terrasse continue dessous, puis s'éteint. Ce texte est ajouté au montage, jamais dans une image.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "video_prompt": "Carton final. « Et si vous n'aviez pas tout vu ? » en lettrage Playfair italique, ajouté au montage.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P22",
     "title": "Signature",
-    "anim_prompt": "Signature. Le logo « Et si… ? » qui s'écrit, la signature Loel Création et une courte invitation à voir les autres épisodes, ajoutés au montage.",
+    "anim_prompt": "Signature. Le logo « Et si… ? », la signature Loel Création.",
     "images": [],
     "video_url": null,
     "first_frame": null,
     "last_frame": null,
     "seconds": "4",
-    "video_prompt": "Signature. Le logo « Et si… ? » qui s'écrit, la signature Loel Création et une courte invitation à voir les autres épisodes, ajoutés au montage.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "video_prompt": "Signature. Le logo « Et si… ? », la signature Loel Création.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   }
