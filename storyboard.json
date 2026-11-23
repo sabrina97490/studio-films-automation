@@ -23,13 +23,19 @@
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02_0.png"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02_1.png"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02_2.png"
       }
     ],
     "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_PlkAPH1VPIPnPGtf8HwHZ55pIYvMc6IG.mp4",
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02_0.png",
-    "last_frame": null,
+    "last_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02_2.png",
     "seconds": "6",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe seated man in the rust-red jacket on the left shifts his weight to settle in and slides his wicker chair backward about fifteen centimeters into the narrow passage, with a short scrape on the stone floor. At the same moment the waiter behind him walks forward along the passage, holding his round tray low at hip height with one white coffee cup on it. The edge of the tray bumps into the top of the chair back. The cup on the tray wobbles and starts to tip toward the seated man. The clip ends right there, before any coffee falls.\n\nThe woman in the green cardigan on the right and the old man with glasses at the back table stay seated and calm. Everything else in the image stays still.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
+    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe seated man in the rust-red jacket on the left shifts his weight to settle in and slides his wicker chair backward about fifteen centimeters into the narrow passage, with a short scrape on the stone floor. At the same moment the waiter behind him walks forward along the passage, holding his round tray low at hip height with one white coffee cup on it. The edge of the tray bumps into the top of the chair back. The cup on the tray wobbles and starts to tip toward the seated man. The clip ends right there, before any coffee falls.\n\nThe woman in the green cardigan on the right and the old man with glasses at the back table stay seated and calm. Everything else in the image stays still.\nThe shot starts exactly on the first frame and moves with smooth, continuous motion to end exactly on the composition of the last frame. Keep characters, clothing, props and set identical between the two frames.\nVisual style: Portraits et scènes cinématiques dans un style de peinture à l'huile digitale expressive. Pinceaux visibles, textures riches, lavis épais. Éclairage doré crépusculaire chaud, contrasté avec des ombres violettes et bleutées. Palette dominante de lavande, orange, et bleus profonds. Ambiance mélancolique et contemplative. Fond parfois abstraite avec éléments flottants ou paysages en aquarelle.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
@@ -119,7 +125,7 @@
     "project_name": "ET-Si -Episode 5"
   },
   {
-    "ident": "P08",
+    "ident": "P08_P09",
     "title": "Julien arrive",
     "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe young man in the navy-blue zip jacket walks quickly in from the café entrance behind the man in the rust-red jacket, takes two steps into the terrace and raises his arm to point at the woman in the green cardigan. The seated woman keeps pointing back. The man in the rust-red jacket and the waiter holding the white napkin turn their heads toward the newcomer. The old man at the back table stays seated.",
     "images": [
@@ -130,7 +136,7 @@
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P08_1.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_aJayQZ324WQDlqT0VcsllVTopW8J7m2w.mp4",
+    "video_url": null,
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P08_0.png",
     "last_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P08_1.png",
     "seconds": "4",
