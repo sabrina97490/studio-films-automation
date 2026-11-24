@@ -65,10 +65,8 @@ async function pushToGitHub(ident, videoUrl) {
     console.error(`❌ ${ident} : vidéo générée mais non enregistrée sur GitHub. URL à noter : ${videoUrl}`);
 }
 
-// La file d'Agnes est commune à tous les plans : si elle reste pleine pour 2 plans de suite,
-// inutile d'essayer les suivants (on gaspillerait ~30 min par plan jusqu'à la limite des 6 h).
+// true si le dernier plan a échoué uniquement parce que la file d'Agnes était pleine
 let lastFailureWasQueueFull = false;
-const MAX_QUEUE_FULL_SHOTS = 2;
 
 async function generateVideoWithRetry(shot) {
     console.log(`\n--- Génération pour ${shot.ident} ---`);
@@ -144,7 +142,7 @@ async function generateVideoWithRetry(shot) {
         return null;
     }
 
-    console.log(`⏳ Suivi de la vidéo pour ${shot.ident} (ID: ${videoId})...`);
+    console.log(`⏳ Suivi de la vidéo pour ${shot.ident} (ID: ${videoId}) — acceptée à ${new Date().toLocaleTimeString('fr-FR', { timeZone: 'Asia/Singapore', hour: '2-digit', minute: '2-digit' })} à Singapour`);
     const startTime = Date.now();
     
     // Timeout porté à 20 minutes pour être sûr d'avoir le résultat
@@ -195,12 +193,19 @@ async function generateVideoWithRetry(shot) {
     console.log(`🕒 Lancement : ${at('Asia/Singapore')} à Singapour (Agnes) · ${at('Europe/Paris')} à Paris`);
     console.log(`🎬 ${toGen.length} plan(s) à traiter.`);
     
-    let queueFullStreak = 0;
-    for (const queued of toGen) {
-        if (queueFullStreak >= MAX_QUEUE_FULL_SHOTS) {
-            console.log(`\n🛑 File Agnes pleine pendant ${queueFullStreak} plans de suite : arrêt de la session. Les plans restants seront tentés au prochain lancement.`);
-            break;
-        }
+    // Les journaux du 19 au 24/11 montrent que la file d'Agnes s'ouvre à des heures imprévisibles,
+    // et que GitHub saute la plupart des lancements programmés (8 lancements pour ~70 prévus).
+    // Donc : au lieu de s'arrêter au bout de ~25 min, la session fait des TOURS sur les plans
+    // restants pendant 5 h (GitHub coupe un job à 6 h), puis se relance elle-même s'il en reste.
+    const SESSION_MS = 5 * 60 * 60 * 1000;
+    const sessionStart = Date.now();
+    let pending = toGen.slice(), round = 0;
+    while (pending.length && Date.now() - sessionStart < SESSION_MS) {
+      round++;
+      if (round > 1) console.log(`\n🔁 Tour ${round} (${at('Asia/Singapore')} à Singapour) : ${pending.length} plan(s) encore bloqué(s) par la file.`);
+      const blocked = [];
+      for (const queued of pending) {
+        if (Date.now() - sessionStart >= SESSION_MS) { blocked.push(queued); continue; }
         try {
             // Avant chaque plan, on reprend sa version actuelle sur GitHub :
             // prompt/image modifiés depuis l'app, plan supprimé ou vidéo déjà faite.
@@ -217,17 +222,35 @@ async function generateVideoWithRetry(shot) {
             }
 
             const url = await generateVideoWithRetry(shot);
-            queueFullStreak = (!url && lastFailureWasQueueFull) ? queueFullStreak + 1 : 0;
             if (url) {
                 queued.video_url = url;
                 fs.writeFileSync(STORYBOARD_FILE, JSON.stringify(storyboard, null, 2));
                 console.log(`💾 ${shot.ident} sauvegardé localement.`);
                 await pushToGitHub(shot.ident, url);
-            }
+            } else if (lastFailureWasQueueFull) {
+                blocked.push(queued); // file pleine : on le retente au tour suivant
+            } // autre échec (refus, rendu raté) : retenté seulement à la prochaine session
         } catch (error) {
             // (corrigé : « shot » n'existe pas ici, ce message faisait planter le script)
             console.error(`❌ Erreur pour ${queued.ident}: ${error.message}`);
         }
+      }
+      pending = blocked;
     }
-    console.log("🏁 Fin de la session.");
+
+    // Relance automatique s'il reste des plans bloqués par la file (un lancement à la fois :
+    // le nouveau attend que celui-ci soit fini). Ne dépend plus des horaires programmés de GitHub.
+    if (pending.length && process.env.DISPATCH_TOKEN) {
+        try {
+            const r = await fetch(`https://api.github.com/repos/${GH_REPO}/actions/workflows/nightly.yml/dispatches`, {
+                method: 'POST',
+                headers: { 'Authorization': `Bearer ${process.env.DISPATCH_TOKEN}`, 'Accept': 'application/vnd.github+json' },
+                body: JSON.stringify({ ref: 'main' })
+            });
+            console.log(r.status === 204
+                ? `\n🔄 ${pending.length} plan(s) encore bloqué(s) par la file : une nouvelle session est lancée.`
+                : `\n⚠️ Relance automatique impossible (HTTP ${r.status}) : le prochain horaire programmé prendra le relais.`);
+        } catch (e) { console.log(`\n⚠️ Relance automatique impossible (${e.message}).`); }
+    }
+    console.log(`🏁 Fin de la session (${at('Asia/Singapore')} à Singapour · ${at('Europe/Paris')} à Paris).`);
 })();

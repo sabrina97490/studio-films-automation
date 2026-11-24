@@ -8,12 +8,11 @@ on:
   schedule:
     # ⚠️ GitHub lit les horaires cron en heure UTC (jamais en heure de Paris).
     #    Agnes est à Singapour = UTC+8 (même heure que Pékin) : 14h UTC = 22h là-bas.
-    # La file gratuite d'Agnes a été pleine même aux heures creuses d'Asie : au lieu de deviner,
-    # on tente CHAQUE HEURE (à hh:17, moins chargé que hh:00 chez GitHub). Le journal de chaque
-    # lancement affiche l'heure de Singapour et de Paris : après 2-3 jours, l'onglet Actions montre
-    # les heures où la file accepte, et on resserrera les horaires sur celles-là.
-    # Un lancement qui trouve la file pleine s'arrête seul après ~25 min. Dépôt public = minutes gratuites.
-    - cron: '17 * * * *'
+    # Bilan des journaux (19-24/11) : GitHub n'a déclenché que 8 des ~70 lancements horaires prévus
+    # (il saute les horaires programmés quand il est chargé), et la file d'Agnes s'ouvre à des heures
+    # imprévisibles. Désormais chaque session insiste 5 h puis se RELANCE ELLE-MÊME s'il reste des plans.
+    # Ces horaires ne servent plus que de filet de sécurité (si la chaîne s'interrompt).
+    - cron: '23 3,9,15,21 * * *'
   workflow_dispatch:
 
 # Jamais deux générations en même temps : elles prendraient le même plan et
@@ -40,4 +39,6 @@ jobs:
         env:
           AGNES_API_KEY: ${{ secrets.AGNES_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          # Jeton fourni par GitHub (permission « actions: write » ci-dessus) pour relancer le workflow
+          DISPATCH_TOKEN: ${{ github.token }}
         run: node generate.js
