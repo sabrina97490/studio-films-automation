@@ -2,7 +2,7 @@
   {
     "ident": "P01",
     "title": "Lucas traverse avec le plateau",
-    "anim_prompt": "Painterly animated wide shot of a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe waiter walks slowly toward the camera down the narrow passage between the tables, holding a round tray with one white coffee cup at hip height. The man in the rust-red jacket on the left and the woman in the green cardigan on the right stay seated, relaxed. At the back table, the old man with glasses stirs his coffee once with the spoon, then leaves the spoon in the cup. Leaves move slightly in the tree. Nobody else enters.",
+    "anim_prompt": "Painterly animated wide shot of a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe waiter in the plum shirt and long cream apron walks slowly toward the camera down the narrow passage between the tables, holding a round tray with one white coffee cup at hip height in both hands. The man in the rust-red jacket on the left sits relaxed at his round table, glancing to the side. The woman with short curly dark hair in the green cardigan on the right rests her chin on her hand. At the back table, the old man with grey hair and glasses stirs his coffee once with the spoon, then leaves the spoon in the cup. Leaves move slightly in the tree. Nobody else enters.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P01_0.png"
@@ -12,7 +12,7 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P01_0.png",
     "last_frame": null,
     "seconds": "6",
-    "video_prompt": "Painterly animated wide shot of a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe waiter walks slowly toward the camera down the narrow passage between the tables, holding a round tray with one white coffee cup at hip height. The man in the rust-red jacket on the left and the woman in the green cardigan on the right stay seated, relaxed. At the back table, the old man with glasses stirs his coffee once with the spoon, then leaves the spoon in the cup. Leaves move slightly in the tree. Nobody else enters.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "video_prompt": "Painterly animated wide shot of a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe waiter in the plum shirt and long cream apron walks slowly toward the camera down the narrow passage between the tables, holding a round tray with one white coffee cup at hip height in both hands. The man in the rust-red jacket on the left sits relaxed at his round table, glancing to the side. The woman with short curly dark hair in the green cardigan on the right rests her chin on her hand. At the back table, the old man with grey hair and glasses stirs his coffee once with the spoon, then leaves the spoon in the cup. Leaves move slightly in the tree. Nobody else enters.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
@@ -36,17 +36,17 @@
   {
     "ident": "P02a",
     "title": "Marc assis, chaise rentrée",
-    "anim_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the man on the left. One continuous take with no cuts.\n\nThe man in the rust-red jacket sits close to his round table, relaxed, glancing to the side. Near the end, he places both hands flat on the edge of his table, as if about to push himself back, but his wicker chair does not move yet. In the background, the waiter in the long cream apron comes out of the café door and walks forward a few steps along the passage, holding his round tray with one white coffee cup firmly in both hands. The woman in the green cardigan on the right and the old man with glasses at the back table stay seated and calm. Leaves move slightly in the tree.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02a_0.png"
       }
     ],
-    "video_url": null,
+    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_uxyuCJOdSfj29bARtH3rxvGOUraFoVAj.mp4",
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02a_0.png",
     "last_frame": null,
     "seconds": "4",
-    "video_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the man on the left. One continuous take with no cuts.\n\nThe man in the rust-red jacket sits close to his round table, relaxed, glancing to the side. Near the end, he places both hands flat on the edge of his table, as if about to push himself back, but his wicker chair does not move yet. In the background, the waiter in the long cream apron comes out of the café door and walks forward a few steps along the passage, holding his round tray with one white coffee cup firmly in both hands. The woman in the green cardigan on the right and the old man with glasses at the back table stay seated and calm. Leaves move slightly in the tree.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
@@ -70,7 +70,7 @@
   {
     "ident": "P03",
     "title": "Le café tombe sur la veste",
-    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe splash of coffee already in the air finishes landing on the front left of the seated man's rust-red jacket, leaving one dark stain on his chest. He flinches back, his raised hand stops in mid-air, he looks down at his jacket in shock. The empty white cup rolls onto its side on the waiter's tray and stays on the tray. The waiter freezes, eyes wide, holding the tray with both hands.\n\nThe woman in the green cardigan on the right and the old man with glasses at the back table only lift their eyes. Nobody else moves.",
+    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe splash of coffee already in the air finishes landing on the front left of the seated man's rust-red jacket, leaving one dark stain on his chest. He flinches back, his raised hand stops in mid-air, he looks down at his jacket in shock. The empty white cup rolls onto its side on the waiter's tray and stays there. The waiter in the plum shirt freezes, eyes wide, holding the tray with both hands. The woman in the green cardigan on the right and the old man with glasses at the back table only lift their eyes. Nobody else moves.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P03_0.png"
@@ -80,14 +80,14 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P03_0.png",
     "last_frame": null,
     "seconds": "4",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe splash of coffee already in the air finishes landing on the front left of the seated man's rust-red jacket, leaving one dark stain on his chest. He flinches back, his raised hand stops in mid-air, he looks down at his jacket in shock. The empty white cup rolls onto its side on the waiter's tray and stays on the tray. The waiter freezes, eyes wide, holding the tray with both hands.\n\nThe woman in the green cardigan on the right and the old man with glasses at the back table only lift their eyes. Nobody else moves.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe splash of coffee already in the air finishes landing on the front left of the seated man's rust-red jacket, leaving one dark stain on his chest. He flinches back, his raised hand stops in mid-air, he looks down at his jacket in shock. The empty white cup rolls onto its side on the waiter's tray and stays there. The waiter in the plum shirt freezes, eyes wide, holding the tray with both hands. The woman in the green cardigan on the right and the old man with glasses at the back table only lift their eyes. Nobody else moves.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P04",
     "title": "« Ah ! Ma veste ! »",
-    "anim_prompt": "The camera stays completely still. Only subtle breathing and tiny natural movements of the characters. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still, with only a very subtle breathing movement. One continuous take with no cuts.\n\nThe man in the rust-red jacket stands by his table, arms spread away from his body, looking down in dismay at the coffee stain on his chest, then lifts his head and says a few words, his mouth moving naturally. The waiter in the plum shirt and long cream apron answers briefly with an apologetic nod, then turns toward his small service cart behind him, his tray still in hand. The puddle of spilled coffee stays on the round table. The woman in the green cardigan stays seated, watching. The old man with glasses at the back table stays seated with his cup.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P04_0.png"
@@ -97,14 +97,14 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P04_0.png",
     "last_frame": null,
     "seconds": "7",
-    "video_prompt": "The camera stays completely still. Only subtle breathing and tiny natural movements of the characters. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still, with only a very subtle breathing movement. One continuous take with no cuts.\n\nThe man in the rust-red jacket stands by his table, arms spread away from his body, looking down in dismay at the coffee stain on his chest, then lifts his head and says a few words, his mouth moving naturally. The waiter in the plum shirt and long cream apron answers briefly with an apologetic nod, then turns toward his small service cart behind him, his tray still in hand. The puddle of spilled coffee stays on the round table. The woman in the green cardigan stays seated, watching. The old man with glasses at the back table stays seated with his cup.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P05",
     "title": "Marc retient le bras de Lucas",
-    "anim_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the characters. One continuous take with no cuts.\n\nThe man in the rust-red jacket with the coffee stain holds the waiter's forearm firmly but without shaking it, and speaks to him with an indignant open hand, mouth moving naturally. The waiter in the plum shirt, holding a white napkin, looks back at him, embarrassed. The woman in the green cardigan rises from her chair, her hand reaching out toward the two men, and says a short sharp word. The old man with glasses stays seated at the back table.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P05_0.png"
@@ -114,14 +114,14 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P05_0.png",
     "last_frame": null,
     "seconds": "7",
-    "video_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the characters. One continuous take with no cuts.\n\nThe man in the rust-red jacket with the coffee stain holds the waiter's forearm firmly but without shaking it, and speaks to him with an indignant open hand, mouth moving naturally. The waiter in the plum shirt, holding a white napkin, looks back at him, embarrassed. The woman in the green cardigan rises from her chair, her hand reaching out toward the two men, and says a short sharp word. The old man with glasses stays seated at the back table.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P06",
     "title": "Claire repousse Marc",
-    "anim_prompt": "Very slow, steady push-in toward the characters. One small, short camera jolt at the moment of the push, then stillness. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the characters, with one small, short camera jolt at the moment of the push, then stillness. One continuous take with no cuts.\n\nThe woman with short curly dark hair in the green cardigan and long violet skirt stands between the two men and pushes the man in the rust-red jacket back with her open palm flat on his chest. He takes half a step back, arms spread, surprised. Nobody hits anyone and nobody falls. The waiter in the plum shirt, holding his white napkin, turns toward them. The old man with glasses stays seated at the back table.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P06_0.png"
@@ -131,14 +131,14 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P06_0.png",
     "last_frame": null,
     "seconds": "7",
-    "video_prompt": "Very slow, steady push-in toward the characters. One small, short camera jolt at the moment of the push, then stillness. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the characters, with one small, short camera jolt at the moment of the push, then stillness. One continuous take with no cuts.\n\nThe woman with short curly dark hair in the green cardigan and long violet skirt stands between the two men and pushes the man in the rust-red jacket back with her open palm flat on his chest. He takes half a step back, arms spread, surprised. Nobody hits anyone and nobody falls. The waiter in the plum shirt, holding his white napkin, turns toward them. The old man with glasses stays seated at the back table.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P07",
     "title": "La poussée vue depuis la porte",
-    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "anim_prompt": "Painterly animated scene of a Parisian café terrace at golden hour, seen from inside the café doorway, framed between the two open door panels, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nOn the terrace, the woman in the green cardigan and long violet skirt finishes pushing the man in the rust-red jacket away with her arm outstretched, and he steps back one pace, arms open. Then both freeze for a moment, facing each other. The door panels in the foreground do not move. The old man with glasses stays seated far at the back.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P07_0.png"
@@ -148,7 +148,7 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P07_0.png",
     "last_frame": null,
     "seconds": "5",
-    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "video_prompt": "Painterly animated scene of a Parisian café terrace at golden hour, seen from inside the café doorway, framed between the two open door panels, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nOn the terrace, the woman in the green cardigan and long violet skirt finishes pushing the man in the rust-red jacket away with her arm outstretched, and he steps back one pace, arms open. Then both freeze for a moment, facing each other. The door panels in the foreground do not move. The old man with glasses stays seated far at the back.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
@@ -172,7 +172,7 @@
   {
     "ident": "P09",
     "title": "Les répliques se chevauchent",
-    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe young man in the navy-blue zip jacket walks quickly in from the café entrance, behind the man in the rust-red jacket, and points firmly at the seated woman in the green cardigan. She points back at the man in the rust-red jacket, speaking. The man in the rust-red jacket spreads his hands and shows the coffee stain on his chest. All three talk at the same time, mouths moving, nobody listening. The waiter in the plum shirt stands in the middle holding his white napkin. The old man with glasses stays seated at the back table.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P09_0.png"
@@ -182,14 +182,14 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P09_0.png",
     "last_frame": null,
     "seconds": "7",
-    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe young man in the navy-blue zip jacket walks quickly in from the café entrance, behind the man in the rust-red jacket, and points firmly at the seated woman in the green cardigan. She points back at the man in the rust-red jacket, speaking. The man in the rust-red jacket spreads his hands and shows the coffee stain on his chest. All three talk at the same time, mouths moving, nobody listening. The waiter in the plum shirt stands in the middle holding his white napkin. The old man with glasses stays seated at the back table.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P10",
     "title": "Lucas tend la serviette",
-    "anim_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the waiter. One continuous take with no cuts.\n\nIn the blurred foreground, the man in the rust-red jacket on the left and the woman in the green cardigan on the right argue, gesturing. Between them, the waiter in the plum shirt holds out a white napkin and opens his mouth to speak, but nobody takes it. Behind them, the young man in the navy-blue jacket gesticulates. At the back table, the old man with glasses stays seated, sharp and calm.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P10_0.png"
@@ -199,14 +199,14 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P10_0.png",
     "last_frame": null,
     "seconds": "7",
-    "video_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the waiter. One continuous take with no cuts.\n\nIn the blurred foreground, the man in the rust-red jacket on the left and the woman in the green cardigan on the right argue, gesturing. Between them, the waiter in the plum shirt holds out a white napkin and opens his mouth to speak, but nobody takes it. Behind them, the young man in the navy-blue jacket gesticulates. At the back table, the old man with glasses stays seated, sharp and calm.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P11",
     "title": "Le patron sort",
-    "anim_prompt": "Very slow, steady pull-back. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady pull-back. One continuous take with no cuts.\n\nThe grey-haired café owner in the burgundy shirt and dark waistcoat steps out of the café door on the left with open hands and asks a question. The man in the rust-red jacket and the young man in the navy-blue jacket, standing in the passage, turn toward him. The empty wicker chair stays pushed back into the passage. The waiter in the plum shirt holds his white napkin. The woman in the green cardigan stays seated, looking at the owner. The old man with glasses stays seated at the back table.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P11_0.png"
@@ -216,14 +216,14 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P11_0.png",
     "last_frame": null,
     "seconds": "7",
-    "video_prompt": "Very slow, steady pull-back. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady pull-back. One continuous take with no cuts.\n\nThe grey-haired café owner in the burgundy shirt and dark waistcoat steps out of the café door on the left with open hands and asks a question. The man in the rust-red jacket and the young man in the navy-blue jacket, standing in the passage, turn toward him. The empty wicker chair stays pushed back into the passage. The waiter in the plum shirt holds his white napkin. The woman in the green cardigan stays seated, looking at the owner. The old man with glasses stays seated at the back table.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P12",
     "title": "« J'ai tout vu ! » / « Moi aussi ! »",
-    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "anim_prompt": "Painterly animated scene at a café table on a Parisian terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nSeated side by side, the young man in the navy-blue jacket and the woman in the green cardigan both put a hand on their chest and speak almost at the same time, mouths moving. Then they turn their heads and look at each other, surprised. The café owner seen from behind in the left foreground listens. The man in the rust-red jacket and the waiter with the white napkin stand behind, watching. The old man with glasses stays seated at the back table.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P12_0.png"
@@ -233,14 +233,14 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P12_0.png",
     "last_frame": null,
     "seconds": "7",
-    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "video_prompt": "Painterly animated scene at a café table on a Parisian terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nSeated side by side, the young man in the navy-blue jacket and the woman in the green cardigan both put a hand on their chest and speak almost at the same time, mouths moving. Then they turn their heads and look at each other, surprised. The café owner seen from behind in the left foreground listens. The man in the rust-red jacket and the waiter with the white napkin stand behind, watching. The old man with glasses stays seated at the back table.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P13",
     "title": "Claire raconte",
-    "anim_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "anim_prompt": "Painterly animated scene at a café table on a Parisian terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the woman. One continuous take with no cuts.\n\nThe woman with short curly dark hair in the green cardigan speaks with assurance, her hand stretched out toward the man in the rust-red jacket standing behind, mouth moving naturally. Beside her, the young man in the navy-blue jacket listens, skeptical, one hand on the table. The waiter with the white napkin and the man in the rust-red jacket stand in the background. The old man with glasses stays seated at the back table.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P13_0.png"
@@ -250,14 +250,14 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P13_0.png",
     "last_frame": null,
     "seconds": "7",
-    "video_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "video_prompt": "Painterly animated scene at a café table on a Parisian terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the woman. One continuous take with no cuts.\n\nThe woman with short curly dark hair in the green cardigan speaks with assurance, her hand stretched out toward the man in the rust-red jacket standing behind, mouth moving naturally. Beside her, the young man in the navy-blue jacket listens, skeptical, one hand on the table. The waiter with the white napkin and the man in the rust-red jacket stand in the background. The old man with glasses stays seated at the back table.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P14",
     "title": "Julien raconte",
-    "anim_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "anim_prompt": "Painterly animated scene at a café table on a Parisian terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the young man. One continuous take with no cuts.\n\nThe young man in the navy-blue jacket leans forward and points his finger across the table at the woman, who is seen from behind in the right foreground, and speaks with conviction, mouth moving. She turns her head slightly and answers back sharply. The grey-haired café owner in the left foreground looks from one to the other. The man in the rust-red jacket and the waiter with the white napkin stand in the background. The old man with glasses stays seated at the back table.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P14_0.png"
@@ -267,14 +267,14 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P14_0.png",
     "last_frame": null,
     "seconds": "7",
-    "video_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "video_prompt": "Painterly animated scene at a café table on a Parisian terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the young man. One continuous take with no cuts.\n\nThe young man in the navy-blue jacket leans forward and points his finger across the table at the woman, who is seen from behind in the right foreground, and speaks with conviction, mouth moving. She turns her head slightly and answers back sharply. The grey-haired café owner in the left foreground looks from one to the other. The man in the rust-red jacket and the waiter with the white napkin stand in the background. The old man with glasses stays seated at the back table.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P15",
     "title": "« Et avant ? Le café ? »",
-    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe grey-haired café owner, seen from behind in the left foreground, turns toward the man in the rust-red jacket and asks a short question with an open hand. The man in the rust-red jacket, standing, scratches the back of his neck, embarrassed, and looks down at his coffee stain. The young man in the navy-blue jacket and the woman in the green cardigan, seated, fall silent. The waiter with the white napkin stands behind. The old man with glasses stays seated at the back table.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P15_0.png"
@@ -284,14 +284,14 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P15_0.png",
     "last_frame": null,
     "seconds": "5",
-    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe grey-haired café owner, seen from behind in the left foreground, turns toward the man in the rust-red jacket and asks a short question with an open hand. The man in the rust-red jacket, standing, scratches the back of his neck, embarrassed, and looks down at his coffee stain. The young man in the navy-blue jacket and the woman in the green cardigan, seated, fall silent. The waiter with the white napkin stands behind. The old man with glasses stays seated at the back table.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P16",
     "title": "« Moi, j'ai vu le début. »",
-    "anim_prompt": "Very slow, steady pull-back. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "anim_prompt": "Painterly animated wide shot of a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady pull-back. One continuous take with no cuts.\n\nAt the back table, the old man with grey hair and glasses in the violet cardigan, still seated, raises one hand slightly and says a few calm words. One by one, the others turn toward him: the man in the rust-red jacket and the café owner standing in the foreground, the waiter holding his white napkin, the young man in the navy-blue jacket and the woman in the green cardigan on their chairs. Nobody walks. The old man stays seated, his cup and saucer in front of him.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P16_0.png"
@@ -301,14 +301,14 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P16_0.png",
     "last_frame": null,
     "seconds": "5",
-    "video_prompt": "Very slow, steady pull-back. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "video_prompt": "Painterly animated wide shot of a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady pull-back. One continuous take with no cuts.\n\nAt the back table, the old man with grey hair and glasses in the violet cardigan, still seated, raises one hand slightly and says a few calm words. One by one, the others turn toward him: the man in the rust-red jacket and the café owner standing in the foreground, the waiter holding his white napkin, the young man in the navy-blue jacket and the woman in the green cardigan on their chairs. Nobody walks. The old man stays seated, his cup and saucer in front of him.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P17",
     "title": "Chaise, plateau, café",
-    "anim_prompt": "L'homme : La chaise a reculé dans le passage. Le plateau l'a touchée. Le café est tombé sur la veste.",
+    "anim_prompt": "Painterly animated close shot of an old man with grey hair and dark-rimmed glasses, in a violet knitted cardigan, seated at a café table on a Parisian terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nHe speaks calmly and simply, as if describing what he saw, his mouth moving naturally, with small pauses between sentences. His eyes move slightly as he remembers, once glancing down toward the passage. His hands rest on the table near his white cup with the spoon in it. No big gestures, no smile, no theatrical expression. The background stays still.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P17_0.png"
@@ -318,14 +318,14 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P17_0.png",
     "last_frame": null,
     "seconds": "10",
-    "video_prompt": "Le témoin et les souvenirs. L'homme : « La chaise a reculé dans le passage. Le plateau l'a touchée. Le café est tombé sur la veste. » On reste sur son visage, coupé par trois souvenirs d'environ 1 s :\n- « chaise » : le gros plan P02b ;\n- « plateau » : le contact de P02 ;\n- « café » : le café sur la veste de P03.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "video_prompt": "Painterly animated close shot of an old man with grey hair and dark-rimmed glasses, in a violet knitted cardigan, seated at a café table on a Parisian terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nHe speaks calmly and simply, as if describing what he saw, his mouth moving naturally, with small pauses between sentences. His eyes move slightly as he remembers, once glancing down toward the passage. His hands rest on the table near his white cup with the spoon in it. No big gestures, no smile, no theatrical expression. The background stays still.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P18",
     "title": "Bras, poussée, arrivée de Julien",
-    "anim_prompt": "L'homme : Il a retenu le serveur. Madame a séparé leurs mains. Leurs épaules se sont heurtées. Elle l'a repoussé. Lui est arrivé après.",
+    "anim_prompt": "Painterly animated close shot of an old man with grey hair and dark-rimmed glasses, in a violet knitted cardigan, seated at a café table on a Parisian terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nHe goes on speaking in the same calm, neutral voice, his mouth moving naturally, counting the facts without judging. Near the end, his eyes turn briefly to the side, toward someone standing off-screen, then come back. His hands stay resting near his white cup. No smile, no theatrical expression. The background stays still.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P18_0.png"
@@ -335,14 +335,14 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P18_0.png",
     "last_frame": null,
     "seconds": "9",
-    "video_prompt": "Le témoin et la suite. L'homme : « Il a retenu le serveur. Madame a séparé leurs mains. Leurs épaules se sont heurtées. Elle l'a repoussé. Lui est arrivé après. » Souvenirs de P05, P06, P07, puis Julien qui entre (début de P09). Sur « Lui est arrivé après », il regarde Julien.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "video_prompt": "Painterly animated close shot of an old man with grey hair and dark-rimmed glasses, in a violet knitted cardigan, seated at a café table on a Parisian terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nHe goes on speaking in the same calm, neutral voice, his mouth moving naturally, counting the facts without judging. Near the end, his eyes turn briefly to the side, toward someone standing off-screen, then come back. His hands stay resting near his white cup. No smile, no theatrical expression. The background stays still.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P19",
     "title": "« Je ne sais pas. »",
-    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nEveryone is turned toward the old man with glasses seated at his table. The grey-haired café owner, in the left foreground, leans toward him and asks a short question. The old man answers with a few calm words and a small, honest shrug, still seated. The man in the rust-red jacket, the young man in the navy-blue jacket and the waiter holding the white napkin stand still, listening. The woman in the green cardigan stays seated, looking at him.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P19_0.png"
@@ -352,14 +352,14 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P19_0.png",
     "last_frame": null,
     "seconds": "5",
-    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nEveryone is turned toward the old man with glasses seated at his table. The grey-haired café owner, in the left foreground, leans toward him and asks a short question. The old man answers with a few calm words and a small, honest shrug, still seated. The man in the rust-red jacket, the young man in the navy-blue jacket and the waiter holding the white napkin stand still, listening. The woman in the green cardigan stays seated, looking at him.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P20a",
     "title": "La cuillère, la gorgée",
-    "anim_prompt": "Painterly animated close shot of an old man in a violet cardigan seated at a café table at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nHe calmly lays the small spoon down flat on the saucer next to his cup, lets go of it, and rests both hands on the table. His face stays calm, eyes lowered toward the cup.",
+    "anim_prompt": "Painterly animated close shot of an old man with grey hair and dark-rimmed glasses, violet knitted cardigan, seated alone at a café table at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nWith his right hand he gently lays the small spoon down on the saucer, with a small clear clink. Then he lifts the white coffee cup with the same hand, brings it to his lips and takes a small, quiet sip, eyes lowered. He slowly puts the cup back on the saucer. His face stays calm and neutral, without a smile. He does not look at the camera.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P20a_0.png"
@@ -369,14 +369,14 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P20a_0.png",
     "last_frame": null,
     "seconds": "6",
-    "video_prompt": "Painterly animated close shot of an old man in a violet cardigan seated at a café table at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nHe calmly lays the small spoon down flat on the saucer next to his cup, lets go of it, and rests both hands on the table. His face stays calm, eyes lowered toward the cup.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "video_prompt": "Painterly animated close shot of an old man with grey hair and dark-rimmed glasses, violet knitted cardigan, seated alone at a café table at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nWith his right hand he gently lays the small spoon down on the saucer, with a small clear clink. Then he lifts the white coffee cup with the same hand, brings it to his lips and takes a small, quiet sip, eyes lowered. He slowly puts the cup back on the saucer. His face stays calm and neutral, without a smile. He does not look at the camera.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
   {
     "ident": "P20b",
     "title": "Le groupe décontenancé",
-    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe man in the rust-red jacket with the coffee stain, on the left, grabs the back of the empty wicker chair standing in the passage and pulls it toward himself, to the LEFT, sliding it back under his own round table with the coffee spill, so that the passage is clear again. Then he straightens up and takes the white napkin that the waiter holds out to him, and looks down at it. The man in the navy-blue jacket and the woman in the green cardigan exchange a short, puzzled glance. The café owner in the dark waistcoat stays still, one hand on his hip. At the back, the old man with glasses keeps drinking his coffee, unbothered. Nothing is added to any table: the woman's table keeps only its glass of water and its small vase of flowers. Small, natural movements only, nobody speaks.",
+    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe man in the rust-red jacket with the coffee stain, on the left, rests his hand on the back of his wicker chair, then straightens up and takes the white napkin that the waiter in the plum shirt holds out to him, and looks down at it. The young man in the navy-blue jacket and the woman in the green cardigan exchange a short, puzzled glance. The grey-haired café owner in the dark waistcoat stays still, one hand on his hip. At the back, the old man with glasses keeps drinking his coffee, unbothered. Nothing is added to any table. Small, natural movements only.",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P20b_0.png"
@@ -386,7 +386,7 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P20b_0.png",
     "last_frame": null,
     "seconds": "6",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe man in the rust-red jacket with the coffee stain, on the left, grabs the back of the empty wicker chair standing in the passage and pulls it toward himself, to the LEFT, sliding it back under his own round table with the coffee spill, so that the passage is clear again. Then he straightens up and takes the white napkin that the waiter holds out to him, and looks down at it. The man in the navy-blue jacket and the woman in the green cardigan exchange a short, puzzled glance. The café owner in the dark waistcoat stays still, one hand on his hip. At the back, the old man with glasses keeps drinking his coffee, unbothered. Nothing is added to any table: the woman's table keeps only its glass of water and its small vase of flowers. Small, natural movements only, nobody speaks.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe man in the rust-red jacket with the coffee stain, on the left, rests his hand on the back of his wicker chair, then straightens up and takes the white napkin that the waiter in the plum shirt holds out to him, and looks down at it. The young man in the navy-blue jacket and the woman in the green cardigan exchange a short, puzzled glance. The grey-haired café owner in the dark waistcoat stays still, one hand on his hip. At the back, the old man with glasses keeps drinking his coffee, unbothered. Nothing is added to any table. Small, natural movements only.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
