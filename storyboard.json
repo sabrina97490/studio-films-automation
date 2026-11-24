@@ -53,7 +53,7 @@
   {
     "ident": "P02b",
     "title": "Gros plan : la chaise glisse vers le passage",
-    "anim_prompt": "Painterly animated close-up at floor level on a café terrace in golden light, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nFor the first second, nothing moves except the leaf shadows trembling slightly on the stone floor. Then the rattan chair slides backward to the RIGHT across the stone floor by about fifteen centimeters, in one short smooth push, carrying the man's trouser legs and brown shoes with it, as the seated man settles back. The black iron foot of the table on the left edge does not move, so the gap between the table foot and the chair widens. The chair legs stay on the floor, the shoes stay flat. Then everything is still again. A short dry scrape of rattan legs on stone.",
+    "anim_prompt": "Painterly animated close-up at floor level on a café terrace in golden light, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nFor the first second, nothing moves except the leaf shadows trembling slightly on the stone floor. Then the rattan chair slides backward to the RIGHT across the stone floor by about fifteen centimeters, in one short smooth push, carrying the man's trouser legs and brown shoes with it, as the seated man settles back. The black iron foot of the table on the left edge does not move, so the gap between the table foot and the chair widens. The chair legs stay on the floor, the shoes stay flat. Then everything is still again. A short dry scrape of rattan legs on stone.\n\nNegatif prompt : camera cut, change of angle, zoom, camera shake, sudden jump, extra people, people appearing or disappearing, duplicated objects, objects appearing or disappearing, text, subtitles, logo, photorealistic rendering, smooth 3D look, background music, voices, speech, talking, waiter, hands, face, chair moving left, chair lifted off the floor, table moving, feet walking, legs crossing",
     "images": [
       {
         "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02b_0.png"
@@ -63,7 +63,7 @@
     "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02b_0.png",
     "last_frame": null,
     "seconds": "4",
-    "video_prompt": "Painterly animated close-up at floor level on a café terrace in golden light, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nFor the first second, nothing moves except the leaf shadows trembling slightly on the stone floor. Then the rattan chair slides backward to the RIGHT across the stone floor by about fifteen centimeters, in one short smooth push, carrying the man's trouser legs and brown shoes with it, as the seated man settles back. The black iron foot of the table on the left edge does not move, so the gap between the table foot and the chair widens. The chair legs stay on the floor, the shoes stay flat. Then everything is still again. A short dry scrape of rattan legs on stone.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
+    "video_prompt": "Painterly animated close-up at floor level on a café terrace in golden light, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nFor the first second, nothing moves except the leaf shadows trembling slightly on the stone floor. Then the rattan chair slides backward to the RIGHT across the stone floor by about fifteen centimeters, in one short smooth push, carrying the man's trouser legs and brown shoes with it, as the seated man settles back. The black iron foot of the table on the left edge does not move, so the gap between the table foot and the chair widens. The chair legs stay on the floor, the shoes stay flat. Then everything is still again. A short dry scrape of rattan legs on stone.\n\nNegatif prompt : camera cut, change of angle, zoom, camera shake, sudden jump, extra people, people appearing or disappearing, duplicated objects, objects appearing or disappearing, text, subtitles, logo, photorealistic rendering, smooth 3D look, background music, voices, speech, talking, waiter, hands, face, chair moving left, chair lifted off the floor, table moving, feet walking, legs crossing\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
     "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
     "project_name": "ET-Si -Episode 5"
   },
@@ -326,9 +326,13 @@
     "ident": "P18",
     "title": "Bras, poussée, arrivée de Julien",
     "anim_prompt": "L'homme : Il a retenu le serveur. Madame a séparé leurs mains. Leurs épaules se sont heurtées. Elle l'a repoussé. Lui est arrivé après.",
-    "images": [],
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P18_0.png"
+      }
+    ],
     "video_url": null,
-    "first_frame": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P18_0.png",
     "last_frame": null,
     "seconds": "9",
     "video_prompt": "Le témoin et la suite. L'homme : « Il a retenu le serveur. Madame a séparé leurs mains. Leurs épaules se sont heurtées. Elle l'a repoussé. Lui est arrivé après. » Souvenirs de P05, P06, P07, puis Julien qui entre (début de P09). Sur « Lui est arrivé après », il regarde Julien.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
