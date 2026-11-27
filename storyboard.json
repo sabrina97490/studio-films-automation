@@ -1,422 +1,1009 @@
 [
   {
-    "ident": "P01",
-    "title": "Lucas traverse avec le plateau",
-    "anim_prompt": "Painterly animated wide shot of a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe waiter in the plum shirt and long cream apron walks slowly toward the camera down the narrow passage between the tables, holding a round tray with one white coffee cup at hip height in both hands. The man in the rust-red jacket on the left sits relaxed at his round table, glancing to the side. The woman with short curly dark hair in the green cardigan on the right rests her chin on her hand. At the back table, the old man with grey hair and glasses stirs his coffee once with the spoon, then leaves the spoon in the cup. Leaves move slightly in the tree. Nobody else enters.",
+    "ident": "P00",
+    "title": "Intro de la série",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P01_0.png"
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P00_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_jioCb63UKto1esgMLqzw7pMlTogTxcj5.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P01_0.png",
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P00_0.png",
     "last_frame": null,
-    "seconds": "6",
-    "video_prompt": "Painterly animated wide shot of a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe waiter in the plum shirt and long cream apron walks slowly toward the camera down the narrow passage between the tables, holding a round tray with one white coffee cup at hip height in both hands. The man in the rust-red jacket on the left sits relaxed at his round table, glancing to the side. The woman with short curly dark hair in the green cardigan on the right rests her chin on her hand. At the back table, the old man with grey hair and glasses stirs his coffee once with the spoon, then leaves the spoon in the cup. Leaves move slightly in the tree. Nobody else enters.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "seconds": "5",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P01",
+    "title": "Chambre de Hugo, matin",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P01_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P01_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   },
   {
     "ident": "P02",
-    "title": "Le plateau touche le dossier",
-    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe man in the rust-red jacket sits with his wicker chair pushed back into the narrow passage, one hand flat on the edge of his round table, looking over his shoulder. The waiter in the plum shirt and long cream apron keeps walking forward behind him, holding the round tray low with BOTH hands under it. His hands never touch the chair. Because the chair is in his way, the edge of the tray bumps into the top of the chair back. The white cup on the tray wobbles and tips toward the seated man. The clip ends right there, before any coffee falls. The woman in the green cardigan on the right and the old man with glasses at the back table stay seated and calm.",
+    "title": "Hugo se retourne pour attraper ses chaussures",
+    "anim_prompt": "Painterly animated scene in a child's bedroom, morning light, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nIn the foreground on the right, an adult man's hand in a moss-green knitted sleeve slowly pulls back out of the open brown leather satchel lying on the bed, and leaves the frame to the right. We only ever see the hand, the wrist and the sleeve. In the background, the boy with messy chestnut-auburn hair in a coral cable-knit sweater stays bent over, picking up his sneakers near the chair, his back turned. He never sees the hand. The satchel stays still. A very soft rustle of paper.",
     "images": [
       {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02_0.png"
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P02_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_tE4F7R1b0LZw6iwPHrPZlkuw1lxNXWwL.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02_0.png",
-    "last_frame": null,
-    "seconds": "6",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe man in the rust-red jacket sits with his wicker chair pushed back into the narrow passage, one hand flat on the edge of his round table, looking over his shoulder. The waiter in the plum shirt and long cream apron keeps walking forward behind him, holding the round tray low with BOTH hands under it. His hands never touch the chair. Because the chair is in his way, the edge of the tray bumps into the top of the chair back. The white cup on the tray wobbles and tips toward the seated man. The clip ends right there, before any coffee falls. The woman in the green cardigan on the right and the old man with glasses at the back table stay seated and calm.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
-  },
-  {
-    "ident": "P02a",
-    "title": "Marc assis, chaise rentrée",
-    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the man on the left. One continuous take with no cuts.\n\nThe man in the rust-red jacket sits close to his round table, relaxed, glancing to the side. Near the end, he places both hands flat on the edge of his table, as if about to push himself back, but his wicker chair does not move yet. In the background, the waiter in the plum shirt and long cream apron comes out of the café door and walks forward a few steps along the passage, holding his round tray with one white coffee cup firmly in both hands. The woman in the green cardigan on the right and the old man with glasses at the back table stay seated and calm. Leaves move slightly in the tree.",
-    "images": [
-      {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02a_0.png"
-      }
-    ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_uxyuCJOdSfj29bARtH3rxvGOUraFoVAj.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02a_0.png",
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P02_0.png",
     "last_frame": null,
     "seconds": "4",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the man on the left. One continuous take with no cuts.\n\nThe man in the rust-red jacket sits close to his round table, relaxed, glancing to the side. Near the end, he places both hands flat on the edge of his table, as if about to push himself back, but his wicker chair does not move yet. In the background, the waiter in the plum shirt and long cream apron comes out of the café door and walks forward a few steps along the passage, holding his round tray with one white coffee cup firmly in both hands. The woman in the green cardigan on the right and the old man with glasses at the back table stay seated and calm. Leaves move slightly in the tree.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
-  },
-  {
-    "ident": "P02b",
-    "title": "Gros plan : la chaise glisse vers le passage",
-    "anim_prompt": "Static painted shot, locked-off camera, no zoom, no camera movement. Floor-level side view of a café terrace in warm golden light, thick gouache and oil painting with visible brushstrokes, exactly like the first and last frames. The style never changes.\n\nThe seated man pushes his rattan chair back with his feet. His two brown shoes stay planted flat on the stone floor and never move: they are the anchor of the push. Only the chair moves, to the right, into the empty passage, and his shins tilt as his knees follow the chair, until everything matches the last frame. The black iron table foot on the left never moves.\n\n0.0 to 1.0 s: everything is still. 1.0 to 1.6 s: one short, firm push, the chair goes back. From 1.6 s to the end: the chair stays where it is in the last frame and nothing moves. A single short dry scrape of rattan on stone at 1.0 s.",
-    "images": [
-      {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02b_0.png"
-      },
-      {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02b_1.png"
-      }
-    ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_MhgUUuhznpIJtIFiLUuQiGpom8iEq3Sb.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02b_0.png",
-    "last_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P02b_1.png",
-    "seconds": "4",
-    "video_prompt": "Static painted shot, locked-off camera, no zoom, no camera movement. Floor-level side view of a café terrace in warm golden light, thick gouache and oil painting with visible brushstrokes, exactly like the first and last frames. The style never changes.\n\nThe seated man pushes his rattan chair back with his feet. His two brown shoes stay planted flat on the stone floor and never move: they are the anchor of the push. Only the chair moves, to the right, into the empty passage, and his shins tilt as his knees follow the chair, until everything matches the last frame. The black iron table foot on the left never moves.\n\n0.0 to 1.0 s: everything is still. 1.0 to 1.6 s: one short, firm push, the chair goes back. From 1.6 s to the end: the chair stays where it is in the last frame and nothing moves. A single short dry scrape of rattan on stone at 1.0 s.\nThe shot starts exactly on the first frame and moves with smooth, continuous motion to end exactly on the composition of the last frame. Keep characters, clothing, props and set identical between the two frames.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "video_prompt": "Painterly animated scene in a child's bedroom, morning light, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nIn the foreground on the right, an adult man's hand in a moss-green knitted sleeve slowly pulls back out of the open brown leather satchel lying on the bed, and leaves the frame to the right. We only ever see the hand, the wrist and the sleeve. In the background, the boy with messy chestnut-auburn hair in a coral cable-knit sweater stays bent over, picking up his sneakers near the chair, his back turned. He never sees the hand. The satchel stays still. A very soft rustle of paper.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   },
   {
     "ident": "P03",
-    "title": "Le café tombe sur la veste",
-    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe splash of coffee already in the air finishes landing on the front left of the seated man's rust-red jacket, leaving one dark stain on his chest. He flinches back, his raised hand stops in mid-air, he looks down at his jacket in shock. The empty white cup rolls onto its side on the waiter's tray and stays there. The waiter in the plum shirt freezes, eyes wide, holding the tray with both hands. The woman in the green cardigan on the right and the old man with glasses at the back table only lift their eyes. Nobody else moves.",
+    "title": "Dans le cartable, assis sur les cahiers : le petit personnage de papier",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P03_0.png"
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P03_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_7PuOpgU26gxqUQFi8My9fOQlONMzdGwN.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P03_0.png",
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P03_0.png",
     "last_frame": null,
     "seconds": "4",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe splash of coffee already in the air finishes landing on the front left of the seated man's rust-red jacket, leaving one dark stain on his chest. He flinches back, his raised hand stops in mid-air, he looks down at his jacket in shock. The empty white cup rolls onto its side on the waiter's tray and stays there. The waiter in the plum shirt freezes, eyes wide, holding the tray with both hands. The woman in the green cardigan on the right and the old man with glasses at the back table only lift their eyes. Nobody else moves.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   },
   {
     "ident": "P04",
-    "title": "« Ah ! Ma veste ! »",
-    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still, with only a very subtle breathing movement. One continuous take with no cuts.\n\nThe man in the rust-red jacket stands by his table, arms spread away from his body, looking down in dismay at the coffee stain on his chest, then lifts his head and says a few words, his mouth moving naturally. The waiter in the plum shirt and long cream apron answers briefly with an apologetic nod, then turns toward his small service cart behind him, his tray still in hand. The puddle of spilled coffee stays on the round table. The woman in the green cardigan stays seated, watching. The old man with glasses at the back table stays seated with his cup.",
+    "title": "Hugo, intrigué, penche la tête",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P04_0.png"
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P04_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_qeS76FqrNwPatuX3vTy4hDKVgldWxCTy.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P04_0.png",
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P04_0.png",
     "last_frame": null,
-    "seconds": "7",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still, with only a very subtle breathing movement. One continuous take with no cuts.\n\nThe man in the rust-red jacket stands by his table, arms spread away from his body, looking down in dismay at the coffee stain on his chest, then lifts his head and says a few words, his mouth moving naturally. The waiter in the plum shirt and long cream apron answers briefly with an apologetic nod, then turns toward his small service cart behind him, his tray still in hand. The puddle of spilled coffee stays on the round table. The woman in the green cardigan stays seated, watching. The old man with glasses at the back table stays seated with his cup.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   },
   {
     "ident": "P05",
-    "title": "Marc retient le bras de Lucas",
-    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the characters. One continuous take with no cuts.\n\nThe man in the rust-red jacket with the coffee stain holds the waiter's forearm firmly but without shaking it, and speaks to him with an indignant open hand, mouth moving naturally. The waiter in the plum shirt, holding a white napkin, looks back at him, embarrassed. The woman in the green cardigan rises from her chair, her hand reaching out toward the two men, and says a short sharp word. The old man with glasses stays seated at the back table.",
+    "title": "Hugo tend la main",
+    "anim_prompt": "Painterly animated insert, morning light, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe boy's hand and forearm in the coral cable-knit sleeve stay perfectly still, held out above the open brown leather satchel. The tiny folded paper figure (cream notebook paper with pale-blue lines, no face), standing on the wrist, climbs up the knitted sleeve step by step, like a tiny careful climber, its paper legs folding and unfolding, and walks toward the shoulder until it leaves the frame at the top left. Small soft paper rustles with each step.",
     "images": [
       {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P05_0.png"
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P05_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_l4bR36q2VH5vxlvPmKOZdUNJCIFTA4LK.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P05_0.png",
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P05_0.png",
     "last_frame": null,
     "seconds": "6",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the characters. One continuous take with no cuts.\n\nThe man in the rust-red jacket with the coffee stain holds the waiter's forearm firmly but without shaking it, and speaks to him with an indignant open hand, mouth moving naturally. The waiter in the plum shirt, holding a white napkin, looks back at him, embarrassed. The woman in the green cardigan rises from her chair, her hand reaching out toward the two men, and says a short sharp word. The old man with glasses stays seated at the back table.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "video_prompt": "Painterly animated insert, morning light, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe boy's hand and forearm in the coral cable-knit sleeve stay perfectly still, held out above the open brown leather satchel. The tiny folded paper figure (cream notebook paper with pale-blue lines, no face), standing on the wrist, climbs up the knitted sleeve step by step, like a tiny careful climber, its paper legs folding and unfolding, and walks toward the shoulder until it leaves the frame at the top left. Small soft paper rustles with each step.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   },
   {
     "ident": "P06",
-    "title": "Claire repousse Marc",
-    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the characters, with one small, short camera jolt at the moment of the push, then stillness. One continuous take with no cuts.\n\nThe woman with short curly dark hair in the green cardigan and long violet skirt stands between the two men and pushes the man in the rust-red jacket back with her open palm flat on his chest. He takes half a step back, arms spread, surprised. Nobody hits anyone and nobody falls. The waiter in the plum shirt, holding his white napkin, turns toward them. The old man with glasses stays seated at the back table.",
+    "title": "La classe",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P06_0.png"
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P06_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_5GDGJf2QwmeusB5rBJ3mAAkp0UUoogoH.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P06_0.png",
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P06_0.png",
     "last_frame": null,
-    "seconds": "6",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the characters, with one small, short camera jolt at the moment of the push, then stillness. One continuous take with no cuts.\n\nThe woman with short curly dark hair in the green cardigan and long violet skirt stands between the two men and pushes the man in the rust-red jacket back with her open palm flat on his chest. He takes half a step back, arms spread, surprised. Nobody hits anyone and nobody falls. The waiter in the plum shirt, holding his white napkin, turns toward them. The old man with glasses stays seated at the back table.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   },
   {
     "ident": "P07",
-    "title": "La poussée vue depuis la porte",
-    "anim_prompt": "Painterly animated scene of a Parisian café terrace at golden hour, seen from inside the café doorway, framed between the two open door panels, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nOn the terrace, the woman in the green cardigan and long violet skirt finishes pushing the man in the rust-red jacket away with her arm outstretched, and he steps back one pace, arms open. Then both freeze for a moment, facing each other. The door panels in the foreground do not move. The old man with glasses stays seated far at the back.",
+    "title": "Ses mains tremblent sur la feuille",
+    "anim_prompt": "Painterly animated insert in a classroom, morning light, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nA boy's two small hands with coral knitted cuffs hold a completely blank sheet of paper at chest height. The fingers tighten on the edges and tremble very slightly, with fear; the sheet quivers a little. The hands never let go, the sheet stays blank. The green chalkboard behind stays blurred and still. A faint paper rustle.",
     "images": [
       {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P07_0.png"
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P07_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_6sgPjv7ySPKgnYTjDo9s0wVRnKMA0rFY.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P07_0.png",
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P07_0.png",
     "last_frame": null,
     "seconds": "4",
-    "video_prompt": "Painterly animated scene of a Parisian café terrace at golden hour, seen from inside the café doorway, framed between the two open door panels, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nOn the terrace, the woman in the green cardigan and long violet skirt finishes pushing the man in the rust-red jacket away with her arm outstretched, and he steps back one pace, arms open. Then both freeze for a moment, facing each other. The door panels in the foreground do not move. The old man with glasses stays seated far at the back.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "video_prompt": "Painterly animated insert in a classroom, morning light, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nA boy's two small hands with coral knitted cuffs hold a completely blank sheet of paper at chest height. The fingers tighten on the edges and tremble very slightly, with fear; the sheet quivers a little. The hands never let go, the sheet stays blank. The green chalkboard behind stays blurred and still. A faint paper rustle.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   },
   {
     "ident": "P08",
-    "title": "Julien arrive",
-    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe young man in the navy-blue zip jacket walks quickly in from the café entrance behind the man in the rust-red jacket, takes two steps into the terrace and raises his arm to point at the woman in the green cardigan. The seated woman keeps pointing back. The man in the rust-red jacket and the waiter holding the white napkin turn their heads toward the newcomer. The old man at the back table stays seated.",
+    "title": "Le rituel : froissement, le papier se redresse et se tourne vers sa bouche",
+    "anim_prompt": "Painted extreme close-up, locked-off camera, no zoom, no camera movement, exactly like the first and last frames. Thick gouache and oil brushstrokes, the painting style never changes.\n\nOn top of the boy's coral knitted shoulder sits the tiny folded paper figure (cream notebook paper with pale-blue lines, no face), slumped, head down. The ear, the jaw, the hair and the blurred classroom behind never move.\n\n0.0 to 0.8 s: everything is still. 0.8 to 2.4 s: with a soft paper rustle, the figure slowly straightens up, stands on the shoulder, turns its body toward the ear at the top left and leans its blank head close to the ear, one tiny arm raised as if whispering, until it matches the last frame exactly. It rises in one single smooth movement: it never curls up into a ball first, never turns its back to the ear, never faces the classroom, never waves. From 2.4 s to the end: the figure holds that pose, perfectly still. Only the paper figure moves. A single soft paper rustle at 0.8 s.",
     "images": [
       {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P08_0.png"
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P08_0.png"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P08_1.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_w0Cl3dUUNdcTjhtzGBYEYBwqqFLwk8mj.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P08_0.png",
-    "last_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P09_0.png",
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P08_0.png",
+    "last_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P08_1.png",
     "seconds": "4",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe young man in the navy-blue zip jacket walks quickly in from the café entrance behind the man in the rust-red jacket, takes two steps into the terrace and raises his arm to point at the woman in the green cardigan. The seated woman keeps pointing back. The man in the rust-red jacket and the waiter holding the white napkin turn their heads toward the newcomer. The old man at the back table stays seated.\nThe shot starts exactly on the first frame and moves with smooth, continuous motion to end exactly on the composition of the last frame. Keep characters, clothing, props and set identical between the two frames.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "video_prompt": "Painted extreme close-up, locked-off camera, no zoom, no camera movement, exactly like the first and last frames. Thick gouache and oil brushstrokes, the painting style never changes.\n\nOn top of the boy's coral knitted shoulder sits the tiny folded paper figure (cream notebook paper with pale-blue lines, no face), slumped, head down. The ear, the jaw, the hair and the blurred classroom behind never move.\n\n0.0 to 0.8 s: everything is still. 0.8 to 2.4 s: with a soft paper rustle, the figure slowly straightens up, stands on the shoulder, turns its body toward the ear at the top left and leans its blank head close to the ear, one tiny arm raised as if whispering, until it matches the last frame exactly. It rises in one single smooth movement: it never curls up into a ball first, never turns its back to the ear, never faces the classroom, never waves. From 2.4 s to the end: the figure holds that pose, perfectly still. Only the paper figure moves. A single soft paper rustle at 0.8 s.\nThe shot starts exactly on the first frame and moves with smooth, continuous motion to end exactly on the composition of the last frame. Keep characters, clothing, props and set identical between the two frames.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   },
   {
     "ident": "P09",
-    "title": "Les répliques se chevauchent",
-    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe young man in the navy-blue zip jacket walks quickly in from the café entrance, behind the man in the rust-red jacket, and points firmly at the seated woman in the green cardigan. She points back at the man in the rust-red jacket, speaking. The man in the rust-red jacket spreads his hands and shows the coffee stain on his chest. All three talk at the same time, mouths moving, nobody listening. The waiter in the plum shirt stands in the middle holding his white napkin. The old man with glasses stays seated at the back table.",
-    "images": [
-      {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P09_0.png"
-      }
-    ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_meCGkPpP1s6wlaYcmt6hpcS4LS2XEsLT.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P09_0.png",
+    "title": "Le papier parle",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [],
+    "video_url": null,
+    "first_frame": null,
     "last_frame": null,
-    "seconds": "7",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe young man in the navy-blue zip jacket walks quickly in from the café entrance, behind the man in the rust-red jacket, and points firmly at the seated woman in the green cardigan. She points back at the man in the rust-red jacket, speaking. The man in the rust-red jacket spreads his hands and shows the coffee stain on his chest. All three talk at the same time, mouths moving, nobody listening. The waiter in the plum shirt stands in the middle holding his white napkin. The old man with glasses stays seated at the back table.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   },
   {
     "ident": "P10",
-    "title": "Lucas tend la serviette",
-    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the waiter. One continuous take with no cuts.\n\nIn the blurred foreground, the man in the rust-red jacket on the left and the woman in the green cardigan on the right argue, gesturing. Between them, the waiter in the plum shirt holds out a white napkin and opens his mouth to speak, but nobody takes it. Behind them, the young man in the navy-blue jacket gesticulates. At the back table, the old man with glasses stays seated, sharp and calm.",
+    "title": "Toutes les têtes se tournent, rires étouffés, la maîtresse lève un sourcil",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P10_0.png"
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P10_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_Itcv68igJZepLjm7bQy66iViUJ1xzrWe.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P10_0.png",
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P10_0.png",
     "last_frame": null,
-    "seconds": "6",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the waiter. One continuous take with no cuts.\n\nIn the blurred foreground, the man in the rust-red jacket on the left and the woman in the green cardigan on the right argue, gesturing. Between them, the waiter in the plum shirt holds out a white napkin and opens his mouth to speak, but nobody takes it. Behind them, the young man in the navy-blue jacket gesticulates. At the back table, the old man with glasses stays seated, sharp and calm.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   },
   {
     "ident": "P11",
-    "title": "Le patron sort",
-    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady pull-back. One continuous take with no cuts.\n\nThe grey-haired café owner in the burgundy shirt and dark waistcoat steps out of the café door on the left with open hands and asks a question. The man in the rust-red jacket and the young man in the navy-blue jacket, standing in the passage, turn toward him. The empty wicker chair stays pushed back into the passage. The waiter in the plum shirt holds his white napkin. The woman in the green cardigan stays seated, looking at the owner. The old man with glasses stays seated at the back table.",
+    "title": "Hugo, rouge, plaque la main sur son épaule",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P11_0.png"
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P11_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_3gAlOiB0pz7slDjC4ngXmV0qJnXmRLNV.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P11_0.png",
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P11_0.png",
     "last_frame": null,
-    "seconds": "6",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady pull-back. One continuous take with no cuts.\n\nThe grey-haired café owner in the burgundy shirt and dark waistcoat steps out of the café door on the left with open hands and asks a question. The man in the rust-red jacket and the young man in the navy-blue jacket, standing in the passage, turn toward him. The empty wicker chair stays pushed back into the passage. The waiter in the plum shirt holds his white napkin. The woman in the green cardigan stays seated, looking at the owner. The old man with glasses stays seated at the back table.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   },
   {
     "ident": "P12",
-    "title": "« J'ai tout vu ! » / « Moi aussi ! »",
-    "anim_prompt": "Painterly animated scene at a café table on a Parisian terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nSeated side by side, the young man in the navy-blue jacket and the woman in the green cardigan both put a hand on their chest and speak almost at the same time, mouths moving. Then they turn their heads and look at each other, surprised. The café owner seen from behind in the left foreground listens. The man in the rust-red jacket and the waiter with the white napkin stand behind, watching. The old man with glasses stays seated at the back table.",
+    "title": "Le soir, sa chambre",
+    "anim_prompt": "Painterly animated scene in a child's bedroom at night, a single warm bedside lamp, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe sulking boy in the coral cable-knit sweater sits on the edge of his bed. He opens his fingers and the tiny folded paper figure (cream paper, no face) drops straight down into the wicker wastebasket below and disappears inside it. Then, with his other hand, he switches off the bedside lamp: the warm light goes out and the room falls into deep blue night shade. A soft paper sound, then a small click of the lamp.",
     "images": [
       {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P12_0.png"
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P12_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_5WRmcs7bUvXM5ZBOAIWTVCFIGx818g85.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P12_0.png",
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P12_0.png",
     "last_frame": null,
-    "seconds": "6",
-    "video_prompt": "Painterly animated scene at a café table on a Parisian terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nSeated side by side, the young man in the navy-blue jacket and the woman in the green cardigan both put a hand on their chest and speak almost at the same time, mouths moving. Then they turn their heads and look at each other, surprised. The café owner seen from behind in the left foreground listens. The man in the rust-red jacket and the waiter with the white napkin stand behind, watching. The old man with glasses stays seated at the back table.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "seconds": "4",
+    "video_prompt": "Painterly animated scene in a child's bedroom at night, a single warm bedside lamp, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe sulking boy in the coral cable-knit sweater sits on the edge of his bed. He opens his fingers and the tiny folded paper figure (cream paper, no face) drops straight down into the wicker wastebasket below and disappears inside it. Then, with his other hand, he switches off the bedside lamp: the warm light goes out and the room falls into deep blue night shade. A soft paper sound, then a small click of the lamp.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   },
   {
     "ident": "P13",
-    "title": "Claire raconte",
-    "anim_prompt": "Painterly animated scene at a café table on a Parisian terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the woman. One continuous take with no cuts.\n\nThe woman with short curly dark hair in the green cardigan speaks with assurance, her hand stretched out toward the man in the rust-red jacket standing behind, mouth moving naturally. Beside her, the young man in the navy-blue jacket listens, skeptical, one hand on the table. The waiter with the white napkin and the man in the rust-red jacket stand in the background. The old man with glasses stays seated at the back table.",
+    "title": "Le matin",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P13_0.png"
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P13_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_bvVhul5iPd9Zf89JKBph6i6Gm8C64Azy.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P13_0.png",
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P13_0.png",
     "last_frame": null,
-    "seconds": "7",
-    "video_prompt": "Painterly animated scene at a café table on a Parisian terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the woman. One continuous take with no cuts.\n\nThe woman with short curly dark hair in the green cardigan speaks with assurance, her hand stretched out toward the man in the rust-red jacket standing behind, mouth moving naturally. Beside her, the young man in the navy-blue jacket listens, skeptical, one hand on the table. The waiter with the white napkin and the man in the rust-red jacket stand in the background. The old man with glasses stays seated at the back table.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   },
   {
     "ident": "P14",
-    "title": "Julien raconte",
-    "anim_prompt": "Painterly animated scene at a café table on a Parisian terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the young man. One continuous take with no cuts.\n\nThe young man in the navy-blue jacket leans forward and points his finger across the table at the woman, who is seen from behind in the right foreground, and speaks with conviction, mouth moving. She turns her head slightly and answers back sharply. The grey-haired café owner in the left foreground looks from one to the other. The man in the rust-red jacket and the waiter with the white napkin stand in the background. The old man with glasses stays seated at the back table.",
+    "title": "Hugo le regarde, résigné",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P14_0.png"
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P14_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_Z3t7zaBSk52rZjipIPAD6whXbpwHuY9V.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P14_0.png",
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P14_0.png",
     "last_frame": null,
-    "seconds": "7",
-    "video_prompt": "Painterly animated scene at a café table on a Parisian terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady push-in toward the young man. One continuous take with no cuts.\n\nThe young man in the navy-blue jacket leans forward and points his finger across the table at the woman, who is seen from behind in the right foreground, and speaks with conviction, mouth moving. She turns her head slightly and answers back sharply. The grey-haired café owner in the left foreground looks from one to the other. The man in the rust-red jacket and the waiter with the white napkin stand in the background. The old man with glasses stays seated at the back table.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   },
   {
     "ident": "P15",
-    "title": "« Et avant ? Le café ? »",
-    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe grey-haired café owner, seen from behind in the left foreground, turns toward the man in the rust-red jacket and asks a short question with an open hand. The man in the rust-red jacket, standing, scratches the back of his neck, embarrassed, and looks down at his coffee stain. The young man in the navy-blue jacket and the woman in the green cardigan, seated, fall silent. The waiter with the white napkin stands behind. The old man with glasses stays seated at the back table.",
-    "images": [
-      {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P15_0.png"
-      }
-    ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_nlXmPP5mDGHRL85gJNzotqMd97LhXPov.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P15_0.png",
+    "title": "Le papier sur l'épaule de l'enfant (pull corail)",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [],
+    "video_url": null,
+    "first_frame": null,
     "last_frame": null,
-    "seconds": "5",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe grey-haired café owner, seen from behind in the left foreground, turns toward the man in the rust-red jacket and asks a short question with an open hand. The man in the rust-red jacket, standing, scratches the back of his neck, embarrassed, and looks down at his coffee stain. The young man in the navy-blue jacket and the woman in the green cardigan, seated, fall silent. The waiter with the white napkin stands behind. The old man with glasses stays seated at the back table.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   },
   {
     "ident": "P16",
-    "title": "« Moi, j'ai vu le début. »",
-    "anim_prompt": "Painterly animated wide shot of a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady pull-back. One continuous take with no cuts.\n\nAt the back table, the old man with grey hair and glasses in the violet cardigan, still seated, raises one hand slightly and says a few calm words. One by one, the others turn toward him: the man in the rust-red jacket and the café owner standing in the foreground, the waiter holding his white napkin, the young man in the navy-blue jacket and the woman in the green cardigan on their chairs. Nobody walks. The old man stays seated, his cup and saucer in front of him.",
+    "title": "L'épaule est celle d'un jeune homme (veste, écharpe corail)",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P16_0.png"
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P16_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_GKhBlaG2NdPoFj9oYgNBBWIOEKdTZoVf.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P16_0.png",
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P16_0.png",
     "last_frame": null,
-    "seconds": "5",
-    "video_prompt": "Painterly animated wide shot of a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. Very slow, steady pull-back. One continuous take with no cuts.\n\nAt the back table, the old man with grey hair and glasses in the violet cardigan, still seated, raises one hand slightly and says a few calm words. One by one, the others turn toward him: the man in the rust-red jacket and the café owner standing in the foreground, the waiter holding his white napkin, the young man in the navy-blue jacket and the woman in the green cardigan on their chairs. Nobody walks. The old man stays seated, his cup and saucer in front of him.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   },
   {
     "ident": "P17",
-    "title": "Chaise, plateau, café",
-    "anim_prompt": "Painterly animated close shot of an old man with grey hair and dark-rimmed glasses, in a violet knitted cardigan, seated at a café table on a Parisian terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nHe speaks calmly and simply, as if describing what he saw, his mouth moving naturally, with small pauses between sentences. His eyes move slightly as he remembers, once glancing down toward the passage. His hands rest on the table near his white cup with the spoon in it. No big gestures, no smile, no theatrical expression. The background stays still.",
+    "title": "Un café",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P17_0.png"
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P17_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_K3zYaPPODu9loj6rGdIeP9BYTpDhGpY9.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P17_0.png",
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P17_0.png",
     "last_frame": null,
-    "seconds": "10",
-    "video_prompt": "Painterly animated close shot of an old man with grey hair and dark-rimmed glasses, in a violet knitted cardigan, seated at a café table on a Parisian terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nHe speaks calmly and simply, as if describing what he saw, his mouth moving naturally, with small pauses between sentences. His eyes move slightly as he remembers, once glancing down toward the passage. His hands rest on the table near his white cup with the spoon in it. No big gestures, no smile, no theatrical expression. The background stays still.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   },
   {
     "ident": "P18",
-    "title": "Bras, poussée, arrivée de Julien",
-    "anim_prompt": "Painterly animated close shot of an old man with grey hair and dark-rimmed glasses, in a violet knitted cardigan, seated at a café table on a Parisian terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nHe goes on speaking in the same calm, neutral voice, his mouth moving naturally, counting the facts without judging. Near the end, his eyes turn briefly to the side, toward someone standing off-screen, then come back. His hands stay resting near his white cup. No smile, no theatrical expression. The background stays still.",
+    "title": "Léa le regarde et attend qu'il parle",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [
       {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P18_0.png"
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P18_0.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_Gfa9UfywiaYbwplbm27jMyz8EUTluU1E.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P18_0.png",
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P18_0.png",
     "last_frame": null,
-    "seconds": "9",
-    "video_prompt": "Painterly animated close shot of an old man with grey hair and dark-rimmed glasses, in a violet knitted cardigan, seated at a café table on a Parisian terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nHe goes on speaking in the same calm, neutral voice, his mouth moving naturally, counting the facts without judging. Near the end, his eyes turn briefly to the side, toward someone standing off-screen, then come back. His hands stay resting near his white cup. No smile, no theatrical expression. The background stays still.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   },
   {
     "ident": "P19",
-    "title": "« Je ne sais pas. »",
-    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nEveryone is turned toward the old man with glasses seated at his table. The grey-haired café owner, in the left foreground, leans toward him and asks a short question. The old man answers with a few calm words and a small, honest shrug, still seated. The man in the rust-red jacket, the young man in the navy-blue jacket and the waiter holding the white napkin stand still, listening. The woman in the green cardigan stays seated, looking at him.",
+    "title": "Le rituel",
+    "anim_prompt": "Painted extreme close-up, locked-off camera, no zoom, no camera movement, exactly like the first and last frames. Thick gouache and oil brushstrokes, the painting style never changes.\n\nOn top of the young man's faded denim shoulder, next to his coral scarf, sits the tiny folded paper figure (cream notebook paper with pale-blue lines, no face), slumped, head down. The ear, the jaw, the hair and the blurred café behind never move.\n\n0.0 to 0.8 s: everything is still. 0.8 to 2.4 s: with a soft paper rustle, the figure slowly straightens up, stands on the shoulder, turns its body toward the ear at the top left and leans its blank head close to the ear, one tiny arm raised as if whispering, until it matches the last frame exactly. It rises in one single smooth movement: it never curls up into a ball first, never turns its back to the ear, never faces the classroom, never waves. From 2.4 s to the end: the figure holds that pose, perfectly still. Only the paper figure moves. A single soft paper rustle at 0.8 s.",
     "images": [
       {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P19_0.png"
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P19_0.png"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P19_1.png"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P19_2.png"
       }
     ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_boGyVcoopZOb3098fA6bp66zuSjouEHL.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P19_0.png",
-    "last_frame": null,
-    "seconds": "5",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nEveryone is turned toward the old man with glasses seated at his table. The grey-haired café owner, in the left foreground, leans toward him and asks a short question. The old man answers with a few calm words and a small, honest shrug, still seated. The man in the rust-red jacket, the young man in the navy-blue jacket and the waiter holding the white napkin stand still, listening. The woman in the green cardigan stays seated, looking at him.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P19_0.png",
+    "last_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P19_2.png",
+    "seconds": "4",
+    "video_prompt": "Painted extreme close-up, locked-off camera, no zoom, no camera movement, exactly like the first and last frames. Thick gouache and oil brushstrokes, the painting style never changes.\n\nOn top of the young man's faded denim shoulder, next to his coral scarf, sits the tiny folded paper figure (cream notebook paper with pale-blue lines, no face), slumped, head down. The ear, the jaw, the hair and the blurred café behind never move.\n\n0.0 to 0.8 s: everything is still. 0.8 to 2.4 s: with a soft paper rustle, the figure slowly straightens up, stands on the shoulder, turns its body toward the ear at the top left and leans its blank head close to the ear, one tiny arm raised as if whispering, until it matches the last frame exactly. It rises in one single smooth movement: it never curls up into a ball first, never turns its back to the ear, never faces the classroom, never waves. From 2.4 s to the end: the figure holds that pose, perfectly still. Only the paper figure moves. A single soft paper rustle at 0.8 s.\nThe shot starts exactly on the first frame and moves with smooth, continuous motion to end exactly on the composition of the last frame. Keep characters, clothing, props and set identical between the two frames.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   },
   {
-    "ident": "P20a",
-    "title": "La cuillère, la gorgée",
-    "anim_prompt": "Painterly animated close shot of an old man with grey hair and dark-rimmed glasses, violet knitted cardigan, seated alone at a café table at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nWith his right hand he gently lays the small spoon down on the saucer, with a small clear clink. Then he lifts the white coffee cup with the same hand, brings it to his lips and takes a small, quiet sip, eyes lowered. He slowly puts the cup back on the saucer. His face stays calm and neutral, without a smile. He does not look at the camera.",
-    "images": [
-      {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P20a_0.png"
-      }
-    ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_2pgW7DPzF5tpyBJalSStnDdxzCKZn9kW.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P20a_0.png",
+    "ident": "P20",
+    "title": "Le papier parle",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [],
+    "video_url": null,
+    "first_frame": null,
     "last_frame": null,
-    "seconds": "6",
-    "video_prompt": "Painterly animated close shot of an old man with grey hair and dark-rimmed glasses, violet knitted cardigan, seated alone at a café table at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nWith his right hand he gently lays the small spoon down on the saucer, with a small clear clink. Then he lifts the white coffee cup with the same hand, brings it to his lips and takes a small, quiet sip, eyes lowered. He slowly puts the cup back on the saucer. His face stays calm and neutral, without a smile. He does not look at the camera.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
-  },
-  {
-    "ident": "P20b",
-    "title": "Le groupe décontenancé",
-    "anim_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe man in the rust-red jacket with the coffee stain, on the left, rests his hand on the back of his wicker chair, then straightens up and takes the white napkin that the waiter in the plum shirt holds out to him, and looks down at it. The young man in the navy-blue jacket and the woman in the green cardigan exchange a short, puzzled glance. The grey-haired café owner in the dark waistcoat stays still, one hand on his hip. At the back, the old man with glasses keeps drinking his coffee, unbothered. Nothing is added to any table. Small, natural movements only.",
-    "images": [
-      {
-        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P20b_0.png"
-      }
-    ],
-    "video_url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-2.5/task_sncEIVE3QWFR4Tvgx3Z6BmEOO4444Qqk.mp4",
-    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/ET-Si_-Episode_5/P20b_0.png",
-    "last_frame": null,
-    "seconds": "6",
-    "video_prompt": "Painterly animated scene on a Parisian café terrace at golden hour, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe man in the rust-red jacket with the coffee stain, on the left, rests his hand on the back of his wicker chair, then straightens up and takes the white napkin that the waiter in the plum shirt holds out to him, and looks down at it. The young man in the navy-blue jacket and the woman in the green cardigan exchange a short, puzzled glance. The grey-haired café owner in the dark waistcoat stays still, one hand on his hip. At the back, the old man with glasses keeps drinking his coffee, unbothered. Nothing is added to any table. Small, natural movements only.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   },
   {
     "ident": "P21",
-    "title": "« Et si vous n'aviez pas tout vu ? »",
-    "anim_prompt": "Carton final. « Et si vous n'aviez pas tout vu ? » en lettrage Playfair italique, ajouté au montage.",
-    "images": [],
+    "title": "Léa, les yeux ronds",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P21_0.png"
+      }
+    ],
     "video_url": null,
-    "first_frame": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P21_0.png",
     "last_frame": null,
     "seconds": "4",
-    "video_prompt": "Carton final. « Et si vous n'aviez pas tout vu ? » en lettrage Playfair italique, ajouté au montage.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   },
   {
     "ident": "P22",
-    "title": "Signature",
-    "anim_prompt": "Signature. Le logo « Et si… ? », la signature Loel Création.",
+    "title": "Hugo se cache le visage dans les mains",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P22_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P22_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P23",
+    "title": "La main de Léa se pose sur la sienne",
+    "anim_prompt": "Painterly animated insert on a round marble café table, golden late-afternoon light, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nOn the left, the young man's hand in a faded denim cuff lies flat on the table, tense. From the right, the young woman's hand in a mustard-cream knitted sleeve slowly comes down and rests gently on top of his hand, and stays there. After a moment, his fingers relax a little under hers. The cups and the flowers never move. A soft light laugh off screen.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P23_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P23_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "Painterly animated insert on a round marble café table, golden late-afternoon light, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nOn the left, the young man's hand in a faded denim cuff lies flat on the table, tense. From the right, the young woman's hand in a mustard-cream knitted sleeve slowly comes down and rests gently on top of his hand, and stays there. After a moment, his fingers relax a little under hers. The cups and the flowers never move. A soft light laugh off screen.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P24",
+    "title": "L'open space",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P24_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P24_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P25",
+    "title": "Le patron pose une pile de plus sur le bureau",
+    "anim_prompt": "Painterly animated scene in an open-plan office, late-afternoon golden light, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe heavy-set bald man in a grey waistcoat, standing beside the desk with a confident smile, drops his tall pile of beige folders on top of the other piles with a dull thump; the pile settles. The man in the navy overshirt and coral scarf, seated at the desk, looks up at him, tired. The tiny folded paper figure on his left shoulder stays exactly where it is. A single dull thump.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P25_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P25_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "Painterly animated scene in an open-plan office, late-afternoon golden light, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe heavy-set bald man in a grey waistcoat, standing beside the desk with a confident smile, drops his tall pile of beige folders on top of the other piles with a dull thump; the pile settles. The man in the navy overshirt and coral scarf, seated at the desk, looks up at him, tired. The tiny folded paper figure on his left shoulder stays exactly where it is. A single dull thump.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P26",
+    "title": "Hugo ouvre la bouche pour dire oui",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P26_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P26_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P27",
+    "title": "Le rituel, et la réplique",
+    "anim_prompt": "Painted extreme close-up, locked-off camera, no zoom, no camera movement, exactly like the first and last frames. Thick gouache and oil brushstrokes, the painting style never changes.\n\nOn top of the man's navy overshirt shoulder, next to his coral scarf, sits the tiny folded paper figure (cream notebook paper with pale-blue lines, no face), slumped, head down. The ear, the jaw, the hair and the blurred office behind never move.\n\n0.0 to 0.8 s: everything is still. 0.8 to 2.4 s: with a soft paper rustle, the figure slowly straightens up, stands on the shoulder, turns its body toward the ear at the top left and leans its blank head close to the ear, one tiny arm raised as if whispering, until it matches the last frame exactly. It rises in one single smooth movement: it never curls up into a ball first, never turns its back to the ear, never faces the classroom, never waves. From 2.4 s to the end: the figure holds that pose, perfectly still. Only the paper figure moves. A single soft paper rustle at 0.8 s.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P27_0.png"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P27_1.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P27_0.png",
+    "last_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P27_1.png",
+    "seconds": "4",
+    "video_prompt": "Painted extreme close-up, locked-off camera, no zoom, no camera movement, exactly like the first and last frames. Thick gouache and oil brushstrokes, the painting style never changes.\n\nOn top of the man's navy overshirt shoulder, next to his coral scarf, sits the tiny folded paper figure (cream notebook paper with pale-blue lines, no face), slumped, head down. The ear, the jaw, the hair and the blurred office behind never move.\n\n0.0 to 0.8 s: everything is still. 0.8 to 2.4 s: with a soft paper rustle, the figure slowly straightens up, stands on the shoulder, turns its body toward the ear at the top left and leans its blank head close to the ear, one tiny arm raised as if whispering, until it matches the last frame exactly. It rises in one single smooth movement: it never curls up into a ball first, never turns its back to the ear, never faces the classroom, never waves. From 2.4 s to the end: the figure holds that pose, perfectly still. Only the paper figure moves. A single soft paper rustle at 0.8 s.\nThe shot starts exactly on the first frame and moves with smooth, continuous motion to end exactly on the composition of the last frame. Keep characters, clothing, props and set identical between the two frames.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P28",
+    "title": "Tout l'open space se tourne",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P28_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P28_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P29",
+    "title": "Le patron, interdit, reprend lentement sa pile",
+    "anim_prompt": "Painterly animated close-up in an office, golden light, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe heavy-set bald man in a grey waistcoat, stunned and speechless, eyebrows high and mouth half open, slowly pulls the pile of beige folders back against his belly, as if taking it back, without a word. He blinks once. The office behind stays blurred and still. Silence.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P29_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P29_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "Painterly animated close-up in an office, golden light, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe heavy-set bald man in a grey waistcoat, stunned and speechless, eyebrows high and mouth half open, slowly pulls the pile of beige folders back against his belly, as if taking it back, without a word. He blinks once. The office behind stays blurred and still. Silence.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P30",
+    "title": "Le couloir de la maison du père, le soir",
+    "anim_prompt": "Painterly animated scene in a warm hallway at evening, lamplight, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nIn the foreground, the man in the coral scarf angrily pulls on his charcoal wool coat: his second arm goes into the sleeve with a sharp jerk and he tugs the collar straight, jaw tight, eyes down. In the background, under the arch, the grey-haired man with a moustache in a moss-green sweater stands still, arms hanging, watching him in silence. The rustle of heavy wool.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P30_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P30_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "Painterly animated scene in a warm hallway at evening, lamplight, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nIn the foreground, the man in the coral scarf angrily pulls on his charcoal wool coat: his second arm goes into the sleeve with a sharp jerk and he tugs the collar straight, jaw tight, eyes down. In the background, under the arch, the grey-haired man with a moustache in a moss-green sweater stands still, arms hanging, watching him in silence. The rustle of heavy wool.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P31",
+    "title": "La main de Hugo sur la poignée de la porte d'entrée",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P31_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P31_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P32",
+    "title": "Le rituel, et la réplique",
+    "anim_prompt": "Painted extreme close-up, locked-off camera, no zoom, no camera movement, exactly like the first and last frames. Thick gouache and oil brushstrokes, the painting style never changes.\n\nOn top of the man's charcoal wool coat shoulder, next to his coral scarf, sits the tiny folded paper figure (cream notebook paper with pale-blue lines, no face), slumped, head down. The ear, the jaw, the hair and the blurred hallway behind never move.\n\n0.0 to 0.8 s: everything is still. 0.8 to 2.4 s: with a soft paper rustle, the figure slowly straightens up, stands on the shoulder, turns its body toward the ear at the top left and leans its blank head close to the ear, one tiny arm raised as if whispering, until it matches the last frame exactly. It rises in one single smooth movement: it never curls up into a ball first, never turns its back to the ear, never faces the classroom, never waves. From 2.4 s to the end: the figure holds that pose, perfectly still. Only the paper figure moves. A single soft paper rustle at 0.8 s.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P32_0.png"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P32_1.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P32_0.png",
+    "last_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P32_1.png",
+    "seconds": "4",
+    "video_prompt": "Painted extreme close-up, locked-off camera, no zoom, no camera movement, exactly like the first and last frames. Thick gouache and oil brushstrokes, the painting style never changes.\n\nOn top of the man's charcoal wool coat shoulder, next to his coral scarf, sits the tiny folded paper figure (cream notebook paper with pale-blue lines, no face), slumped, head down. The ear, the jaw, the hair and the blurred hallway behind never move.\n\n0.0 to 0.8 s: everything is still. 0.8 to 2.4 s: with a soft paper rustle, the figure slowly straightens up, stands on the shoulder, turns its body toward the ear at the top left and leans its blank head close to the ear, one tiny arm raised as if whispering, until it matches the last frame exactly. It rises in one single smooth movement: it never curls up into a ball first, never turns its back to the ear, never faces the classroom, never waves. From 2.4 s to the end: the figure holds that pose, perfectly still. Only the paper figure moves. A single soft paper rustle at 0.8 s.\nThe shot starts exactly on the first frame and moves with smooth, continuous motion to end exactly on the composition of the last frame. Keep characters, clothing, props and set identical between the two frames.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P33",
+    "title": "Hugo se fige et ferme les yeux",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P33_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P33_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P34",
+    "title": "Le père s'approche",
+    "anim_prompt": "Painterly animated scene in a warm hallway at evening, lamplight, thick visible gouache and oil brushstrokes, exactly like the first and last frames. The camera stays completely still. One continuous take with no cuts.\n\nThe grey-haired man with a moustache in a moss-green sweater takes one small step toward the man in the charcoal coat and coral scarf, his arms opening, unsure. The younger man hesitates for a second, then they hug, a little clumsily: the father's arms close around his back, the son's chin rests on his father's shoulder, eyes closed, one hand gripping the green sweater, until it matches the last frame. They stay still in the hug. No sound but the rustle of wool.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P34_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P34_0.png",
+    "last_frame": null,
+    "seconds": "6",
+    "video_prompt": "Painterly animated scene in a warm hallway at evening, lamplight, thick visible gouache and oil brushstrokes, exactly like the first and last frames. The camera stays completely still. One continuous take with no cuts.\n\nThe grey-haired man with a moustache in a moss-green sweater takes one small step toward the man in the charcoal coat and coral scarf, his arms opening, unsure. The younger man hesitates for a second, then they hug, a little clumsily: the father's arms close around his back, the son's chin rests on his father's shoulder, eyes closed, one hand gripping the green sweater, until it matches the last frame. They stay still in the hug. No sound but the rustle of wool.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P35",
+    "title": "Une salle de cérémonie",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P35_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P35_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P36",
+    "title": "Ses mains déplient une feuille de discours",
+    "anim_prompt": "Painterly animated insert at a wooden lectern, soft lavender daylight, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nA man's two hands with navy suit cuffs and cream shirt cuffs unfold a sheet of paper folded in four, flatten it on the slanted top of the lectern and hold its edges. The fingers tremble very slightly. The sheet stays completely blank. The room behind stays blurred and still. A soft paper rustle.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P36_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P36_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "Painterly animated insert at a wooden lectern, soft lavender daylight, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nA man's two hands with navy suit cuffs and cream shirt cuffs unfold a sheet of paper folded in four, flatten it on the slanted top of the lectern and hold its edges. The fingers tremble very slightly. The sheet stays completely blank. The room behind stays blurred and still. A soft paper rustle.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P37",
+    "title": "Tous les regards sont sur lui",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P37_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P37_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P38",
+    "title": "Le rituel recommence : froissement, le papier se redresse et se tourne vers sa bouche",
+    "anim_prompt": "Painted extreme close-up, locked-off camera, no zoom, no camera movement, exactly like the first and last frames. Thick gouache and oil brushstrokes, the painting style never changes.\n\nOn top of the man's navy suit shoulder, next to his cream collar and coral tie, sits the tiny folded paper figure (cream notebook paper with pale-blue lines, no face), slumped, head down. The ear, the jaw, the hair with grey strands and the blurred room behind never move.\n\n0.0 to 0.8 s: everything is still. 0.8 to 2.4 s: with a soft paper rustle, the figure slowly straightens up, stands on the shoulder, turns its body toward the ear at the top left and leans its blank head close to the ear, one tiny arm raised as if whispering, until it matches the last frame exactly. It rises in one single smooth movement: it never curls up into a ball first, never turns its back to the ear, never faces the classroom, never waves. From 2.4 s to the end: the figure holds that pose, perfectly still. Only the paper figure moves. A single soft paper rustle at 0.8 s.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P38_0.png"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P38_1.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P38_0.png",
+    "last_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P38_1.png",
+    "seconds": "4",
+    "video_prompt": "Painted extreme close-up, locked-off camera, no zoom, no camera movement, exactly like the first and last frames. Thick gouache and oil brushstrokes, the painting style never changes.\n\nOn top of the man's navy suit shoulder, next to his cream collar and coral tie, sits the tiny folded paper figure (cream notebook paper with pale-blue lines, no face), slumped, head down. The ear, the jaw, the hair with grey strands and the blurred room behind never move.\n\n0.0 to 0.8 s: everything is still. 0.8 to 2.4 s: with a soft paper rustle, the figure slowly straightens up, stands on the shoulder, turns its body toward the ear at the top left and leans its blank head close to the ear, one tiny arm raised as if whispering, until it matches the last frame exactly. It rises in one single smooth movement: it never curls up into a ball first, never turns its back to the ear, never faces the classroom, never waves. From 2.4 s to the end: the figure holds that pose, perfectly still. Only the paper figure moves. A single soft paper rustle at 0.8 s.\nThe shot starts exactly on the first frame and moves with smooth, continuous motion to end exactly on the composition of the last frame. Keep characters, clothing, props and set identical between the two frames.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P39",
+    "title": "L'index de Hugo se pose doucement sur le papier : « chut »",
+    "anim_prompt": "Painted extreme close-up, locked-off camera, no zoom, no camera movement, exactly like the first and last frames. Thick gouache and oil brushstrokes, the painting style never changes.\n\nOn the navy suit shoulder, the tiny folded paper figure (cream notebook paper with pale-blue lines, no face) leans toward the man's ear. His right index finger, coming from the top right, descends very slowly and gently, and its tip comes to rest on top of the figure's head, softly, like a \"shh\". The figure stops leaning and stands still under the finger, until it matches the last frame. The shoulder, the ear and the background never move. Complete silence.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P39_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P39_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "Painted extreme close-up, locked-off camera, no zoom, no camera movement, exactly like the first and last frames. Thick gouache and oil brushstrokes, the painting style never changes.\n\nOn the navy suit shoulder, the tiny folded paper figure (cream notebook paper with pale-blue lines, no face) leans toward the man's ear. His right index finger, coming from the top right, descends very slowly and gently, and its tip comes to rest on top of the figure's head, softly, like a \"shh\". The figure stops leaning and stands still under the finger, until it matches the last frame. The shoulder, the ear and the background never move. Complete silence.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P40",
+    "title": "Le papier s'immobilise et lève la tête vers lui",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P40_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P40_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P41",
+    "title": "Hugo parle lui-même",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P41_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P41_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P42",
+    "title": "Léa hoche la tête",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P42_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P42_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P43",
+    "title": "Hugo continue de parler, mais on n'entend plus les mots",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P43_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P43_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P44",
+    "title": "Le papier s'incline comme un salut, se couche, et se déplie en simple feuille blanche",
+    "anim_prompt": "Painted extreme close-up, locked-off camera, no zoom, no camera movement, exactly like the first and last frames. Thick gouache and oil brushstrokes, the painting style never changes.\n\nOn the navy suit shoulder, the tiny folded paper figure (cream notebook paper with pale-blue lines, no face) stands, its blank head tilted up toward the man's face. It slowly bows its head, like a quiet goodbye. Then it gently lies down on the shoulder and unfolds itself, fold after fold, without any hand, until it becomes a single small flat sheet of old cream notebook paper with soft crease lines, pale-blue lines and a pink margin line, draped over the curve of the shoulder, exactly as in the last frame. The shoulder, the tie, the ear and the background never move. A long, soft paper rustle.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P44_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P44_0.png",
+    "last_frame": null,
+    "seconds": "6",
+    "video_prompt": "Painted extreme close-up, locked-off camera, no zoom, no camera movement, exactly like the first and last frames. Thick gouache and oil brushstrokes, the painting style never changes.\n\nOn the navy suit shoulder, the tiny folded paper figure (cream notebook paper with pale-blue lines, no face) stands, its blank head tilted up toward the man's face. It slowly bows its head, like a quiet goodbye. Then it gently lies down on the shoulder and unfolds itself, fold after fold, without any hand, until it becomes a single small flat sheet of old cream notebook paper with soft crease lines, pale-blue lines and a pink margin line, draped over the curve of the shoulder, exactly as in the last frame. The shoulder, the tie, the ear and the background never move. A long, soft paper rustle.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P45",
+    "title": "Le soir, chez lui",
+    "anim_prompt": "Painterly animated scene on a landing at evening, warm lamplight, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe man in a cream shirt with a loosened coral tie smooths the small flat sheet of notebook paper inside the open top drawer of the chest of drawers, carefully, almost tenderly, looking down at it. Then he slowly pushes the drawer closed with both hands. The child's door on the right stays closed. The soft wooden sound of the drawer closing.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P45_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P45_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "Painterly animated scene on a landing at evening, warm lamplight, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nThe man in a cream shirt with a loosened coral tie smooths the small flat sheet of notebook paper inside the open top drawer of the chest of drawers, carefully, almost tenderly, looking down at it. Then he slowly pushes the drawer closed with both hands. The child's door on the right stays closed. The soft wooden sound of the drawer closing.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P46",
+    "title": "Quelques années plus tard",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P46_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P46_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P47",
+    "title": "Lou (7 ans, pyjama corail) est assise au bord du lit et pleure en silence",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P47_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P47_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P48",
+    "title": "Hugo (44 ans) à la porte",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P48_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P48_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P49",
+    "title": "Le tiroir de la commode s'ouvre : la feuille dépliée",
+    "anim_prompt": "Painterly animated insert, seen from above at an angle, warm lamplight, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nA man's hand in a navy overshirt cuff, holding the brass handle, slowly pushes the open top drawer closed. The small flat sheet of old cream notebook paper lying on the folded linen inside slides out of view as the drawer closes. The paper itself never moves inside the drawer. The soft wooden sound of the drawer.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P49_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P49_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "Painterly animated insert, seen from above at an angle, warm lamplight, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nA man's hand in a navy overshirt cuff, holding the brass handle, slowly pushes the open top drawer closed. The small flat sheet of old cream notebook paper lying on the folded linen inside slides out of view as the drawer closes. The paper itself never moves inside the drawer. The soft wooden sound of the drawer.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P50",
+    "title": "Hugo replie la feuille avec soin",
+    "anim_prompt": "Painterly animated insert, warm lamplight, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nTwo adult hands with navy cuffs carefully fold the small sheet of old cream notebook paper. The small round head is already folded; now the fingers fold the arms, then the body, crease by crease, gently and precisely, and the little paper figure takes shape. Pale-blue lines and the pink margin line stay visible. No face is ever drawn. Soft paper rustles.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P50_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P50_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "Painterly animated insert, warm lamplight, thick visible gouache and oil brushstrokes. The camera stays completely still. One continuous take with no cuts.\n\nTwo adult hands with navy cuffs carefully fold the small sheet of old cream notebook paper. The small round head is already folded; now the fingers fold the arms, then the body, crease by crease, gently and precisely, and the little paper figure takes shape. Pale-blue lines and the pink margin line stay visible. No face is ever drawn. Soft paper rustles.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P51",
+    "title": "Sa main pose le papier sur l'épaule de Lou",
+    "anim_prompt": "Painted extreme close-up, locked-off camera, no zoom, no camera movement, exactly like the first and last frames. Thick gouache and oil brushstrokes, warm golden lamplight, the painting style never changes.\n\nA man's hand in a navy overshirt cuff, coming from the left, holds the tiny folded paper figure (cream notebook paper with pale-blue lines, no face) delicately between thumb and index finger, a few centimeters above the little girl's shoulder in coral pyjamas with cream dots. Very slowly and tenderly, the hand lowers the figure and sets it down on top of her shoulder, lets go, and withdraws out of the frame to the left. The figure settles, slumped, head down, exactly as in the last frame. Her dark curls and the background never move. Near silence.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P51_0.png"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P51_1.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P51_0.png",
+    "last_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P51_1.png",
+    "seconds": "4",
+    "video_prompt": "Painted extreme close-up, locked-off camera, no zoom, no camera movement, exactly like the first and last frames. Thick gouache and oil brushstrokes, warm golden lamplight, the painting style never changes.\n\nA man's hand in a navy overshirt cuff, coming from the left, holds the tiny folded paper figure (cream notebook paper with pale-blue lines, no face) delicately between thumb and index finger, a few centimeters above the little girl's shoulder in coral pyjamas with cream dots. Very slowly and tenderly, the hand lowers the figure and sets it down on top of her shoulder, lets go, and withdraws out of the frame to the left. The figure settles, slumped, head down, exactly as in the last frame. Her dark curls and the background never move. Near silence.\nThe shot starts exactly on the first frame and moves with smooth, continuous motion to end exactly on the composition of the last frame. Keep characters, clothing, props and set identical between the two frames.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P52",
+    "title": "Lou regarde son épaule, surprise",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P52_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P52_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P53",
+    "title": "Le rituel, sur l'épaule de Lou",
+    "anim_prompt": "Painted extreme close-up, locked-off camera, no zoom, no camera movement, exactly like the first and last frames. Thick gouache and oil brushstrokes, warm golden lamplight, the painting style never changes.\n\nOn top of the little girl's shoulder in coral pyjamas with cream dots sits the tiny folded paper figure (cream notebook paper with pale-blue lines, no face), slumped, head down. Her dark curls at the top right and the blurred bedroom behind never move.\n\n0.0 to 0.8 s: everything is still. 0.8 to 2.4 s: with a soft paper rustle, the figure slowly straightens up, stands on the shoulder, turns its body toward her head at the top right and leans its blank head close to her curls, one tiny arm raised as if whispering, until it matches the last frame exactly. It rises in one single smooth movement: it never curls up into a ball first, never turns its back to the ear, never faces the classroom, never waves. From 2.4 s to the end: the figure holds that pose, perfectly still. Only the paper figure moves. A single soft paper rustle at 0.8 s.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P53_0.png"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P53_1.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P53_0.png",
+    "last_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P53_1.png",
+    "seconds": "4",
+    "video_prompt": "Painted extreme close-up, locked-off camera, no zoom, no camera movement, exactly like the first and last frames. Thick gouache and oil brushstrokes, warm golden lamplight, the painting style never changes.\n\nOn top of the little girl's shoulder in coral pyjamas with cream dots sits the tiny folded paper figure (cream notebook paper with pale-blue lines, no face), slumped, head down. Her dark curls at the top right and the blurred bedroom behind never move.\n\n0.0 to 0.8 s: everything is still. 0.8 to 2.4 s: with a soft paper rustle, the figure slowly straightens up, stands on the shoulder, turns its body toward her head at the top right and leans its blank head close to her curls, one tiny arm raised as if whispering, until it matches the last frame exactly. It rises in one single smooth movement: it never curls up into a ball first, never turns its back to the ear, never faces the classroom, never waves. From 2.4 s to the end: the figure holds that pose, perfectly still. Only the paper figure moves. A single soft paper rustle at 0.8 s.\nThe shot starts exactly on the first frame and moves with smooth, continuous motion to end exactly on the composition of the last frame. Keep characters, clothing, props and set identical between the two frames.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P54",
+    "title": "Le papier parle",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
     "images": [],
     "video_url": null,
     "first_frame": null,
     "last_frame": null,
     "seconds": "4",
-    "video_prompt": "Signature. Le logo « Et si… ? », la signature Loel Création.\nKeep characters, clothing and set consistent with the first frame.\nVisual style: Toile à l'huile expressive, portraits dramatiques. Lumière chaude dorée contrastant avec ombres violettes. Couleurs riches (rouges, bleus, oranges). Ambiance contemplative. Fond flou, pinceaux visibles, texture épaisse.",
-    "project_uid": "7275dd61-4b97-4de0-b1cd-eec9ef0cc10c",
-    "project_name": "ET-Si -Episode 5"
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P55",
+    "title": "Lou, gênée, lève les yeux vers son père",
+    "anim_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P55_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P55_0.png",
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "The camera stays completely still. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P56",
+    "title": "Hugo s'assoit à côté d'elle",
+    "anim_prompt": "Painterly animated scene in a child's bedroom at night, warm lamplight, thick visible gouache and oil brushstrokes, exactly like the first and last frames. The camera stays completely still. One continuous take with no cuts.\n\nThe man in a navy overshirt over a cream t-shirt sits down slowly on the edge of the checked coral and cream quilt, right next to the little girl with dark curls in coral pyjamas, and lowers his head toward her, his mouth hidden by her curls as he speaks softly. She keeps looking up at him. The tiny paper figure on her shoulder stays still. The lamp and the room never move. The soft creak of the bed.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P56_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P56_0.png",
+    "last_frame": null,
+    "seconds": "6",
+    "video_prompt": "Painterly animated scene in a child's bedroom at night, warm lamplight, thick visible gouache and oil brushstrokes, exactly like the first and last frames. The camera stays completely still. One continuous take with no cuts.\n\nThe man in a navy overshirt over a cream t-shirt sits down slowly on the edge of the checked coral and cream quilt, right next to the little girl with dark curls in coral pyjamas, and lowers his head toward her, his mouth hidden by her curls as he speaks softly. She keeps looking up at him. The tiny paper figure on her shoulder stays still. The lamp and the room never move. The soft creak of the bed.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P57",
+    "title": "Lou se blottit contre lui",
+    "anim_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P57_0.png"
+      }
+    ],
+    "video_url": null,
+    "first_frame": "https://raw.githubusercontent.com/sabrina97490/studio-films-automation/main/images/Et_si_-_Episode_6_Souffleur/P57_0.png",
+    "last_frame": null,
+    "seconds": "8",
+    "video_prompt": "Very slow, steady push-in toward the characters. The characters hold their pose with only subtle, natural movements. One continuous take with no cuts. Nobody enters or leaves the frame.\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
+  },
+  {
+    "ident": "P58",
+    "title": "Le logo « Et si… ? »",
+    "anim_prompt": "Noir. Le logo « Et si… ? »",
+    "images": [],
+    "video_url": null,
+    "first_frame": null,
+    "last_frame": null,
+    "seconds": "4",
+    "video_prompt": "Noir. Le logo « Et si… ? »\nKeep characters, clothing and set consistent with the first frame.",
+    "project_uid": "c277da9f-487c-4e96-b061-4d8bf48e5c7f",
+    "project_name": "Et si - Episode 6 (Souffleur)"
   }
 ]
